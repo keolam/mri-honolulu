@@ -1,0 +1,39 @@
+#hero {
+    width: 100%;
+}
+.landing {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(39, 111, 119);
+}
+#title {
+    font-size: 22px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 66%;
+    color: sienna;
+}
+.ind-list {
+    display: flex;
+    justify-content: center;
+}
+ul {
+    text-align: left;
+    list-style-type: disc;
+    display: flex;
+    flex-direction: column;
+}
+li {
+    margin: 5px;
+}
+@media only screen and (max-width: 700px) {
+    /*#hero {
+        display: none;
+    }*/
+    #title {
+        font-size: 22px;
+        margin: auto;
+        width: 80%;
+    }
+}
+

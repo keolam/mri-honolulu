@@ -1,0 +1,17 @@
+
+
+
+.main {
+    font-size: 22px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+    width: 66%;
+    color: sienna;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+}
+#title {
+    margin-bottom: 40px;
+    font-weight: lighter;
+}
