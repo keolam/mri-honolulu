@@ -7,8 +7,8 @@
 
 .staff-info {
     display: flex;
-    align-items: center;
-    flex-direction: column; 
+    align-items: left;
+    flex-direction: row; 
     width: 60%;
     margin-top: 20px;
     margin-bottom: 5px;
@@ -16,17 +16,53 @@
     margin-right: auto;
 }
 
+#donPic {
+    flex: 1.06;
+    min-width: 15%;
+}
+
+#chrisPic { 
+    flex: 1.23;
+    max-height: 80%;
+}
+
+#kwPic {
+    flex: 1.2;
+}
+
 .staff-name {
     font-family: 'Montserrat', sans-serif;
-    font-size: 34px;
+    font-size: 24px;
     color: #b32f2f;
     font-weight: 600;
 }
 .staff-about {
     font-family: 'Montserrat', sans-serif;
-    font-size: 28px;
+    font-size: 18px;
     color: #2a7ca5;
-    text-align: center;
+    text-align: justify;
 }
+
+.right-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 16px;
+}
+
+.staff-name {
+    justify-content: flex-start;
+    margin: 0px;
+}
+.staff-pos {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: #633f78;
+    margin-top: 1px;
+}
+.staff-about {
+    font-size: 15px;
+}
+
 /*
  style={{marginTop: '20px'/*,alignItems: 'center'}} */

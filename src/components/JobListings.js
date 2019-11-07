@@ -13,7 +13,7 @@ const JobListings = () => (
 
                 <p>Click on the Search button at the bottom of this page to view our current Job Listings.</p>
             </div>
-          <iframe title="job-board" src="http://www.pcrecruiter.net/pcrbin/regmenu.aspx?uid=sc%20honolulu.schonolulu" width="100%" height="400" frameBorder="0"></iframe>
+          <iframe title="job-board" src="https://www.pcrecruiter.net/pcrbin/regmenu.aspx?uid=sc%20honolulu.schonolulu" width="100%" height="400" frameBorder="0"></iframe>
         </section>
     </div>
 );
