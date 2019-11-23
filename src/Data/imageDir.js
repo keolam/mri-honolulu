@@ -7,5 +7,6 @@ export default {
     donBishop: '/assets/images/DonBishop.jpg',
     kawikaMorse: '/assets/images/KawikaMorse.gif',
     christinaCole: '/assets/images/ChristinaCole.jpg',
-    submitResume: '/assets/images/SubmitResume.jpg'
+    submitResume: '/assets/images/SubmitResume.jpg',
+    relo: '/assets/images/relo2.jpg'
 }

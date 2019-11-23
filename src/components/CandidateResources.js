@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Image from './../Data/imageDir';
 import { Route, Link } from 'react-router-dom';
 import Submit from '../components/Submit';
+import ReloInfo from '../components/ReloInfo'; 
 import '../componentCSS/CandidateResources.css';
 
 class CandidateResources extends Component {
@@ -31,8 +32,14 @@ class CandidateResources extends Component {
                     </span>
                 <p className="can-links" align="center"><a href="resguide/resguide.htm" target="_self" className="links">Resume 
                 Guidelines</a> | <a href="inttips/inttips.htm" target="_self" className="links">Interviewing 
-                Tips</a> | <a href="counteroffer.htm">Considering the Counteroffer</a> | <a href="reloinfo/reloinfo.htm" target="_self">Relocation 
-                Info</a> |   
+                Tips</a> | <a href="counteroffer.htm">Considering the Counteroffer</a> | 
+                
+                    <Link to='/ReloInfo'
+                        id="reloinfo" style={{ fontSize: this.state.hover === 'jl' ? '19px': '18px', color: this.state.hover === 'jl' ? 'lightcoral': '#8f6471'}}                    
+                        onMouseEnter={ ()=> this.mouseEnter1() }
+                        onMouseLeave ={ () =>this.mouseLeave() }>
+                        Relocation Info
+                    </Link> |   
         
                     <Link to='/Submit' 
                         id="submit" style={{ fontSize: this.state.hover === 'jl' ? '19px': '18px', color: this.state.hover === 'jl' ? 'lightcoral': '#8f6471'}}                    
@@ -43,6 +50,7 @@ class CandidateResources extends Component {
                                         
                     <div id="cand-links"> 
                         <Route path="/Submit" component={Submit} />
+                        <Route path="/ReloInfo" component={ReloInfo} />
                     </div>
                 </p>
                 </section>

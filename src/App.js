@@ -7,6 +7,7 @@ import EmployerResources from './components/EmployerResources';
 import CandidateResources from './components/CandidateResources';
 import OurStaff from './components/OurStaff';
 import Submit from './components/Submit';
+import ReloInfo from './components/ReloInfo';
 
 class App extends Component {
     constructor () {
@@ -79,6 +80,7 @@ class App extends Component {
                     <Route path="/EmployerResources" component={EmployerResources} />
                     <Route path="/CandidateResources"component={CandidateResources} />
                     <Route path="/OurStaff" component={OurStaff} />
+                    <Route path="/ReloInfo" component={ReloInfo} />
                     <Route path="/Submit" component={Submit} />
                 </main>
                 <footer>

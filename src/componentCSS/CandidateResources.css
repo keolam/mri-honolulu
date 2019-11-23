@@ -1,5 +1,5 @@
 .can-res-body {
-    text-align: center;
+    text-align: justify;
     width: 70%;
     margin-top: 50px;
     font-size: 24px;
@@ -10,7 +10,7 @@
 }
 
 .can-links {
-    text-align: center;
+    text-align: justify;
     display: flex;
     justify-content: space-between;
     width: 80%;

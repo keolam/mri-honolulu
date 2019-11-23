@@ -15,7 +15,7 @@
     margin-left: auto;
     margin-right: auto;
 }
-
+/* Divide photo length by width to get aspect ratio. This prevents photo stretching in weird ways*/
 #donPic {
     flex: 1.06;
     min-width: 15%;
