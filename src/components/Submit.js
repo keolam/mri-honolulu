@@ -1,5 +1,7 @@
 import React from 'react';
 import Image from './../Data/imageDir';
+import { Link } from 'react-router-dom';
+import '../componentCSS/Submit.css';
 
 const Submit = () => (
     <div>
@@ -11,8 +13,13 @@ const Submit = () => (
         
                 If you are interested in any of our job opportunities, or interested in any other services we can provide for you, please submit your resume via our job listings page, where you can register and upload your resume with password protection to protect your confidentiality.
         
-                You can also email us your resume as an MS Word, RTF or PDF attachment, or you can also fax or submit your resume via postal service.
+                You can also email us your resume as an MS Word, RTF or PDF attachment.
                 </p>
+            </div>
+            <div id="candidate-footer">
+                <Link to='/CandidateResources' className="can-rec">
+                    Back to Candidate Resources
+                </Link>
             </div>
         </section>
     </div>

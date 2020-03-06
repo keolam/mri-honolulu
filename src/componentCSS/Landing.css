@@ -26,6 +26,12 @@ ul {
 li {
     margin: 5px;
 }
+.can-rec {
+    display: flex;
+    justify-content: center;
+    margin: 8em;
+}
+
 @media only screen and (max-width: 700px) {
     /*#hero {
         display: none;

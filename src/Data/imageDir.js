@@ -8,5 +8,7 @@ export default {
     kawikaMorse: '/assets/images/KawikaMorse.gif',
     christinaCole: '/assets/images/ChristinaCole.jpg',
     submitResume: '/assets/images/SubmitResume.jpg',
-    relo: '/assets/images/relo2.jpg'
+    relo: '/assets/images/relo2.jpg',
+    counter: '/assets/images/Counter.jpg',
+    interview: '/assets/images/Interview.jpg'
 }

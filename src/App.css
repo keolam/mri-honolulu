@@ -74,7 +74,8 @@ nav {
 footer {
     color: #8f6471;
     font-family: 'Montserrat', sans-serif;
-    text-align: center;
+    text-align: left;
+    margin-top: 30px;
     margin-bottom: 50px;
     width: 66%;
     margin-left: auto;
@@ -107,7 +108,7 @@ footer {
     }
     footer {
       display: center;
-     /* margin-left: 40px;
+      /*margin-left: 40px;
       margin-right: 40px;*/
     }
     .footer-text {

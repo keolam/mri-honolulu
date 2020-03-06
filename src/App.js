@@ -8,6 +8,9 @@ import CandidateResources from './components/CandidateResources';
 import OurStaff from './components/OurStaff';
 import Submit from './components/Submit';
 import ReloInfo from './components/ReloInfo';
+import CounterOffer from './components/CounterOffer';
+import InterviewTips from './components/InterviewTips';
+import ResumeGuidelines from './components/ResumeGuidelines';
 
 class App extends Component {
     constructor () {
@@ -80,15 +83,24 @@ class App extends Component {
                     <Route path="/EmployerResources" component={EmployerResources} />
                     <Route path="/CandidateResources"component={CandidateResources} />
                     <Route path="/OurStaff" component={OurStaff} />
-                    <Route path="/ReloInfo" component={ReloInfo} />
-                    <Route path="/Submit" component={Submit} />
+                    <Route path="/ResumeGuidelines" component={ResumeGuidelines} /> 
+                            <Route path="/InterviewTips" component={InterviewTips} />   
+                            <Route path="/CounterOffer" component={CounterOffer} />
+                            <Route path="/ReloInfo" component={ReloInfo} />
+                            <Route path="/Submit" component={Submit} />
                 </main>
                 <footer>
                     <p id ="contact"> 
-                    <span><i className="fas fa-phone" style={{marginRight: '8px', marginLeft: '8px'}}></i><span className="footer-text"> Tel:  808.533.3282</span></span>
-                    <span><i className="fas fa-fax" style={{marginRight: '8px', marginLeft: '8px'}}></i><span className="footer-text"> Fax:  808.533.6162 </span></span> 
-                    <span><i className="fas fa-envelope" style={{marginRight: '8px', marginLeft: '8px'}}> </i><span className="footer-text">Email:  mail@mrihonolulu.com</span></span> 
-                    </p>
+                    <a rel="icon" href="mailto: mail@mrihonolulu.com"> <span><i className="fas fa-envelope" style={{marginRight: '8px', marginLeft: '-24px', marginTop: '56px',size: 'xLarge'}}> </i></span></a>
+                    <span style={{display: 'flex', flexDirection: 'horizontal', marginRight: '16px', marginLeft: '8px', marginTop: '38px'}}>
+                        <span rel="icon" className="fas fa-phone" style={{marginRight: '22px', marginTop: '12px'}}></span>
+                        <span><span className="footer-text">   808.533.3282 <br/> 1.800.879.0448</span></span>
+                    </span>
+                        <span style={{marginTop: '36px'}}>
+                            <span className="footer-text">   32 Merchant St., Suite 101 <br/> Honolulu, HI 96813    </span>
+                        </span>
+                        <a href="https://www.linkedin.com/company/sales-consultants-and-management-recruiters-of-honolulu/about/"><img src="https://img.icons8.com/color/48/000000/linkedin.png" alt="linkedIn" style={{marginTop: '32px', marginRight: '-48px'}}></img></a>
+                    </p>    
                 </footer>
             </div>
         );

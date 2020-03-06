@@ -30,9 +30,9 @@ const OurStaff = () => (
       <img src={ Image.kawikaMorse } id="donPic" alt="project-coordinator" style={{width: '70%', height: '50%'}}></img>
       
       <div className="right-col">
-      <p className="staff-name">Kawika Morse</p>
-      <p className="staff-pos">Project Coordinator & Internet Administration</p>
-      <p className="staff-about">Kawika  earned a Bachelor's in Business Arts in Marketing and Managment Information Systems from the University of Hawaii. A former web developer and project coordinator for the State of Hawaii's Department of Business, Economic Development & Tourism, he now currently assists our executives with their search assignments and projects.</p>
+      <p className="staff-name">Kalae Morse</p>
+      <p className="staff-pos">Account Excutive</p>
+      <p className="staff-about">Kalae specializes in the Entertainment and Sports Marketing indutries and provides assistance to our executives with their search assignments and projects.</p>
       <p><a href="mailto:kbm@mrihonolulu.com%20">kbm@mrihonolulu.com</a></p>
       </div>
       </div>
