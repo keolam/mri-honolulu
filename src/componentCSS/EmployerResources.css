@@ -9,8 +9,8 @@
     line-height: 1.5;
     text-align: justify;
 }
-#title {
-    text-align: center;
+h1 {
+    text-align: justify;
     font-weight: 600;
 }
 #p1 {

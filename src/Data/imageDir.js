@@ -10,5 +10,8 @@ export default {
     submitResume: '/assets/images/SubmitResume.jpg',
     relo: '/assets/images/relo2.jpg',
     counter: '/assets/images/Counter.jpg',
-    interview: '/assets/images/Interview.jpg'
+    interview: '/assets/images/Interview.jpg',
+    howWeWork: '/assets/images/DiamondHeadFisheye.jpg',
+    valueAdded: '/assets/images/ValueAdded.jpg',
+    interviewGuide: '/assets/images/InterviewGuide.jpg'
 }

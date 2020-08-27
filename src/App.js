@@ -11,6 +11,10 @@ import ReloInfo from './components/ReloInfo';
 import CounterOffer from './components/CounterOffer';
 import InterviewTips from './components/InterviewTips';
 import ResumeGuidelines from './components/ResumeGuidelines';
+import HowWeWork from './components/HowWeWork';
+import ValueAddedServices from './components/ValueAddedServices';
+import InterviewGuide from './components/InterviewGuide';
+
 
 class App extends Component {
     constructor () {
@@ -81,6 +85,9 @@ class App extends Component {
                     <Route exact path="/" component={Landing} /> 
                     <Route path="/JobListings" component={JobListings} />           
                     <Route path="/EmployerResources" component={EmployerResources} />
+                        <Route path="/HowWeWork" component={HowWeWork} />
+                        <Route path="/ValueAddedServices" component={ValueAddedServices} />
+                        <Route path="/InterviewGuide" component={InterviewGuide} />
                     <Route path="/CandidateResources"component={CandidateResources} />
                     <Route path="/OurStaff" component={OurStaff} />
                     <Route path="/ResumeGuidelines" component={ResumeGuidelines} /> 
