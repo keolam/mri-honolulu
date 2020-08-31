@@ -6,8 +6,8 @@ import '../componentCSS/ValueAddedServices.css';
 const ValueAddedServices = () => (    
     <div>
         <div>
-        <div id="pic">
-                <img src={ Image.valueAdded} alt="graph" style={{width: '100%'}}></img>
+            <div>
+                 <img src={ Image.valueAdded} id="pic" alt="graph" style={{width: '100%'}}></img>
             </div>
             <h1>Value-Added Services</h1>
             <p className="smalltxt">

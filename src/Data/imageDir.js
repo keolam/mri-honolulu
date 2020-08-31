@@ -5,7 +5,7 @@ export default {
     canRec: '/assets/images/CanRec.jpg',
     staffHNL: '/assets/images/StaffHNL.jpg',
     donBishop: '/assets/images/DonBishop.jpg',
-    kawikaMorse: '/assets/images/KawikaMorse.gif',
+    kalae: '/assets/images/Kalae.png',
     christinaCole: '/assets/images/ChristinaCole.jpg',
     submitResume: '/assets/images/SubmitResume.jpg',
     relo: '/assets/images/relo2.jpg',
@@ -13,5 +13,9 @@ export default {
     interview: '/assets/images/Interview.jpg',
     howWeWork: '/assets/images/DiamondHeadFisheye.jpg',
     valueAdded: '/assets/images/ValueAdded.jpg',
-    interviewGuide: '/assets/images/InterviewGuide.jpg'
+    interviewGuide: '/assets/images/InterviewGuide.jpg',
+    phone: '/assets/icons/phone.png',
+    mailIcon: '/assets/icons/email.png',
+    linkedIn: '/assets/icons/linkedin.png',
+    location: '/assets/icons/location.png'
 }

@@ -27,7 +27,7 @@ const OurStaff = () => (
         </div>
     </div>
     <div className="staff-info">
-      <img src={ Image.kawikaMorse } id="donPic" alt="project-coordinator" style={{width: '70%', height: '50%'}}></img>
+      <img src={ Image.kalae } id="donPic" alt="project-coordinator" style={{width: '70%', height: '50%'}}></img>
       
       <div className="right-col">
       <p className="staff-name">Kalae Morse</p>

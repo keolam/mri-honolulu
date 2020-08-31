@@ -1,3 +1,7 @@
+#pic { 
+
+    filter: brightness(.1);
+}
 .smalltxt {
     justify-content: center;
     line-height: 1.5;
@@ -9,10 +13,7 @@
     margin-left: auto;
     margin-right: auto;
 }
-    #pic { 
 
-    filter: brightness(.4);
-}
 h1 {
     font-family: 'Montserrat', sans-serif;
     margin-top:2em;

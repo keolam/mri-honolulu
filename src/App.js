@@ -14,6 +14,7 @@ import ResumeGuidelines from './components/ResumeGuidelines';
 import HowWeWork from './components/HowWeWork';
 import ValueAddedServices from './components/ValueAddedServices';
 import InterviewGuide from './components/InterviewGuide';
+import Image from './Data/imageDir';
 
 
 class App extends Component {
@@ -38,6 +39,7 @@ class App extends Component {
     mouseLeave() {
       this.setState({hover: ''})
     }
+
 
     render() {
         return (
@@ -97,17 +99,19 @@ class App extends Component {
                             <Route path="/Submit" component={Submit} />
                 </main>
                 <footer>
-                    <p id ="contact"> 
-                    <a rel="icon" href="mailto: mail@mrihonolulu.com"> <span><i className="fas fa-envelope" style={{marginRight: '8px', marginLeft: '-24px', marginTop: '56px',size: 'xLarge'}}> </i></span></a>
+                    <div id ="contact"> 
+                    <a href="mailto: mail@mrihonolulu.com"><img src={Image.mailIcon} style={{display: 'flex', marginLeft: '-2px', marginTop: '1.5em', width: '4.5em', height: '4.5em', }}></img></a>
                     <span style={{display: 'flex', flexDirection: 'horizontal', marginRight: '16px', marginLeft: '8px', marginTop: '38px'}}>
-                        <span rel="icon" className="fas fa-phone" style={{marginRight: '22px', marginTop: '12px'}}></span>
+                        <img src={Image.phone} style={{display: 'block', width: '3em', height: '3em', marginRight: '1em'}}></img>
                         <span><span className="footer-text">   808.533.3282 <br/> 1.800.879.0448</span></span>
                     </span>
-                        <span style={{marginTop: '36px'}}>
-                            <span className="footer-text">   32 Merchant St., Suite 101 <br/> Honolulu, HI 96813    </span>
+                    <span style={{display: 'flex', flexDirection: 'horizontal', marginTop: '36px'}}>
+                        <img src={Image.location} style={{display: 'block', width: '3em', height: '3em', marginRight: '1em'}}></img>
+                        
+                        <span className="footer-text">   32 Merchant St., Suite 101 <br/> Honolulu, HI 96813    </span>
                         </span>
-                        <a href="https://www.linkedin.com/company/sales-consultants-and-management-recruiters-of-honolulu/about/"><img src="https://img.icons8.com/color/48/000000/linkedin.png" alt="linkedIn" style={{marginTop: '32px', marginRight: '-48px'}}></img></a>
-                    </p>    
+                        <a href="https://www.linkedin.com/company/sales-consultants-and-management-recruiters-of-honolulu/about/"><img src={Image.linkedIn} style={{display: 'block', width: '5em', height: '4em', marginTop: '1.5em'}}></img></a>
+                    </div>    
                 </footer>
             </div>
         );
@@ -115,3 +119,8 @@ class App extends Component {
 }
 
 export default App;
+
+/*https://img.icons8.com/color/48/000000/linkedin.png
+style={{marginRight: '22px', marginTop: '12px'}}>
+<span style={{marginTop: '36px'}}>
+*/

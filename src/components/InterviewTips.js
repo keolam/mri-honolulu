@@ -17,6 +17,30 @@ const InterviewTips = () => (
             for your next job interview by taking advantage of this extensive experience
             and read these tipsheets online or print them out for future reference.
         </p>
+
+        <div className="smalltxt">
+        <p>
+            Interviewing Basics
+            The ins-and-outs of professional interviewing, including what not to say during the interview.
+            <a href="basics.rtf">Rich Text File</a>
+            <a href="basics.pdf" target="_blank">PDF</a>
+            </p>
+
+            <p>
+            Illegal Interview Questions: What You Should Know
+            Learn how to handle yourself when the interviewer takes a wrong turn.
+            <span class="smalltxt"><a href="illegal.rtf">Rich Text File</a> | <a href="illegal.pdf" target="_blank">PDF</a></span>
+
+            </p>
+
+            <p> 
+            Writing Thank You Letters
+            The interview doesn't end when you walk out the door. A well-written follow-up letter can help you close the deal.
+            <span class="smalltxt"><a href="letters.rtf">Rich Text File</a> | <a href="letters.pdf" target="_blank">PDF</a></span>
+
+            </p>
+
+            </div>
         <div id="candidate-footer">
             <Link to='/CandidateResources' className="can-rec">
                 Back to Candidate Resources
