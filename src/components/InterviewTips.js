@@ -1,13 +1,14 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Image from './../Data/imageDir';
+import Doc from './../Data/docDirectory';
 import '../componentCSS/InterviewTips.css';
 
 const InterviewTips = () => (
     <div>
         <div id="pic">
-              <img src={ Image.interview } alt="interview" style={{width: '100%'}}></img>
-          </div>
+            <img src={ Image.interview } alt="interview" style={{width: '100%'}}></img>
+        </div>
 
         <h1>Interviewing Tips</h1>
         <p id="paragraph">
@@ -22,25 +23,33 @@ const InterviewTips = () => (
         <p>
             Interviewing Basics
             The ins-and-outs of professional interviewing, including what not to say during the interview.
-            <a href="basics.rtf">Rich Text File</a>
-            <a href="basics.pdf" target="_blank">PDF</a>
-            </p>
-
             <p>
+            <a href={Doc.interviewBasics} download>Download Here</a>
+            <a href="basics.pdf" target="_blank"></a>
+            </p>
+        </p>
+
+        <p>
             Illegal Interview Questions: What You Should Know
             Learn how to handle yourself when the interviewer takes a wrong turn.
-            <span class="smalltxt"><a href="illegal.rtf">Rich Text File</a> | <a href="illegal.pdf" target="_blank">PDF</a></span>
-
+            <span class="smalltxt">
+            <p>
+            <a href={Doc.illegal} download>Download Here</a>
+            <a href="illegal.pdf" target="_blank"></a>
             </p>
-
-            <p> 
+            </span>
+        </p>
+        <p> 
             Writing Thank You Letters
             The interview doesn't end when you walk out the door. A well-written follow-up letter can help you close the deal.
-            <span class="smalltxt"><a href="letters.rtf">Rich Text File</a> | <a href="letters.pdf" target="_blank">PDF</a></span>
-
+            <span class="smalltxt">
+            <p>
+            <a href={Doc.thankyou} download>Download Here</a>
+            <a href="letters.pdf" target="_blank"></a>
             </p>
-
-            </div>
+            </span>
+        </p>
+        </div>
         <div id="candidate-footer">
             <Link to='/CandidateResources' className="can-rec">
                 Back to Candidate Resources

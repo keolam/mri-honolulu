@@ -42,7 +42,7 @@ class CandidateResources extends Component {
                     <span> <p className="can-res-body">Are you looking for a new career opportunity? Do you 
                     need to re-write your resume to create a better impression on hiring authorities? 
                     Or are you writing your resume for the first time? Wondering just how much 
-                    relocation for a new job in a new locale may cost? Than you've come to the 
+                    relocation for a new job in a new locale may cost? Then you've come to the 
                     right place!</p>
                     </span>
                     <p className="can-links" align="center">

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Route, Link } from 'react-router-dom';
+/*import {Transition} from 'react-spring/renderprops'*/
 import './App.css';
 import Landing from './components/Landing';
 import JobListings from './components/JobListings';
@@ -88,29 +89,32 @@ class App extends Component {
                     <Route path="/JobListings" component={JobListings} />           
                     <Route path="/EmployerResources" component={EmployerResources} />
                         <Route path="/HowWeWork" component={HowWeWork} />
-                        <Route path="/ValueAddedServices" component={ValueAddedServices} />
                         <Route path="/InterviewGuide" component={InterviewGuide} />
+                        <Route path="/ValueAddedServices" component={ValueAddedServices} />
                     <Route path="/CandidateResources"component={CandidateResources} />
+                        <Route path="/ResumeGuidelines" component={ResumeGuidelines} /> 
+                        <Route path="/InterviewTips" component={InterviewTips} />   
+                        <Route path="/CounterOffer" component={CounterOffer} />
+                        <Route path="/ReloInfo" component={ReloInfo} />
+                        <Route path="/Submit" component={Submit} />
                     <Route path="/OurStaff" component={OurStaff} />
-                    <Route path="/ResumeGuidelines" component={ResumeGuidelines} /> 
-                            <Route path="/InterviewTips" component={InterviewTips} />   
-                            <Route path="/CounterOffer" component={CounterOffer} />
-                            <Route path="/ReloInfo" component={ReloInfo} />
-                            <Route path="/Submit" component={Submit} />
                 </main>
                 <footer>
-                    <div id ="contact"> 
-                    <a href="mailto: mail@mrihonolulu.com"><img src={Image.mailIcon} style={{display: 'flex', marginLeft: '-2px', marginTop: '1.5em', width: '4.5em', height: '4.5em', }}></img></a>
-                    <span style={{display: 'flex', flexDirection: 'horizontal', marginRight: '16px', marginLeft: '8px', marginTop: '38px'}}>
-                        <img src={Image.phone} style={{display: 'block', width: '3em', height: '3em', marginRight: '1em'}}></img>
-                        <span><span className="footer-text">   808.533.3282 <br/> 1.800.879.0448</span></span>
-                    </span>
-                    <span style={{display: 'flex', flexDirection: 'horizontal', marginTop: '36px'}}>
-                        <img src={Image.location} style={{display: 'block', width: '3em', height: '3em', marginRight: '1em'}}></img>
-                        
-                        <span className="footer-text">   32 Merchant St., Suite 101 <br/> Honolulu, HI 96813    </span>
+                    <div id ="contact" data-aos="fade-up" data-aos-offset="50"> 
+                        <span id="mail-icon">
+                            <a href="mailto: mail@mrihonolulu.com"><img src={Image.mailIcon} ></img></a>
                         </span>
-                        <a href="https://www.linkedin.com/company/sales-consultants-and-management-recruiters-of-honolulu/about/"><img src={Image.linkedIn} style={{display: 'block', width: '5em', height: '4em', marginTop: '1.5em'}}></img></a>
+                        <span id="phone-column">
+                            <img src={Image.phone} id="phone-icon"></img>
+                            <span className="footer-text">   808.533.3282 <br/> 1.800.879.0448</span>
+                        </span>
+                        <span id="address-column">
+                            <img src={Image.location} id="location-icon"></img>
+                            <span className="footer-text">   32 Merchant St., Suite 101 <br/> Honolulu, HI 96813    </span>
+                        </span>
+                        <span id="linkedin-icon">
+                            <a href="https://www.linkedin.com/company/sales-consultants-and-management-recruiters-of-honolulu/about/"><img src={Image.linkedIn} ></img></a>
+                        </span>
                     </div>    
                 </footer>
             </div>

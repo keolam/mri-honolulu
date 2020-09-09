@@ -6,25 +6,25 @@ class Landing extends Component {
     render() {
         return (  
             <section className="landing">
-                <img src={ Image.honolulu } id="hero" alt="honolulu"></img>
-                <section id="title">
-                    <p>Your executive search solution for finding and recruiting 
+                <img src={ Image.honolulu } id="hero" alt="honolulu" data-aos="fade-in" data-aos-delay="100"></img>
+                <section id="brand-title">
+                    <p id="brand-one" data-aos="fade-in">Your executive search solution for finding and recruiting 
                         the people that will make an impact on your business' bottom line.
                     </p>
-                    <p>Servicing businesses in the Hawaii & the Pacific Rim since 1988, specializing in: </p>
+                    <p id="brand-two" data-aos="fade-in" data-aos-delay="200">Servicing businesses in the Hawaii & the Pacific Rim since 1988, specializing in: </p>
                 </section>
-                <section className="ind-list">
+                <section className="ind-list" data-aos="fade-in">
                     <ul>
-                        <li>Office Product & Equipment Sales</li>
-                        <li>Information Technology Sales</li>
-                        <li>Telecommunications & Data Networking</li>
-                        <li>Construction, Architecture & Engineering</li>
-                        <li>Industrial & Environmental Services</li>
-                        <li>Consumer Goods & Retail</li>
-                        <li>Restaurant & Food Service Sales</li>
-                        <li>Pharmaceutical & Medical Device Sales</li>
-                        <li>Healthcare Sales</li>
-                        <li>Banking & Finance</li>
+                        <li data-aos="fade-left">Office Product & Equipment Sales</li>
+                        <li data-aos="fade-right">Information Technology Sales</li>
+                        <li data-aos="fade-left">Telecommunications & Data Networking</li>
+                        <li data-aos="fade-right">Construction, Architecture & Engineering</li>
+                        <li data-aos="fade-left">Industrial & Environmental Services</li>
+                        <li data-aos="fade-right">Consumer Goods & Retail</li>
+                        <li data-aos="fade-left">Restaurant & Food Service Sales</li>
+                        <li data-aos="fade-right">Pharmaceutical & Medical Device Sales</li>
+                        <li data-aos="fade-left">Healthcare Sales</li>
+                        <li data-aos="fade-right">Banking & Finance</li>
                     </ul>
                 </section>
                 

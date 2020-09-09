@@ -83,7 +83,56 @@ footer {
 }
 #contact {
   display: flex;
-  justify-content: space-around;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 4.5em;
+  margin-bottom: 8em;
+  padding-left: 12px;
+}
+#mail {
+  display: flex;
+  margin-left: -2px;
+  margin-top: 1.5em; 
+}
+#mail-icon {
+  display: block; 
+  width: 3em; 
+  margin-right: 1em;
+} 
+#mail-icon img {
+  width: 3em; 
+  height: 3em; 
+}
+#phone-column {
+  display: flex;
+  flex-direction: horizontal; 
+  margin-left: 80px;
+}
+#phone-icon {
+  display: block; 
+  width: 3em; 
+  height: 3em; 
+  margin-right: 1em;
+  margin-left: 1em;
+} 
+.footer-text {
+  margin-top: 8px;
+}
+#address-column{
+  display: flex;
+  flex-direction: row;
+  margin-left: 40px;
+}
+#location-icon {
+  display: block; 
+  width: 3em;
+  height: 3em; 
+  margin-right: 1em;
+}
+#linkedin-icon img{
+  display: flex;
+  width: 4em;
+  height: 3em;
 }
  
 @media only screen and (max-width: 588px) {
