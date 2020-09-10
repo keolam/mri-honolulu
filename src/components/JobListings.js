@@ -4,7 +4,7 @@ import '../componentCSS/JobListings.css'
 
 const JobListings = () => ( 
     <div>
-        <img src={ Image.office } id="office" alt="workspace" style={{width: '100%'}}></img>
+        <img src={ Image.office } id="office" alt="workspace" style={{width: '100%'}} data-aos="fade-in" data-aos-delay="300"></img>
         <section className="main">
             <div id="title">
                 <p>You don't need to register to view our job listings.</p>

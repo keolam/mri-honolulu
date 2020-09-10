@@ -6,9 +6,9 @@ class Landing extends Component {
     render() {
         return (  
             <section className="landing">
-                <img src={ Image.honolulu } id="hero" alt="honolulu" data-aos="fade-in" data-aos-delay="100"></img>
+                <img src={ Image.honolulu } id="hero" alt="honolulu" data-aos="fade-in" data-aos-delay="300"></img>
                 <section id="brand-title">
-                    <p id="brand-one" data-aos="fade-in">Your executive search solution for finding and recruiting 
+                    <p id="brand-one" data-aos-delay="50">Your executive search solution for finding and recruiting 
                         the people that will make an impact on your business' bottom line.
                     </p>
                     <p id="brand-two" data-aos="fade-in" data-aos-delay="200">Servicing businesses in the Hawaii & the Pacific Rim since 1988, specializing in: </p>

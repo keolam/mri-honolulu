@@ -100,7 +100,7 @@ class App extends Component {
                     <Route path="/OurStaff" component={OurStaff} />
                 </main>
                 <footer>
-                    <div id ="contact" data-aos="fade-up" data-aos-offset="50"> 
+                    <div id ="contact" data-aos="fade-up" data-aos-offset="180"> 
                         <span id="mail-icon">
                             <a href="mailto: mail@mrihonolulu.com"><img src={Image.mailIcon} ></img></a>
                         </span>

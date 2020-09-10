@@ -37,15 +37,15 @@ class CandidateResources extends Component {
     render() {
         return(
             <div>
-                <img src={ Image.canRec } id="CanRec" alt="workspace" style={{width: '100%'}}></img>
+                <img src={ Image.canRec } id="CanRec" alt="workspace" style={{width: '100%'}} data-aos="fade-in" data-aos-delay="300"></img>
                 <section className="landing">
-                    <span> <p className="can-res-body">Are you looking for a new career opportunity? Do you 
+                    <span> <p className="can-res-body" data-aos="fade-up">Are you looking for a new career opportunity? Do you 
                     need to re-write your resume to create a better impression on hiring authorities? 
                     Or are you writing your resume for the first time? Wondering just how much 
                     relocation for a new job in a new locale may cost? Then you've come to the 
                     right place!</p>
                     </span>
-                    <p className="can-links" align="center">
+                    <p className="can-links" align="center" data-aos="fade-left">
                         
                         <Link to='/ResumeGuidelines'
                             id="resguide" style={{ fontSize: this.state.hover === 'rg' ? '19px': '18px', color: this.state.hover === 'rg' ? 'lightcoral': '#8f6471'}}                    

@@ -5,7 +5,7 @@ import '../componentCSS/OurStaff.css';
 const OurStaff = () => (
   <div>
     <section className="landing">
-      <img src={ Image.staffHNL } id="hero" alt="honolulu"></img>
+      <img src={ Image.staffHNL } id="hero" alt="honolulu" data-aos="fade-in" data-aos-delay="300"></img>
     </section>
     <section id="staff-box">
     <div className="staff-info">
@@ -17,7 +17,7 @@ const OurStaff = () => (
         <p><a href="mailto:donbishop@mrihonolulu.com">donbishop@mrihonolulu.com</a></p>
     </div>
     </div>
-    <div className="staff-info">
+    <div className="staff-info" data-aos="fade-left">
       <img src={ Image.christinaCole } id="chrisPic" alt="recruiter" style={{width: '15%', height: '10%'}}></img>
         <div className="right-col">
         <p className="staff-name">Christina Cole</p>
@@ -26,7 +26,7 @@ const OurStaff = () => (
         <p><a href="mailto:chriscole@mrihonolulu.com">chriscole@mrihonolulu.com</a></p>
         </div>
     </div>
-    <div className="staff-info">
+    <div className="staff-info" data-aos="fade-right">
       <img src={ Image.kalae } id="donPic" alt="project-coordinator" style={{width: '70%', height: '50%'}}></img>
       
       <div className="right-col">

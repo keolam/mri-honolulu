@@ -27,24 +27,25 @@ class EmployerResources extends Component {
     render() {
         return (
             <div>
-                <img src={ Image.dataRoom } id="data-room" alt="workspace" style={{width: '100%'}}></img>
+                <img src={ Image.dataRoom } id="data-room" alt="workspace" style={{width: '100%'}} data-aos="fade-in" data-aos-delay="300"></img>
                 <h1>Employer Resources</h1>
                 <section className="main-paragraph">
-                    
-                    <p id="p1">
-                        Sales Consultants & Management Recruiters of Honolulu is dedicated to helping 
-                        you as a hiring authority find the right talent. Not only do we find and qualify the best talents 
-                        for you to interview and consider, we also offer a few tips and guidelines based on our years of 
-                        experience in the executive and sales search industry to help you in your decision making process.
-                    </p>
-                    <p>
-                        We are uniquely located in the Pacific Time zone, which gives us the strategic advantage of 
-                        being able to talk to a larger number of candidates. While in the middle of our business day, 
-                        we can contact potential candidates before or after their work hours in their respective time 
-                        zones in the East or West. This allows us to talk to more candidates to make sure we bring the
-                        best talent to you as a hiring manager.
-                    </p>
-                    <div className="emp-rec-links">
+                    <div id="emp-rec" data-aos="fade-up">
+                        <p id="p1">
+                            Sales Consultants & Management Recruiters of Honolulu is dedicated to helping 
+                            you as a hiring authority find the right talent. Not only do we find and qualify the best talents 
+                            for you to interview and consider, we also offer a few tips and guidelines based on our years of 
+                            experience in the executive and sales search industry to help you in your decision making process.
+                        </p>
+                        <p>
+                            We are uniquely located in the Pacific Time zone, which gives us the strategic advantage of 
+                            being able to talk to a larger number of candidates. While in the middle of our business day, 
+                            we can contact potential candidates before or after their work hours in their respective time 
+                            zones in the East or West. This allows us to talk to more candidates to make sure we bring the
+                            best talent to you as a hiring manager.
+                        </p>
+                    </div>
+                    <div className="emp-rec-links" data-aos="fade-left">
                         <Link to='/HowWeWork' id="how-we-work"
                             style={{ fontSize: this.state.hover === 'ww' ? '19px': '18px',
                             color: this.state.hover === 'ww' ? '#8f6471':'#118bac'}}                    
