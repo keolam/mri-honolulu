@@ -32,7 +32,7 @@ const OurStaff = () => (
       <div className="right-col">
       <p className="staff-name">Kalae Morse</p>
       <p className="staff-pos">Account Excutive</p>
-      <p className="staff-about">Kalae specializes in the Entertainment and Sports Marketing indutries and provides assistance to our executives with their search assignments and projects.</p>
+      <p className="staff-about">Kalae specializes in the Entertainment and Sports Marketing industries and provides assistance to our executives with their search assignments and projects.</p>
       <p><a href="mailto:kbm@mrihonolulu.com%20">kbm@mrihonolulu.com</a></p>
       </div>
       </div>

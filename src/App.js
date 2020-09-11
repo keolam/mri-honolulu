@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Route, Link } from 'react-router-dom';
-/*import {Transition} from 'react-spring/renderprops'*/
+import {Parallax, ParallaxLayer} from 'react-spring/renderprops'
 import './App.css';
 import Landing from './components/Landing';
 import JobListings from './components/JobListings';
@@ -47,11 +47,13 @@ class App extends Component {
             <div className="App">
                 <header>
                     <nav>
-                        <Link to='/' id="business-name">                           
-                            <p id="mr">MANAGEMENT RECRUITERS &</p>
-                            <p id="sc">SALES CONSULTANTS</p>
-                            <p id="hnl">of Honolulu</p>
-                        </Link>
+                        <div className="mri-logo">
+                            <Link to='/' id="business-name">                           
+                                <p id="mr">MANAGEMENT RECRUITERS &</p>
+                                <p id="sc">SALES CONSULTANTS</p>
+                                <p id="hnl">of Honolulu</p>
+                            </Link>
+                        </div>
                         <div className="site-links">
                             <Link to='/JobListings' id="job-listing"
                                 style={{ fontSize: this.state.hover === 'jl' ? '19px': '18px',
@@ -102,18 +104,18 @@ class App extends Component {
                 <footer>
                     <div id ="contact" data-aos="fade-up" data-aos-offset="180"> 
                         <span id="mail-icon">
-                            <a href="mailto: mail@mrihonolulu.com"><img src={Image.mailIcon} ></img></a>
+                            <a href="mailto: mail@mrihonolulu.com"><img src={Image.mailIcon} alt="email"></img></a>
                         </span>
                         <span id="phone-column">
-                            <img src={Image.phone} id="phone-icon"></img>
+                            <img src={Image.phone} id="phone-icon" alt="phone"></img>
                             <span className="footer-text">   808.533.3282 <br/> 1.800.879.0448</span>
                         </span>
                         <span id="address-column">
-                            <img src={Image.location} id="location-icon"></img>
+                            <img src={Image.location} id="location-icon" alt="location"></img>
                             <span className="footer-text">   32 Merchant St., Suite 101 <br/> Honolulu, HI 96813    </span>
                         </span>
                         <span id="linkedin-icon">
-                            <a href="https://www.linkedin.com/company/sales-consultants-and-management-recruiters-of-honolulu/about/"><img src={Image.linkedIn} ></img></a>
+                            <a href="https://www.linkedin.com/company/sales-consultants-and-management-recruiters-of-honolulu/about/"><img src={Image.linkedIn} alt="linkedin"></img></a>
                         </span>
                     </div>    
                 </footer>
