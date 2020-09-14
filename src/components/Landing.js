@@ -14,18 +14,18 @@ class Landing extends Component {
                     <p id="brand-two" data-aos="fade-in" data-aos-delay="200">Servicing businesses in the Hawaii & the Pacific Rim since 1988, specializing in: </p>
                 </section>
                 <section className="ind-list" data-aos="fade-in">
-                    <ul>
-                        <li data-aos="fade-left">Office Product & Equipment Sales</li>
-                        <li data-aos="fade-right">Information Technology Sales</li>
-                        <li data-aos="fade-left">Telecommunications & Data Networking</li>
-                        <li data-aos="fade-right">Construction, Architecture & Engineering</li>
-                        <li data-aos="fade-left">Industrial & Environmental Services</li>
-                        <li data-aos="fade-right">Consumer Goods & Retail</li>
-                        <li data-aos="fade-left">Restaurant & Food Service Sales</li>
-                        <li data-aos="fade-right">Pharmaceutical & Medical Device Sales</li>
-                        <li data-aos="fade-left">Healthcare Sales</li>
-                        <li data-aos="fade-right">Banking & Finance</li>
-                    </ul>
+                    <div id="industry-list">
+                        <div data-aos="fade-left"><img src={ Image.officeEquip } ></img>Office Product & Equipment Sales</div>
+                        <div data-aos="fade-right">Information Technology Sales<img src={ Image.officeEquip } ></img></div>
+                        <div data-aos="fade-left">Telecommunications & Data Networking</div>
+                        <div data-aos="fade-right">Construction, Architecture & Engineering</div>
+                        <div data-aos="fade-left">Industrial & Environmental Services</div>
+                        <div data-aos="fade-right">Consumer Goods & Retail</div>
+                        <div data-aos="fade-left">Restaurant & Food Service Sales</div>
+                        <div data-aos="fade-right">Pharmaceutical & Medical Device Sales</div>
+                        <div data-aos="fade-left">Healthcare Sales</div>
+                        <div data-aos="fade-right">Banking & Finance</div>
+                    </div>
                 </section>
                 
             </section>

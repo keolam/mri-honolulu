@@ -14,6 +14,7 @@ export default {
     howWeWork: '/assets/images/DiamondHeadFisheye.jpg',
     valueAdded: '/assets/images/ValueAdded.jpg',
     interviewGuide: '/assets/images/InterviewGuide.jpg',
+    officeEquip: '/assets/images/OfficeEquip.jpg',
     phone: '/assets/icons/phone.png',
     mailIcon: '/assets/icons/email.png',
     linkedIn: '/assets/icons/linkedin.png',

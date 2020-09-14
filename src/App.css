@@ -1,6 +1,16 @@
+* {
+  box-sizing: border-box;
+} 
+html {
+  font-size: 26px;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
 App {
   text-align: auto;
-  font-size: 32px;
 }
 
 nav {
@@ -16,8 +26,8 @@ nav {
 }
 
 .mri-logo {
-  width: 38%;
-  margin: 1.2rem;
+  width: 42%;
+  margin-left: 0.6rem;
   font-family: 'Raleway', sans-serif;
   display: flex;
   flex-direction: column; 
@@ -31,14 +41,14 @@ nav {
 #mr {
   margin-bottom: 0;
   margin-top: .8rem;
-  font-size: 2.2rem;
+  font-size: 1.4rem;
   color: brown;
 }
 
 #sc {
   margin-bottom: 0;
   margin-top: .2px;
-  font-size: 2.2rem;
+  font-size: 1.5rem;
   color: coral;
   text-align: right;
 }
@@ -132,12 +142,71 @@ footer {
   width: 4em;
   height: 3em;
 }
- 
-@media only screen and (max-width: 588px) {
-  nav {
-    display: block;
-    width: 90%;
+@media only screen and (max-width: 1260px) {
+  html {
+    font-size: 24px;
   }
+}
+
+@media only screen and (max-width: 1176px) {
+  html {
+    font-size: 22px;
+  }
+}
+@media only screen and (max-width: 1088px) {
+  html {
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 980px) {
+  html {
+    font-size: 19px;
+  }
+}
+@media only screen and (max-width: 930px) {
+  html {
+    font-size: 18px;
+  }
+}
+@media only screen and (max-width: 882px) {
+  html {
+    font-size: 16px;
+  }
+}
+@media only screen and (max-width: 786px) {
+  html {
+    font-size: 15px;
+  }
+}
+@media only screen and (max-width: 736px) {
+  nav {
+    flex-direction: column;
+  }
+  .mri-logo {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .site-links {
+    margin-left: auto;
+    margin-right: auto; 
+  }
+  html {
+    font-size: 22px;
+  }
+}
+@media only screen and (max-width: 598px) {
+  nav {
+    flex-direction: column;
+  }
+  .mri-logo {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .site-links {
+    margin-left: auto;
+    margin-right: auto; 
+  }
+  /*
   #mr {
     display: block;
     margin: 10px;
@@ -151,7 +220,7 @@ footer {
     width: 90%;
     margin-left: 38px;
     margin-right: 38px;
-  }
+  }*/
   footer {
     display: flex;
     flex-direction: column;
@@ -160,7 +229,23 @@ footer {
     display: none;
   }
 }
-
+@media only screen and (max-width: 546px) {
+  nav {
+    flex-direction: column;
+  }
+  .mri-logo {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .site-links {
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto; 
+  }
+  html {
+    font-size: 24px;
+  }
+}
 
 @keyframes fontbulger {
   0% {
@@ -168,15 +253,5 @@ footer {
   }
   100% {
     font-size: 17px;
-  }
-}
-
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
   }
 }
