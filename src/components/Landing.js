@@ -15,16 +15,16 @@ class Landing extends Component {
                 </section>
                 <section className="ind-list" data-aos="fade-in">
                     <div id="industry-list">
-                        <div data-aos="fade-left"><img src={ Image.officeEquip } ></img>Office Product & Equipment Sales</div>
-                        <div data-aos="fade-right">Information Technology Sales<img src={ Image.officeEquip } ></img></div>
-                        <div data-aos="fade-left">Telecommunications & Data Networking</div>
-                        <div data-aos="fade-right">Construction, Architecture & Engineering</div>
-                        <div data-aos="fade-left">Industrial & Environmental Services</div>
-                        <div data-aos="fade-right">Consumer Goods & Retail</div>
-                        <div data-aos="fade-left">Restaurant & Food Service Sales</div>
-                        <div data-aos="fade-right">Pharmaceutical & Medical Device Sales</div>
-                        <div data-aos="fade-left">Healthcare Sales</div>
-                        <div data-aos="fade-right">Banking & Finance</div>
+                        <div className="left-fade" data-aos="fade-left"><img src={ Image.officeEquip } ></img>Office Product & Equipment Sales</div>
+                        <div className="right-fade" data-aos="fade-right">Information Technology Sales<img src={ Image.officeEquip } ></img></div>
+                        <div className="left-fade" data-aos="fade-left"><img src={ Image.officeEquip } ></img>Telecommunications & Data Networking</div>
+                        <div className="right-fade" data-aos="fade-right">Construction, Architecture & Engineering<img src={ Image.officeEquip } ></img></div>
+                        <div className="left-fade" data-aos="fade-left"><img src={ Image.officeEquip } ></img>Industrial & Environmental Services</div>
+                        <div className="right-fade" data-aos="fade-right">Consumer Goods & Retail<img src={ Image.officeEquip } ></img></div>
+                        <div className="left-fade" data-aos="fade-left"><img src={ Image.officeEquip } ></img>Restaurant & Food Service Sales</div>
+                        <div className="right-fade" data-aos="fade-right">Pharmaceutical & Medical Device Sales<img src={ Image.officeEquip } ></img></div>
+                        <div className="left-fade" data-aos="fade-left"><img src={ Image.officeEquip } ></img>Healthcare Sales</div>
+                        <div className="right-fade" data-aos="fade-right">Banking & Finance<img src={ Image.officeEquip } ></img></div>
                     </div>
                 </section>
                 

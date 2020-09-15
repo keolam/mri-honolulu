@@ -67,6 +67,33 @@ ul {
     margin: 8em;
 }
 
+.left-fade {
+  height: auto;
+  position: relative;
+  width: 70%;
+  margin: 5%;
+}
+.left-fade img {
+    width: 100%;
+}
+.right-fade {
+    height: auto;
+    position: relative;
+    width: 70%;
+    margin: 5%;
+}
+.left-fade img {
+    width: 100%;
+}
+.left-fade:after {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0
+}
+
 @media only screen and (max-width: 700px) {
     /*#hero {
         display: none;
