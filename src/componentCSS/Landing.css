@@ -87,7 +87,7 @@ ul {
 }
 .left-fade:after {
     position: absolute;
-    content: "";
+    content: " ";
     height: 100%;
     width: 100%;
     top: 0;
