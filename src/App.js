@@ -119,6 +119,7 @@ class App extends Component {
                         <span id="linkedin-icon">
                             <a href="https://www.linkedin.com/company/sales-consultants-and-management-recruiters-of-honolulu/about/"><img src={Image.linkedIn} alt="linkedin"></img></a>
                         </span>
+                        <span id="copyright">© 2020 MRI and MRINetwork are registered trademarks of Management Recruiters International, Inc.</span>
                     </div>    
                 </footer>
             </div>

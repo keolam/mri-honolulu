@@ -24,72 +24,78 @@
 }
 #brand-two {
     font-size: 1.4rem;
-    margin-top: 6rem;
+    margin-top: 4rem;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: .5em;
 }
-.ind-list {
-    font-size: 1.2rem;
-    display: flex;
-    justify-content: center;
-}
 
-#industry-list {
+.ind-list {
     display: flex;
     flex-direction: column;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    text-align: center;
-    /*list-style-type: disc;*/
-}
-
-#industry-list div {
-    margin: .2rem;
-    font-size: .8rem;
-}
-#industry-list img {
-    width: 10rem;
-}
-/*.can-rec {
-    display: flex;
+    font-size: 1.2rem;
+    width: 66%;
+    margin-left: auto;
+    margin-right: auto;
     justify-content: center;
-    margin: 8em;
-}*/
-
+}
 .left-fade {
     height: auto;
     position: relative;
-    width: 90%;
-    margin: 5%;
+    display: inline-block;
 }
-.left-fade img {
+.inline-box{
     position: relative;
     display: inline-block;
-    width: 100%;
 }
-.left-fade text {
+.ind-text {
     position: absolute;
+    z-index: 999;
+    text-align: center;
+    margin: 0 auto;
+    top: 70%;
+    width: 69%;
+    text-shadow: .2rem .1rem white;
 }
-.right-fade {
-    position: relative;
-    display: inline-block;
+.left-fade .ind-text {
+    left: 3rem;
+    right: 20rem;
+}
+.right-fade .ind-text {
+    left: 20rem;
+    right: 3rem;
+  }
+.img-container {
     height: auto;
     position: relative;
-    width: 90%;
-    margin: 5%;
+    width: 15rem;
+    margin: 5% 15% 5% 15%;
 }
-.left-fade img {
+.img-container img {
     width: 100%;
 }
-.left-fade:after {
+
+.img-container:after {
     position: absolute;
-    content: " ";
+    content: "";
     height: 100%;
     width: 100%;
     top: 0;
-    left: 0
+    left: 0;
+    background: -webkit-linear-gradient(left, rgba(189, 195, 199, 0.31) 0%, rgba(118, 130, 140, 0.64) 49%, rgba(44, 62, 80, 0.8) 100%);
+    background: -o-linear-gradient(left, rgba(189, 195, 199, 0.31) 0%, rgba(118, 130, 140, 0.64) 49%, rgba(44, 62, 80, 0.8) 100%);
+    background: -ms-linear-gradient(left, rgba(189, 195, 199, 0.31) 0%, rgba(118, 130, 140, 0.64) 49%, rgba(44, 62, 80, 0.8) 100%);
+    background: -moz-linear-gradient(left, rgba(189, 195, 199, 0.31) 0%, rgba(118, 130, 140, 0.64) 49%, rgba(44, 62, 80, 0.8) 100%);
+    background: linear-gradient(to right, rgba(189, 195, 199, 0.31) 0%, rgba(118, 130, 140, 0.64) 49%, rgba(44, 62, 80, 0.8) 100%);
 }
+
+.right-fade {
+    display: inline-block;
+    height: auto;
+    position: relative;
+}
+
+
 
 @media only screen and (max-width: 700px) {
     /*#hero {

@@ -1,5 +1,5 @@
 export default {
-    honolulu: '/assets/images/HonoluluHero.jpg',
+    honolulu: '/assets/images/HonoluluHero2.jpg',
     office: '/assets/images/Office.jpg',
     dataRoom: '/assets/images/EmpResource.jpg',
     canRec: '/assets/images/CanRec.jpg',
@@ -15,6 +15,7 @@ export default {
     valueAdded: '/assets/images/ValueAdded.jpg',
     interviewGuide: '/assets/images/InterviewGuide.jpg',
     officeEquip: '/assets/images/OfficeEquip.jpg',
+    itSales: '/assets/images/ITsales.jpg',
     phone: '/assets/icons/phone.png',
     mailIcon: '/assets/icons/email.png',
     linkedIn: '/assets/icons/linkedin.png',
