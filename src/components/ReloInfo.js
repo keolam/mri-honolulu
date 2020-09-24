@@ -32,11 +32,11 @@ const ReloInfo = () => (
               -- own or rent.</p>
             <p className="linktxt"><a href="https://www.moving.com/real-estate/compare-cities/" target="_blank" rel="noopener noreferrer">Community 
               Close-Up</a> - Compare Cities  demographics, income, housing facts, and educational data.</p>
-              </div>
-            <div id="candidate-footer">
-                    <Link to='/CandidateResources' className="can-rec">
-                         Back to Candidate Resources
-                    </Link>
+        </div>
+        <div className="back-to">
+            <Link to='/CandidateResources' className="can-rec">
+                  Back to Candidate Resources
+            </Link>
         </div>
     </div>       
 );

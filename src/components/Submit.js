@@ -16,7 +16,7 @@ const Submit = () => (
                 You can also email us your resume as an MS Word, RTF, or PDF attachment.
                 </p>
             </div>
-            <div id="candidate-footer">
+            <div className="back-to">
                 <Link to='/CandidateResources' className="can-rec">
                     Back to Candidate Resources
                 </Link>

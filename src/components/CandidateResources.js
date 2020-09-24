@@ -81,8 +81,6 @@ class CandidateResources extends Component {
                             onMouseLeave ={ () =>this.mouseLeave() }>
                             Submit Your Resume
                         </Link>
-                                            
-                       
                     </p>
                 </section>
             </div>

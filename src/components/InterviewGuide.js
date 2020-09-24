@@ -151,8 +151,13 @@ const InterviewGuide = () => (
             <p>3) What methods are effective in dealing with people? What methods are ineffective?</p>
             <p>4) What kind of people do you get along with best?</p>
             <p>5) Do you prefer making new friends or keeping old ones? Why? How do you go about making friends? What must a person do to be liked by other?</p>
-            </div>
-</div>
+        </div>
+        <div className="back-to">
+            <Link to='/CandidateResources' className="can-rec">
+                  Back to Candidate Resources
+            </Link>
+        </div>
+    </div>
 )
 
 export default InterviewGuide;

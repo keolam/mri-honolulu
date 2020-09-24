@@ -35,6 +35,12 @@ const HowWeWork = () => (
 
             Working within specialized industries, MRI Network consistently delivers the highest-quality candidates at every level to clients both large and small, in every major US industry. Together with the more than 1,000 offices and 5,000 recruiters, MRI Network comprises the most powerful search and recruitment organization in the world.
             </p>
+
+            <div className="back-to">
+            <Link to='/EmployerResources' className="can-rec">
+                  Back to Employer Resources
+            </Link>
+        </div>
         </div>
     </div>
 )

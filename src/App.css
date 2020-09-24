@@ -79,6 +79,14 @@ nav {
     text-decoration: none;
 }
 
+.back-to {
+  font-size: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: sienna;
+    font-family: 'Montserrat', sans-serif;
+}
 footer {
   color: #8f6471;
   font-family: 'Montserrat', sans-serif;

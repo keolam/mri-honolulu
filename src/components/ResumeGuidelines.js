@@ -14,7 +14,7 @@ const ResumeGuidelines = () => (
             <Link to='/blablabla'>Alternative Resume Formats</Link>
             <p>View samples of Web-Ready, Scannable and Project Focused Resumes.</p>
         </div>
-        <div id="candidate-footer">
+        <div className="back-to">
             <Link to='/CandidateResources' className="can-rec">
                 Back to Candidate Resources
             </Link>

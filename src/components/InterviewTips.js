@@ -11,46 +11,46 @@ const InterviewTips = () => (
         </div>
 
         <h1>Interviewing Tips</h1>
-        <p id="paragraph">
+        <div id="paragraph">
             The job interview(s) is the most crucial aspect of the hiring process, and the
             following advice was developed from years of MRI Network recruiter experience
             working with countless candidates and innumerable interviews.  Prepare
             for your next job interview by taking advantage of this extensive experience
             and read these tipsheets online or print them out for future reference.
-        </p>
+        </div>
 
         <div className="smalltxt">
-        <p>
+        <div>
             Interviewing Basics
             The ins-and-outs of professional interviewing, including what not to say during the interview.
             <p>
             <a href={Doc.interviewBasics} download>Download Here</a>
-            <a href="basics.pdf" target="_blank"></a>
+            <a href="basics.pdf" target="_blank">&nbsp;</a>
             </p>
-        </p>
+        </div>
 
-        <p>
+        <div>
             Illegal Interview Questions: What You Should Know
             Learn how to handle yourself when the interviewer takes a wrong turn.
-            <span class="smalltxt">
+            <span className="smalltxt">
             <p>
             <a href={Doc.illegal} download>Download Here</a>
-            <a href="illegal.pdf" target="_blank"></a>
+            <a href="illegal.pdf" target="_blank">&nbsp;</a>
             </p>
             </span>
-        </p>
-        <p> 
+        </div>
+        <div> 
             Writing Thank You Letters
             The interview doesn't end when you walk out the door. A well-written follow-up letter can help you close the deal.
-            <span class="smalltxt">
+            <span className="smalltxt">
             <p>
             <a href={Doc.thankyou} download>Download Here</a>
-            <a href="letters.pdf" target="_blank"></a>
+            <a href="letters.pdf" target="_blank">&nbsp;</a>
             </p>
             </span>
-        </p>
         </div>
-        <div id="candidate-footer">
+        </div>
+        <div className="back-to">
             <Link to='/CandidateResources' className="can-rec">
                 Back to Candidate Resources
             </Link>
