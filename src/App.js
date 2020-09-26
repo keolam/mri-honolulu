@@ -56,28 +56,28 @@ class App extends Component {
                         </div>
                         <div className="site-links">
                             <Link to='/JobListings' id="job-listing"
-                                style={{ fontSize: this.state.hover === 'jl' ? '1.1rem': '1rem',
+                                style={{ fontSize: this.state.hover === 'jl' ? '1.2rem': '1.15rem',
                                 color: this.state.hover === 'jl' ? 'lightcoral': '#8f6471'}}                    
                                 onMouseEnter={ ()=> this.mouseEnter1() }
                                 onMouseLeave ={ () =>this.mouseLeave() }>
                                 Job Listings
                             </Link>
                             <Link to='/EmployerResources' id="emp-rec"
-                                style={{ fontSize: this.state.hover === 'er' ? '1.1rem': '1rem',
+                                style={{ fontSize: this.state.hover === 'er' ? '1.2rem': '1.15rem',
                                 color: this.state.hover === 'er' ? 'lightcoral': '#8f6471'}}
                                 onMouseEnter={ ()=> this.mouseEnter2() }
                                 onMouseLeave ={ () =>this.mouseLeave() }>                                                  
                                 Employer Resources
                             </Link>
                             <Link to='/CandidateResources' id="can-rec"
-                                style={{ fontSize: this.state.hover === 'cr' ? '1.1rem': '1rem',
+                                style={{ fontSize: this.state.hover === 'cr' ? '1.2rem': '1.15rem',
                                 color: this.state.hover === 'cr' ? 'lightcoral': '#8f6471'}}
                                 onMouseEnter={ ()=> this.mouseEnter3() }
                                 onMouseLeave ={ () =>this.mouseLeave() }>
                                Candidate Resources
                             </Link>
                             <Link to='/OurStaff' id="staff"
-                                style={{ fontSize: this.state.hover === 'st' ? '1.1rem': '1rem',
+                                style={{ fontSize: this.state.hover === 'st' ? '1.2rem': '1.15rem',
                                 color: this.state.hover === 'st' ? 'lightcoral': '#8f6471'}}
                                 onMouseEnter={ ()=> this.mouseEnter4() }
                                 onMouseLeave ={ () =>this.mouseLeave() }>
