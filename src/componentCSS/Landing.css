@@ -4,15 +4,11 @@
 .landing {
     text-align: center;
     font-family: 'Montserrat', sans-serif;
-    /*color: rgb(39, 111, 119);
-    color: rgb(21 193 212);*/
     color: coral;
 }
 #brand-title {
     font-size: 1rem;
     margin: .2rem auto 6rem auto;
-    /*margin-left: auto;
-    margin-right: auto;*/
     width: 66%;
     color: sienna;
 
@@ -37,12 +33,14 @@
 .ind-list {
     display: flex;
     flex-direction: column;
-    width: 42%;
+    width: 58%;
     margin-top: 3rem;
     margin-left: auto;
     margin-right: auto;
     justify-content: center;
-    
+    text-shadow: .05rem .05rem white;
+    color: rgb(143, 100, 113);
+    font-size: 1.8rem;
 }
 
 .left-fade {
@@ -67,9 +65,7 @@
     position: absolute;
     z-index: 999;
     text-align: center;
-    font-size: 1.6rem;
-    margin: 0 auto;
-    top: 69%;
+    font-size: 1.8rem;
     width: 100%;
     text-shadow: .05rem .05rem white;
 }
@@ -80,7 +76,7 @@
 }
 
 .right-fade .ind-text {
-    left: -22rem;
+    left: 0rem;
     right: 0rem;
 }
 
@@ -88,7 +84,6 @@
     height: auto;
     position: relative;
     width: 26rem;
-    /*margin: 5% 15% 5% 15%;*/
 }
 
 .img-container img {
@@ -103,10 +98,10 @@
     top: 0;
     left: 0;
     background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.4) 42%, rgb(255, 255, 255) 93%, rgb(255, 255, 255) 100%);
-background: -o-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.4) 42%, rgb(255, 255, 255) 93%, rgb(255, 255, 255) 100%);
-background: -ms-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.4) 42%, rgb(255, 255, 255) 93%, rgb(255, 255, 255) 100%);
-background: -moz-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.4) 42%, rgb(255, 255, 255) 93%, rgb(255, 255, 255) 100%);
-background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.4) 42%, rgb(255, 255, 255) 93%, rgb(255, 255, 255) 100%);
+    background: -o-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.4) 42%, rgb(255, 255, 255) 93%, rgb(255, 255, 255) 100%);
+    background: -ms-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.4) 42%, rgb(255, 255, 255) 93%, rgb(255, 255, 255) 100%);
+    background: -moz-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.4) 42%, rgb(255, 255, 255) 93%, rgb(255, 255, 255) 100%);
+    background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.4) 42%, rgb(255, 255, 255) 93%, rgb(255, 255, 255) 100%);
 
 }
 
@@ -118,31 +113,58 @@ background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 
     top: 0;
     left: 0;
     background: -webkit-linear-gradient(right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.4) 80%, rgb(255, 255, 255) 98%, rgb(255, 255, 255) 100%);
-background: -o-linear-gradient(right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.4) 80%, rgb(255, 255, 255) 98%, rgb(255, 255, 255) 100%);
-background: -ms-linear-gradient(right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.4) 80%, rgb(255, 255, 255) 98%, rgb(255, 255, 255) 100%);
-background: -moz-linear-gradient(right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.4) 80%, rgb(255, 255, 255) 98%, rgb(255, 255, 255) 100%);
-background: linear-gradient(to left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.4) 80%, rgb(255, 255, 255) 98%, rgb(255, 255, 255) 100%);
+    background: -o-linear-gradient(right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.4) 80%, rgb(255, 255, 255) 98%, rgb(255, 255, 255) 100%);
+    background: -ms-linear-gradient(right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.4) 80%, rgb(255, 255, 255) 98%, rgb(255, 255, 255) 100%);
+    background: -moz-linear-gradient(right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.4) 80%, rgb(255, 255, 255) 98%, rgb(255, 255, 255) 100%);
+    background: linear-gradient(to left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.4) 80%, rgb(255, 255, 255) 98%, rgb(255, 255, 255) 100%);
 }
 
 #office-text {
-    position: absolute;
-    z-index: 999;
-    text-align: center;
-    font-size: 1.8rem;
-    margin: 0 auto;
-    top: 84%;
-    width: 172%;
-    text-shadow: .05rem .05rem white;
-    color: rgb(143, 100, 113)
+    top: 74%;
+    width: 94%;
 }
 
-#office-pic {
-    position: relative;
-    display: inline-block;
+#it-text {
+    top: 64%;
+    width: 74%;
 }
-#office-pic {
-    color: rgb(39, 111, 119);
+#telecom {
+    top: 64%;
+    width: 82%;
 }
+#construction {
+    top: 64%;
+    width: 86%;
+}
+#indust {
+    top: 76%;
+    width: 93%;
+}
+#consumer {
+    top: 74%;
+    width: 62%;
+}
+#restaurant {
+    top: 79%;
+    width: 97%;
+}
+#pharma {
+    top: 77%;
+    width: 79%;
+}
+#banking {
+    top: 64%;
+    width: 108%;
+}
+#health {
+    top: 73%;
+    width: 57%;
+}
+@media only screen and (max-width: 1260px) {
+    html {
+      font-size: 92%;
+    }
+  }
 
 @media only screen and (max-width: 700px) {
     /*#hero {

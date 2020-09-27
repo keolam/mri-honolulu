@@ -128,8 +128,3 @@ class App extends Component {
 }
 
 export default App;
-
-/*https://img.icons8.com/color/48/000000/linkedin.png
-style={{marginRight: '22px', marginTop: '12px'}}>
-<span style={{marginTop: '36px'}}>
-*/
