@@ -4,28 +4,28 @@
 .landing {
     text-align: center;
     font-family: 'Montserrat', sans-serif;
-    color: coral;
+    margin-left: auto;
+    margin-right: auto;
 }
 #brand-title {
     font-size: 1rem;
-    margin: .2rem auto 6rem auto;
+    margin-top: .2rem;
+    margin-bottom: 6rem;
+    margin-left: auto;
+    margin-right: auto;
     width: 66%;
     color: sienna;
-
 }
+
 #brand-one {
     font-size: 1.5rem;
     margin-top: 4rem;
-    margin-left: auto;
-    margin-right: auto;
     margin-bottom: 1rem;
     color: rgb(74 94 97);
 }
 #brand-two {
     font-size: 1.4rem;
     margin-top: 4rem;
-    margin-left: auto;
-    margin-right: auto;
     margin-bottom: .5em;
     color: rgb(74 94 97);
 }
@@ -33,7 +33,7 @@
 .ind-list {
     display: flex;
     flex-direction: column;
-    width: 58%;
+    /*width: 58%;*/
     margin-top: 3rem;
     margin-left: auto;
     margin-right: auto;
@@ -160,11 +160,35 @@
     top: 73%;
     width: 57%;
 }
-@media only screen and (max-width: 1260px) {
-    html {
-      font-size: 92%;
+.bottom-links {
+    display: flex;
+    flex-direction: row;
+    width: 44%;
+    margin-top: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-around;
+    font-size: 1.4rem;
+}
+#work-link {
+    text-decoration: none;
+}
+@media only screen and (min-width: 1440.1px) {
+    .ind-list {
+      width: 66%;
     }
-  }
+}
+@media only screen and (max-width: 1440px) {
+    .ind-list {
+      width: 60%;
+    }
+    .right-fade .ind-text {
+    left: -10rem;
+    }
+    .left-fade .ind-text {
+    left: 16rem;
+    }
+}
 
 @media only screen and (max-width: 700px) {
     /*#hero {

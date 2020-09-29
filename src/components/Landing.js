@@ -1,8 +1,25 @@
 import React, { Component } from 'react';
 import Image from './../Data/imageDir'
+import { Route, Link } from 'react-router-dom';
 import '../componentCSS/Landing.css'
 
 class Landing extends Component {
+    constructor () {
+        super();
+        this.state = {
+          hover: ''
+        }
+    }
+    mouseEnter2() {
+        this.setState({hover: 'er'})
+    }
+    mouseEnter3() {
+        this.setState({hover: 'cr'})
+    }
+    mouseLeave() {
+        this.setState({hover: ''})
+    
+    }
     render() {
         return (  
             <section className="landing">
@@ -65,9 +82,9 @@ class Landing extends Component {
                     </div>
 
                     <div className="left-fade" data-aos="fade-left">
-                        <span id="pharma" className="ind-text">Pharmaceutical & Medical Device Sales</span>
+                        <span id="health" className="ind-text">Healthcare Sales</span>
                         <div className="inline-box">  
-                            <div className="img-container"><img src={ Image.medical } alt=""></img></div>
+                            <div className="img-container"><img src={ Image.healthcare } alt=""></img></div>
                         </div>
                     </div>
 
@@ -78,14 +95,30 @@ class Landing extends Component {
                         </div>
                     </div>
 
+
                     <div className="left-fade" data-aos="fade-left">
-                        <span id="health" className="ind-text">Healthcare Sales</span>
+                        <span id="pharma" className="ind-text">Pharmaceutical & Medical Device Sales</span>
                         <div className="inline-box">  
-                            <div className="img-container"><img src={ Image.healthcare } alt=""></img></div>
+                            <div className="img-container"><img src={ Image.medical } alt=""></img></div>
                         </div>
                     </div>
                 </section>
-                
+                <div className="bottom-links" data-aos="fade-in" data-aos-delay="1000">
+                    <Link to='/EmployerResources' id="emp-rec" data-aos="fade-in" data-aos-delay="1000"
+                        style={{ fontSize: this.state.hover === 'er' ? '1.2rem': '1.15rem',
+                        color: this.state.hover === 'er' ? 'lightcoral': '#8f6471'}}
+                        onMouseEnter={ ()=> this.mouseEnter2() }
+                        onMouseLeave ={ () =>this.mouseLeave() }>                                                  
+                        Employer Resources
+                    </Link>
+                    <Link to='/CandidateResources' id="can-rec"
+                        style={{ fontSize: this.state.hover === 'cr' ? '1.2rem': '1.15rem',
+                        color: this.state.hover === 'cr' ? 'lightcoral': '#8f6471'}}
+                        onMouseEnter={ ()=> this.mouseEnter3() }
+                        onMouseLeave ={ () =>this.mouseLeave() }>
+                        Candidate Resources
+                    </Link>
+                </div>                
             </section>
         );
     }

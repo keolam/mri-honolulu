@@ -5,18 +5,28 @@
     font-family: 'Montserrat', sans-serif;
     color: rgb(39, 111, 119);
     width: 66%;
-    font-size: 16px;
+    font-size: 1.2rem;
     margin-left: auto;
     margin-right: auto;
 }
-.smalltxt {
+.smalltxt a {
     justify-content: center;
     line-height: 1.5;
     text-align: justify;
     font-family: 'Montserrat', sans-serif;
     color: rgb(39, 111, 119);
     width: 66%;
-    font-size: 16px;
+    font-size: 1rem;
     margin-left: auto;
     margin-right: auto;
+}
+.interview-section {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+h2 {
+  color: sienna;
+}
+#back-to {
+    text-decoration: none;
 }
