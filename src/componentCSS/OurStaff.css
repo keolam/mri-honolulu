@@ -10,10 +10,16 @@
     align-items: left;
     flex-direction: row; 
     width: 60%;
-    margin-top: 20px;
+    /*margin-top: 20px;
     margin-bottom: 20px;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto;*/
+    margin-top: 1.2rem;
+    margin-bottom: 1.2rem;
+    border-radius: 1rem;
+    border-width: .1rem;
+    padding: 2rem;
+    background: #eceae270
 }
 /* Divide photo length by width to get aspect ratio for flex value. This prevents photo stretching in weird ways*/
 #donPic {
@@ -47,9 +53,12 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    margin-left: 16px;
+    margin-left: 1rem;
 }
-
+.right-col a {
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
 .staff-name {
     justify-content: flex-start;
     margin: 0px;

@@ -15,6 +15,9 @@ import ResumeGuidelines from './components/ResumeGuidelines';
 import HowWeWork from './components/HowWeWork';
 import ValueAddedServices from './components/ValueAddedServices';
 import InterviewGuide from './components/InterviewGuide';
+import ResumeBasics from './components/ResumeBasics';
+import TraditionalFormats from './components/TraditionalFormats';
+import AlternativeFormats from './components/AlternativeFormats';
 import Image from './Data/imageDir';
 
 
@@ -95,6 +98,9 @@ class App extends Component {
                         <Route path="/ValueAddedServices" component={ValueAddedServices} />
                     <Route path="/CandidateResources"component={CandidateResources} />
                         <Route path="/ResumeGuidelines" component={ResumeGuidelines} /> 
+                            <Route path="/ResumeBasics" component={ResumeBasics} /> 
+                            <Route path="/TraditionalFormats" component={TraditionalFormats} /> 
+                            <Route path="/AlternativeFormats" component={AlternativeFormats} /> 
                         <Route path="/InterviewTips" component={InterviewTips} />   
                         <Route path="/CounterOffer" component={CounterOffer} />
                         <Route path="/ReloInfo" component={ReloInfo} />
