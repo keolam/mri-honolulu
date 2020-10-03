@@ -173,6 +173,12 @@
 #work-link {
     text-decoration: none;
 }
+#video-frame {
+    width: 42rem; 
+    height: 32rem; 
+    /*border: .2rem;*/
+}
+
 @media only screen and (min-width: 1440.1px) {
     .ind-list {
       width: 66%;

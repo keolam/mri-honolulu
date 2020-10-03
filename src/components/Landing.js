@@ -103,6 +103,16 @@ class Landing extends Component {
                         </div>
                     </div>
                 </section>
+                <iframe src="https://player.vimeo.com/video/39697431" 
+                    title="MRINetwork Impact Players" 
+                    id="video-frame"
+                    frameborder="0"
+                    webkitAllowFullScreen={true}
+                    mozAllowFullScreen={true} 
+                    allowFullScreen={true}
+                >    
+                </iframe>
+
                 <div className="bottom-links" data-aos="fade-in" data-aos-delay="1000">
                     <Link to='/EmployerResources' id="emp-rec" data-aos="fade-in" data-aos-delay="1000"
                         style={{ fontSize: this.state.hover === 'er' ? '1.2rem': '1.15rem',
