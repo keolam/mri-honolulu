@@ -125,7 +125,7 @@ class Landing extends Component {
                         style={{ fontSize: this.state.hover === 'cr' ? '1.2rem': '1.15rem',
                         color: this.state.hover === 'cr' ? 'lightcoral': '#8f6471'}}
                         onMouseEnter={ ()=> this.mouseEnter3() }
-                        onMouseLeave ={ () =>this.mouseLeave() }>
+                        onMouseLeave ={ () =>this.mouseLeave()    }>
                         Candidate Resources
                     </Link>
                 </div>                
