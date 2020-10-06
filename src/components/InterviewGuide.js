@@ -153,8 +153,8 @@ const InterviewGuide = () => (
             <p>5) Do you prefer making new friends or keeping old ones? Why? How do you go about making friends? What must a person do to be liked by other?</p>
         </div>
         <div className="back-to">
-            <Link to='/CandidateResources' className="can-rec">
-                  Back to Candidate Resources
+            <Link to='/EmployerResources' className="can-rec">
+                Back to Employer Resources
             </Link>
         </div>
     </div>

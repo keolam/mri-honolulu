@@ -39,8 +39,8 @@ const ValueAddedServices = () => (
             <p className="smalltxt">We help clients with worldwide staffing needs deal with the intricacies of the international business community, source and recruit the right talent and create acceptable compensation packages.</p>
         </div>
         <div className="back-to">
-            <Link to='/CandidateResources' className="can-rec">
-                  Back to Candidate Resources
+            <Link to='/EmployerResources' className="can-rec">
+                Back to Employer Resources
             </Link>
         </div>
     </div>
