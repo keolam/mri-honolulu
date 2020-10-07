@@ -106,9 +106,9 @@ class Landing extends Component {
                 <iframe src="https://player.vimeo.com/video/39697431" 
                     title="MRINetwork Impact Players" 
                     id="video-frame"
-                    frameborder="0"
-                    webkitAllowFullScreen={true}
-                    mozAllowFullScreen={true} 
+                    frameBorder="0"
+                    webkitallowfullscreen="true"
+                    mozallowfullscreen="true" 
                     allowFullScreen={true}
                 >    
                 </iframe>

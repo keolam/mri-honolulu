@@ -18,6 +18,7 @@ import InterviewGuide from './components/InterviewGuide';
 import ResumeBasics from './components/ResumeBasics';
 import TraditionalFormats from './components/TraditionalFormats';
 import AlternativeFormats from './components/AlternativeFormats';
+import ScrollToTop from './helpers/ScrollToTop';
 import Image from './Data/imageDir';
 
 
@@ -90,6 +91,7 @@ class App extends Component {
                     </nav>
                 </header>
                 <main id="front-page"> 
+                <ScrollToTop />
                     <Route exact path="/" component={Landing} /> 
                     <Route path="/JobListings" component={JobListings} />           
                     <Route path="/EmployerResources" component={EmployerResources} />

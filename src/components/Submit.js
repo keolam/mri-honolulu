@@ -5,9 +5,9 @@ import '../componentCSS/Submit.css';
 
 const Submit = () => (
     <div>
-        <img src={ Image.submitResume } alt="keyboard" style={{width: '100%'}}></img>
+        <img src={ Image.submitResume } alt="keyboard" id="submit-hero" data-aos="fade-in" data-aos-delay="300"></img>
         <section className="main">
-            <div id="title">
+            <div id="title" data-aos="fade-up" data-aos-delay="300">
                 <p>Submit Your Resume
                 Confidentiality is an integral part of our service, and maintaining yours is as important to us as it is to you. Be assured that if you submit your resume to us to help you find career opportunities, we will only submit your resume to a client company with your express permission first.
         

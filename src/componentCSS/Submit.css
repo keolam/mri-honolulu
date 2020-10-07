@@ -1,5 +1,8 @@
 #title {
     text-align: justify;
     font-weight: 500;
-    line-height: 1.5;
+    line-height: 2;
+}
+#submit-hero{
+    width: 100%;
 }
