@@ -1,6 +1,6 @@
-#pic { 
+#value-pic { 
 
-    filter: brightness(.5);
+    filter: brightness(.8);
 }
 .smalltxt {
     justify-content: center;

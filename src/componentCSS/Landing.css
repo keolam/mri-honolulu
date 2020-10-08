@@ -1,5 +1,6 @@
 #hero {
     width: 100%;
+    filter: brightness(.8);
 }
 .landing {
     text-align: center;
@@ -21,13 +22,14 @@
     font-size: 1.5rem;
     margin-top: 4rem;
     margin-bottom: 1rem;
-    color: rgb(74 94 97);
+    color: #2a7ca5;
 }
 #brand-two {
     font-size: 1.4rem;
     margin-top: 4rem;
     margin-bottom: .5em;
-    color: rgb(74 94 97);
+    color: #2a7ca5;
+    /*color: rgb(74 94 97);*/
 }
 
 .ind-list {
@@ -88,6 +90,7 @@
 
 .img-container img {
     width: 100%;
+    filter: grayscale(100%);
 }
 
 .left-fade .img-container:after {
@@ -123,42 +126,71 @@
     top: 74%;
     width: 94%;
 }
-
+#office-img {
+    filter: grayscale(76%);
+}
 #it-text {
     top: 64%;
     width: 74%;
+}
+#it-img {
+    filter: grayscale(64%);
 }
 #telecom {
     top: 64%;
     width: 82%;
 }
+#tele-img {
+    filter: grayscale(66%);
+}
 #construction {
     top: 64%;
     width: 86%;
+}
+#const-img {
+    filter: grayscale(36%);
 }
 #indust {
     top: 76%;
     width: 93%;
 }
+#indust-img {
+    filter: grayscale(44%);
+}
 #consumer {
     top: 74%;
     width: 62%;
+}
+#consumer-img {
+    filter: grayscale(76%);
 }
 #restaurant {
     top: 79%;
     width: 97%;
 }
+#restaurant-img {
+    filter: grayscale(82%);
+}
 #pharma {
     top: 77%;
     width: 79%;
+}
+#pharma-img {
+    filter: grayscale(6%);
 }
 #banking {
     top: 64%;
     width: 108%;
 }
+#bank-img {
+    filter: grayscale(26%);
+}
 #health {
     top: 73%;
     width: 57%;
+}
+#health-img {
+    filter: grayscale(76%);
 }
 .bottom-links {
     display: flex;
@@ -170,13 +202,30 @@
     justify-content: space-around;
     font-size: 1.4rem;
 }
+
 #work-link {
     text-decoration: none;
 }
+#video-section {
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
 #video-frame {
-    width: 42rem; 
-    height: 32rem; 
-    /*border: .2rem;*/
+    margin-top: 6rem;
+    width: 40rem; 
+    height: 33rem; 
+    border: .13rem;
+    border-radius: 1.5rem;
+    border-style: solid;
+    border-color: sienna;
+}
+
+#video {
+    width: 36rem; 
+    height: 33rem; 
 }
 
 @media only screen and (min-width: 1440.1px) {

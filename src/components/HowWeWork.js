@@ -7,19 +7,19 @@ const HowWeWork = () => (
 
 <div>
         <div id="how-we-work">
-            <div id="pic">
+            <div id="work-pic">
                 <img src={ Image.howWeWork } alt="ocean" style={{width: '100%'}} data-aos="fade-in" data-aos-delay="300"></img>
             </div>
-            <h1>How We Work</h1>
+            <h1 data-aos="fade-in" data-aos-delay="300">How We Work</h1>
 
-            <p className="smalltxt" data-aos="fade-in">Sales Consultants & Management Recruiters of Honolulu is dedicated to helping you as a hiring authority find the right talent. Not only do we find a qualify the best talents for you to interview and consider, we also offer a few tips and guidelines based on our years of experience in the executive and sales search industry to help you in your decision making process.</p>
+            <p className="smalltxt" data-aos="fade-in" data-aos-delay="200">Sales Consultants & Management Recruiters of Honolulu is dedicated to helping you as a hiring authority find the right talent. Not only do we find a qualify the best talents for you to interview and consider, we also offer a few tips and guidelines based on our years of experience in the executive and sales search industry to help you in your decision making process.</p>
 
-            <h3 data-aos="fade-right">How Your Company Can Benefit</h3>
+            <h3 data-aos="fade-in" data-aos-delay="400">How Your Company Can Benefit</h3>
 
-            <p className="smalltxt" data-aos="fade-in">If you're in need of new talent to grow and build your business, an executive search firm can find and sell your opportunity to the top performers in the industry, bringing your company an immediate impact with a proven producer. This is a decisive cost/benefit advantage compared to the typical method of running a help wanted ad in the local paper and spending countless hours screening hundreds of resumes and interviewing scores of candidates. When you hire an executive recruiter to carry out a search assignment for you, you only see the resumes and interview the candidates that have already been screened out and qualified based on experience - leaving you to focus on personal chemistry, communication skills and how well the candidate could adapt to your company's culture during the interview process.</p>
+            <p className="smalltxt" data-aos="fade-in" data-aos-delay="200">If you're in need of new talent to grow and build your business, an executive search firm can find and sell your opportunity to the top performers in the industry, bringing your company an immediate impact with a proven producer. This is a decisive cost/benefit advantage compared to the typical method of running a help wanted ad in the local paper and spending countless hours screening hundreds of resumes and interviewing scores of candidates. When you hire an executive recruiter to carry out a search assignment for you, you only see the resumes and interview the candidates that have already been screened out and qualified based on experience - leaving you to focus on personal chemistry, communication skills and how well the candidate could adapt to your company's culture during the interview process.</p>
 
-            <h3 data-aos="fade-right">Leveraging Our Geographic Advantage</h3>
-            <p className="smalltxt" data-aos="fade-in">
+            <h3 data-aos="fade-in" data-aos-delay="400">Leveraging Our Geographic Advantage</h3>
+            <p className="smalltxt" data-aos="fade-in" data-aos-delay="200">
 
             We are uniquely located in the Pacific Time zone, which gives us the strategic advantage of being able to talk to a larger number of candidates. While in the middle of our business day, we can contact potential candidates before or after their work hours in their respective time zones in the East or West. This allows us to talk to more candidates to make sure we bring the best talent to you as a hiring manager.
 
