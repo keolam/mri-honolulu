@@ -1,5 +1,5 @@
 #value-pic { 
-
+    width: 100%;
     filter: brightness(.8);
 }
 .smalltxt {
@@ -9,7 +9,7 @@
     font-family: 'Montserrat', sans-serif;
     color: rgb(39, 111, 119);
     width: 66%;
-    font-size: 16px;
+    font-size: 1rem;
     margin-left: auto;
     margin-right: auto;
 }
@@ -17,7 +17,7 @@
 h1 {
     font-family: 'Montserrat', sans-serif;
     margin-top:2em;
-    font-size: 26px;
+    font-size: 1.6rem;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
