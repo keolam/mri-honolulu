@@ -1,5 +1,5 @@
 #staff-box {
-    margin-top: 120px;
+    margin-top: 7.5rem;
     display: flex;
     flex-direction: column; 
     align-items: center;
@@ -38,13 +38,13 @@
 
 .staff-name {
     font-family: 'Montserrat', sans-serif;
-    font-size: 24px;
+    font-size: 1.5rem;
     color: #b32f2f;
     font-weight: 600;
 }
 .staff-about {
     font-family: 'Montserrat', sans-serif;
-    font-size: 18px;
+    font-size: 1.1rem;
     color: #2a7ca5;
     text-align: justify;
 }
@@ -65,12 +65,12 @@
 }
 .staff-pos {
     font-family: 'Montserrat', sans-serif;
-    font-size: 14px;
+    font-size: .9rem;
     color: #633f78;
-    margin-top: 1px;
+    margin-top: .1rem;
 }
 .staff-about {
-    font-size: 15px;
+    font-size: 1rem;
 }
 
 /*

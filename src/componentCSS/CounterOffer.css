@@ -5,7 +5,7 @@
     font-family: 'Montserrat', sans-serif;
     color: rgb(39, 111, 119);
     width: 66%;
-    font-size: 16px;
+    font-size: 1rem;
     margin-left: auto;
     margin-right: auto;
 }
@@ -15,8 +15,8 @@
 }
 h1 {
     font-family: 'Montserrat', sans-serif;
-    margin-top:2em;
-    font-size: 26px;
+    margin-top:2rem;
+    font-size: 1.6rem;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -35,7 +35,7 @@ h1 {
     text-align: justify;
     margin-left: auto;
     margin-right: auto;
-    font-size: 18px;
+    font-size: 1.1rem;
     width: 66%;
     color: sienna;
 }
