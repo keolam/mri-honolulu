@@ -47,3 +47,19 @@
 #can-rec {
     text-decoration: none;
 }
+#res-basics {
+    display: flex;
+    flex-direction: column; 
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    color: #b32f2f;
+}
+#bottom-links {
+    display: flex;
+    flex-direction: row;
+    color: #2a7ca5;
+    margin-top: 4rem;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+}

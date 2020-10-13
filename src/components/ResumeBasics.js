@@ -4,7 +4,7 @@ import Image from './../Data/imageDir';
 import '../componentCSS/ResumeGuide.css'
 
 const ResumeBasics = () => (
-    <div>
+    <div id="res-basics">
     <section>
         <img src={ Image.resumeBasic } id="hero" alt="resume" data-aos="fade-in" data-aos-delay="300"></img>
         <h1>Resume Basics</h1>
@@ -30,7 +30,7 @@ const ResumeBasics = () => (
             </div>
         </div>
     </section>
-    <div>Contact Information | Objective | Skills | Experience | Education | Finish | Tips</div>
+    <div id="bottom-links">Contact Information | Objective | Skills | Experience | Education | Finish | Tips</div>
     </div>
 )
 
