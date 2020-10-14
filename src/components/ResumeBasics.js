@@ -30,7 +30,7 @@ const ResumeBasics = () => (
             </div>
         </div>
     </section>
-    <div id="bottom-links">Contact Information | Objective | Skills | Experience | Education | Finish | Tips</div>
+    <div id="bottom-links"><span>Contact Information</span> | <span>Objective</span> | <span>Skills</span> | <span>Experience</span> | <span>Education</span> | <span>Finish</span> | <span>Tips</span></div>
     </div>
 )
 
