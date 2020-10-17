@@ -30,7 +30,16 @@ const ResumeBasics = () => (
             </div>
         </div>
     </section>
-    <div id="bottom-links"><span>Contact Information</span> | <span>Objective</span> | <span>Skills</span> | <span>Experience</span> | <span>Education</span> | <span>Finish</span> | <span>Tips</span></div>
+    <div id="bottom-links">
+        <Link to='/Landing' className="can-rec">
+            Contact Information
+        </Link> | 
+        <Link to='/Landing' className="can-rec">
+            Objective
+        </Link> | 
+        <Link to='/Landing' className="can-rec">
+        Skills
+        </Link>| <span>Experience</span> | <span>Education</span> | <span>Finish</span> | <span>Tips</span></div>
     </div>
 )
 
