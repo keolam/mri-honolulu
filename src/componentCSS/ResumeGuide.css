@@ -63,3 +63,7 @@
     margin-right: auto;
     justify-content: space-around;
 }
+.b-link {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
