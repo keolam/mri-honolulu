@@ -2,16 +2,16 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import Image from './../Data/imageDir';
 import '../componentCSS/ValueAddedServices.css';
-    
-const ValueAddedServices = () => (    
+
+const ValueAddedServices = () => (
     <div>
         <div>
             <div>
-                 <img src={ Image.valueAdded} id="value-pic" alt="graph" data-aos="fade-in" data-aos-delay="300"></img>
+                <img src={Image.valueAdded} id="value-pic" alt="graph" data-aos="fade-in" data-aos-delay="300"></img>
             </div>
             <h1>Value-Added Services</h1>
             <p className="smalltxt" data-aos="fade-in" data-aos-delay="300">
-            In addition to finding and recruiting the best candidates for employers to acquire immediate contributors and difference makers in their respective industries, as an MRINetwork affiliate, we also offer the following value-added services for our client companies:
+                In addition to finding and recruiting the best candidates for employers to acquire immediate contributors and difference makers in their respective industries, as an MRINetwork affiliate, we also offer the following value-added services for our client companies:
             </p>
 
             <h3 data-aos="fade-in" data-aos-delay="300">Compatibility Assessment</h3>
@@ -32,10 +32,9 @@ const ValueAddedServices = () => (
             <h3 data-aos="fade-in" data-aos-delay="300">Total Relocation Services</h3>
 
             <p className="smalltxt" data-aos="fade-left" data-aos-delay="300">
-            Quite often in the recruitment process, relocation becomes a major stumbling block. The expense and stress of relocating sometimes mean you don't always get the people you want. To reduce the problems associated with relocating candidates, MRI has developed a comprehensive menu of value-added relocation services that serves both the candidates and our clients, from a detailed cost of living analysis of over 500 cities to special mortgage services and to substantially reduced moving rates. The MRI Relocation Group can make the relocation process easier for both candidate and client. A new service includes the STAR - a spouse relocation program to assist the working spouse to find a satisfying career in the new city.</p>
+                Quite often in the recruitment process, relocation becomes a major stumbling block. The expense and stress of relocating sometimes mean you don't always get the people you want. To reduce the problems associated with relocating candidates, MRI has developed a comprehensive menu of value-added relocation services that serves both the candidates and our clients, from a detailed cost of living analysis of over 500 cities to special mortgage services and to substantially reduced moving rates. The MRI Relocation Group can make the relocation process easier for both candidate and client. A new service includes the STAR - a spouse relocation program to assist the working spouse to find a satisfying career in the new city.</p>
 
             <h3 data-aos="fade-in" data-aos-delay="300">Global Human Resources</h3>
-
             <p className="smalltxt" data-aos="fade-right" data-aos-delay="300">We help clients with worldwide staffing needs deal with the intricacies of the international business community, source and recruit the right talent and create acceptable compensation packages.</p>
         </div>
         <div className="back-to">
