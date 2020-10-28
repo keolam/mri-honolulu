@@ -67,3 +67,61 @@
     padding-left: 1rem;
     padding-right: 1rem;
 }
+.rb-link a {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    line-height: 1.5;
+    text-align: justify;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(39, 111, 119);
+    width: 66%;
+    font-size: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+#contact-paragraph, .objective {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    line-height: 1.5;
+    text-align: justify;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(39, 111, 119);
+    width: 66%;
+    font-size: 1.2rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+#address {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    color: #b32f2f;
+    line-height: 1.5;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+#bullet-lists {
+    width: 66%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    color: #b32f2f;
+    line-height: 1.5;
+
+}
+.bold-start {
+    display: flex;
+    flex-direction: column;
+}
+.bolden {
+    font-weight: 800;
+}
