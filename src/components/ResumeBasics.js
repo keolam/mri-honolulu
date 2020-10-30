@@ -1,10 +1,10 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import ResumeFooter from './ResumeFooter';
 import Image from './../Data/imageDir';
 import Doc from './../Data/docDirectory';
 import '../componentCSS/ResumeGuide.css'
 
-const ResumeBasics = () => (
+const ResumeBasics = (props) => (
     <div id="res-basics">
         <section>
             <img src={Image.resumeBasic} id="hero" alt="resume" data-aos="fade-in" data-aos-delay="300"></img>
@@ -37,29 +37,7 @@ const ResumeBasics = () => (
                 <a href="basics.pdf" target="_blank">&nbsp;</a>
             </span>
         </div>
-        <div id="bottom-links">
-            <Link to='/ContactInfo' className="b-link">
-                Contact Information
-            </Link> |
-            <Link to='/Objective' className="b-link">
-                Objective
-            </Link> |
-            <Link to='/Skills' className="b-link">
-                Skills
-            </Link> |
-            <Link to='/Experience' className="b-link">
-                Experience
-            </Link> |
-            <Link to='/Education' className="b-link">
-                Education
-            </Link>|
-            <Link to='/Finish' className="b-link">
-                Finish
-            </Link> |
-            <Link to='/Tips' className="b-link">
-                Tips
-            </Link>
-        </div>
+        <ResumeFooter name="Resume Basics" />
     </div>
 )
 

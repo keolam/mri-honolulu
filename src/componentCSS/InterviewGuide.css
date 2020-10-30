@@ -12,12 +12,59 @@ h1 {
     width: 66%;
     color: sienna;
 }
-h3{
-    text-align: justify;
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    margin-top:4rem;
+    font-size: 1.6rem;
+    text-align: left;
     margin-left: auto;
     margin-right: auto;
     width: 66%;
 }
+h3 {
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    width: 66%;
+}
+h2 #following {
+    text-align: center;
+    width: 66%;
+    margin-top: 6rem;
+}
+.int-quest {
+    display: flex;
+    flex-direction: column; 
+    width: 66%;
+    align-items: center; 
+    margin-left: auto;
+    margin-right: auto;
+}
+.qualifier {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    margin-top: 1.2rem;
+    margin-bottom: 0;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+    border-width: .1rem;
+    padding: 2rem;
+    background: #ede9e970;
+    width: 100%;
+}
+
+.question {
+    margin-top: 0;
+    margin-bottom: 1.2rem;
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    border-width: .1rem;
+    padding: 2rem;
+    background: rgb(249 249 249);
+    width: 100%;
+}
+
 .smalltxt {
     justify-content: center;
     line-height: 1.5;

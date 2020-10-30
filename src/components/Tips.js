@@ -1,4 +1,5 @@
 import React from 'react';
+import ResumeFooter from './ResumeFooter';
 import Image from './../Data/imageDir';
 import '../componentCSS/ResumeGuide.css'
 
@@ -38,6 +39,7 @@ const Tips = () => (
             </div>
 
         </div>
+        <ResumeFooter name="Tips" />
     </>
 )
 

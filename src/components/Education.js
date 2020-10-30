@@ -1,4 +1,5 @@
 import React from 'react';
+import ResumeFooter from './ResumeFooter';
 import Image from './../Data/imageDir';
 import '../componentCSS/ResumeGuide.css'
 
@@ -18,6 +19,7 @@ const Education = () => (
                 A GPA of 3.0 or above is worth mentioning.
             </p>
         </div>
+        <ResumeFooter name="Education" />
     </>
 )
 

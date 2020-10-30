@@ -85,7 +85,7 @@
 .img-container {
     height: auto;
     position: relative;
-    width: 26rem;
+    width: 20rem;
 }
 
 .img-container img {
@@ -124,70 +124,70 @@
 
 #office-text {
     top: 74%;
-    width: 94%;
+    width: 110%;
 }
 #office-img {
     filter: grayscale(76%);
 }
 #it-text {
     top: 64%;
-    width: 74%;
+    width: 57%;
 }
 #it-img {
     filter: grayscale(64%);
 }
 #telecom {
     top: 64%;
-    width: 82%;
+    width: 100%;
 }
 #tele-img {
     filter: grayscale(66%);
 }
 #construction {
     top: 64%;
-    width: 86%;
+    width: 76%;
 }
 #const-img {
     filter: grayscale(36%);
 }
 #indust {
     top: 76%;
-    width: 93%;
+    width: 106%;
 }
 #indust-img {
     filter: grayscale(44%);
 }
 #consumer {
     top: 74%;
-    width: 62%;
+    width: 50%;
 }
 #consumer-img {
     filter: grayscale(76%);
 }
 #restaurant {
     top: 79%;
-    width: 97%;
+    width: 113%;
 }
 #restaurant-img {
     filter: grayscale(82%);
 }
 #pharma {
     top: 77%;
-    width: 79%;
+    width: 72%;
 }
 #pharma-img {
     filter: grayscale(6%);
 }
 #banking {
     top: 64%;
-    width: 108%;
+    width: 135%;
 }
 #bank-img {
     filter: grayscale(26%);
 }
 #health {
     top: 73%;
-    width: 57%;
+    width: 34%;
 }
 #health-img {
     filter: grayscale(76%);

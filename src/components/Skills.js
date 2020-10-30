@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from './../Data/imageDir';
+import ResumeFooter from './ResumeFooter';
 import '../componentCSS/ResumeGuide.css'
 
 const Skills = () => (
@@ -24,6 +25,7 @@ const Skills = () => (
             <>
             </>
         </div>
+        <ResumeFooter name="Skills" />
     </>
 )
 

@@ -1,4 +1,5 @@
 import React from 'react';
+import ResumeFooter from './ResumeFooter';
 import Image from './../Data/imageDir';
 import '../componentCSS/ResumeGuide.css'
 
@@ -18,7 +19,7 @@ const Experience = () => (
                 concentrate on the description of each position—the meat and potatoes of this section—to
                 show that you've gotten results and solved problems within the organization. For example:
             </p>
-            <p className="objective">
+            <div className="objective">
                 <div className="bold-start"><span className="bolden">Feb 2018 - Present</span><span> &nbsp; Western
                     Health Systems, Cleveland, Ohio. Hospital Marketing
                     Representative Represent major expanding medical diagnostic reference laboratories testing
@@ -27,8 +28,9 @@ const Experience = () => (
                     for upstart division. Comprehensive knowledge of managed care and physician group, and
                     clinical trials market.</span>
                 </div>
-            </p>
+            </div>
         </div>
+        <ResumeFooter name="Experience" />
     </>
 )
 

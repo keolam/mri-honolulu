@@ -54,15 +54,7 @@
     font-size: 1.2rem;
     color: #b32f2f;
 }
-#bottom-links {
-    display: flex;
-    flex-direction: row;
-    color: #2a7ca5;
-    margin-top: 4rem;
-    margin-left: auto;
-    margin-right: auto;
-    justify-content: space-around;
-}
+
 .b-link {
     padding-left: 1rem;
     padding-right: 1rem;
@@ -77,6 +69,7 @@
     color: rgb(39, 111, 119);
     width: 66%;
     font-size: 1rem;
+    text-decoration: none;
     margin-left: auto;
     margin-right: auto;
 }
@@ -101,9 +94,15 @@
     font-size: 1.2rem;
     color: #b32f2f;
     line-height: 1.5;
-    margin-left: auto;
-    margin-right: auto;
     text-align: center;
+    align-items: left;
+    flex-direction: row; 
+    width: 60%;
+    margin: 1.2rem auto 1.2rem auto;
+    border-radius: 1rem;
+    border-width: .1rem;
+    padding: 2rem;
+    background: #eceae270
 }
 #bullet-lists {
     width: 66%;
