@@ -10,10 +10,18 @@ const ResumeFooter = (props) => {
         return resLink !== props.name;
     });
 
+    const removeSpace = (string) => {
+        if (string.includes(' ')) {
+            let wordArr = string.split('');
+            wordArr.splice(wordArr.indexOf(' '), 1);
+            return wordArr.join('');
+        }
+    };
+
     return (
         <div id="bottom-links">
             {linkNames.map((linkName) => (
-                <Link to={linkName} className="b-link">
+                <Link to={linkName.includes(' ') ? removeSpace(linkName) : linkName} className="b-link">
                     {linkName}
                 </Link>
             ))}
