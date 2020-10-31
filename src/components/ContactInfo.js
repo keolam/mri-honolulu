@@ -23,7 +23,7 @@ const ContactInfo = () => (
                     Tel: (216) 555-0000 • Fax: (216) 555-0001 • Cellular: (216) 555-0002
                 </div>
             </span>
-            <ResumeFooter name="Contact Info" data-aos="fade-in" data-aos-delay="300" />
+            <ResumeFooter name="Contact Info" data-aos="fade-in" data-aos-delay="300" key="b" />
         </div>
     </>
 )

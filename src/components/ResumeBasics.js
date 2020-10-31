@@ -37,7 +37,7 @@ const ResumeBasics = (props) => (
                 <a href="basics.pdf" target="_blank">&nbsp;</a>
             </span>
         </div>
-        <ResumeFooter name="Resume Basics" />
+        <ResumeFooter name="Resume Basics" key="a" />
     </div>
 )
 

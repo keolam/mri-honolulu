@@ -21,7 +21,7 @@ const ResumeFooter = (props) => {
     return (
         <div id="bottom-links">
             {linkNames.map((linkName) => (
-                <Link to={linkName.includes(' ') ? removeSpace(linkName) : linkName} className="b-link">
+                <Link to={linkName.includes(' ') ? removeSpace(linkName) : linkName} className="b-link" key={linkName.toLowerCase()}>
                     {linkName}
                 </Link>
             ))}
