@@ -17,7 +17,7 @@ const Objective = () => (
                 and other flowery details. You may even want to consider using a tagline instead of a complete sentence,
                 as in the following example:
             </p>
-            <div className="objective">
+            <div className="obj">
                 <p ><strong>Objective: </strong> &nbsp; Pharmaceutical sales position capitalizing on 15 years'
                     experience in retail management and hospital administration.
                 </p>

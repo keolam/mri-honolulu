@@ -13,7 +13,7 @@ const Education = () => (
                 The education area of your resume should include the institution's name and location,
                 along with your degree and the year you obtained it.</p>
             <br />
-            <p className="objective">
+            <p className="edu">
                 Beyond that, you can include educational honors, seminars and certifications,
                 and list achievements such as projects, awards, and grade-point averages.
                 A GPA of 3.0 or above is worth mentioning.

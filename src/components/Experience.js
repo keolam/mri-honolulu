@@ -19,7 +19,7 @@ const Experience = () => (
                 concentrate on the description of each position—the meat and potatoes of this section—to
                 show that you've gotten results and solved problems within the organization. For example:
             </p>
-            <div className="objective">
+            <div className="exp">
                 <div className="bold-start"><span className="bolden">Feb 2018 - Present</span><span> &nbsp; Western
                     Health Systems, Cleveland, Ohio. Hospital Marketing
                     Representative Represent major expanding medical diagnostic reference laboratories testing

@@ -86,7 +86,7 @@
     margin-left: auto;
     margin-right: auto;
 }
-#address {
+#address, .obj, .exp, .skills {
     display: flex;
     flex-direction: column;
     justify-content: center;
