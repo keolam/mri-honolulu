@@ -24,10 +24,11 @@ const ResumeBasics = (props) => (
                         So, how do you create a resume that gets noticed?
                         Let's start with the basics:
                     <br />
+                        <br />
                         Contact Information, Objective, Summary of Skills, Professional Experience,
                         Education, Finishing Up, and finally, some added tips.
                         Read it right here online or download and print it via the links below.
-                </p>
+                    </p>
                 </div>
             </div>
         </section>

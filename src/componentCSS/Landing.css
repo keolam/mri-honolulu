@@ -127,14 +127,14 @@
     width: 110%;
 }
 #office-img {
-    filter: grayscale(76%);
+    filter: grayscale(60%);
 }
 #it-text {
     top: 64%;
     width: 57%;
 }
 #it-img {
-    filter: grayscale(64%);
+    filter: grayscale(40%);
 }
 #telecom {
     top: 64%;
@@ -155,21 +155,21 @@
     width: 106%;
 }
 #indust-img {
-    filter: grayscale(44%);
+    filter: grayscale(14%);
 }
 #consumer {
     top: 74%;
     width: 50%;
 }
 #consumer-img {
-    filter: grayscale(76%);
+    filter: grayscale(46%);
 }
 #restaurant {
     top: 79%;
     width: 113%;
 }
 #restaurant-img {
-    filter: grayscale(82%);
+    filter: grayscale(50%);
 }
 #pharma {
     top: 77%;

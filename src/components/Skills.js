@@ -16,12 +16,14 @@ const Skills = () => (
                 "committed to excellence." Then, during the interview, be prepared with anecdotes so you
                 can elaborate on each of these statements. Here's an example:
             </p>
-            <p className="skills"><strong>Summary of Skills: </strong> &nbsp; Sales professional with proven background in retail management
-                and hospital administration. Design, coordinate and enhance sales and marketing activities and relationships
-                to identify business customers. Effective communicator, able to develop comprehensive networks for
-                continuing organization visibility and sales revenues. Desire career growth based on performance
-                and accomplishments.
+            <div className="skills" style={{ fontWeight: 100, width: "66%" }}>
+                <p><strong>Summary of Skills: </strong> &nbsp; Sales professional with proven background in retail management
+                    and hospital administration. Design, coordinate and enhance sales and marketing activities and relationships
+                    to identify business customers. Effective communicator, able to develop comprehensive networks for
+                    continuing organization visibility and sales revenues. Desire career growth based on performance
+                    and accomplishments.
             </p>
+            </div>
             <>
             </>
         </div>

@@ -17,7 +17,7 @@ const ContactInfo = () => (
             </p>
             <br />
             <span id="address" data-aos="fade-in" data-aos-delay="300">
-                <div><strong>GORDON C. PARKS</strong><br />
+                <div style={{ textAlign: "center" }}><strong>GORDON C. PARKS</strong><br />
                     gcparks@anywhere.com<br />
                     2100 W. James Avenue, Suite B-3 • Cleveland, Ohio 44000<br />
                     Tel: (216) 555-0000 • Fax: (216) 555-0001 • Cellular: (216) 555-0002

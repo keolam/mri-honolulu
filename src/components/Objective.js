@@ -21,11 +21,12 @@ const Objective = () => (
                 <p ><strong>Objective: </strong> &nbsp; Pharmaceutical sales position capitalizing on 15 years'
                     experience in retail management and hospital administration.
                 </p>
-                <p className="objective">Of course, your objective can be longer or shorter than this example.
-                    Ultimately it depends on your situation, your level of experience,
-                    and your desired position.
-                </p>
             </div>
+            <p className="objective">Of course, your objective can be longer or shorter than this example.
+                Ultimately it depends on your situation, your level of experience,
+                and your desired position.
+                </p>
+
         </div>
         <ResumeFooter name="Objective" />
     </>

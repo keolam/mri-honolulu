@@ -19,15 +19,14 @@ const Experience = () => (
                 concentrate on the description of each position—the meat and potatoes of this section—to
                 show that you've gotten results and solved problems within the organization. For example:
             </p>
-            <div className="exp">
-                <div className="bold-start"><span className="bolden">Feb 2018 - Present</span><span> &nbsp; Western
-                    Health Systems, Cleveland, Ohio. Hospital Marketing
-                    Representative Represent major expanding medical diagnostic reference laboratories testing
-                    program to hospitals and health systems in the sales of services and information systems.
-                    Create marketing and strategic selling plans. Establish network within hospital marketplace
-                    for upstart division. Comprehensive knowledge of managed care and physician group, and
-                    clinical trials market.</span>
-                </div>
+            <div className="exp" style={{ fontWeight: 100, width: "66%" }}>
+                <p> <strong>Feb 2018 - Present</strong> &nbsp; Western Health Systems, Cleveland, Ohio.
+                    Hospital Marketing Representative Represent major expanding medical diagnostic reference
+                    laboratories testingprogram to hospitals and health systems in the sales of services and
+                    information systems. Create marketing and strategic selling plans. Establish network within
+                    hospital marketplace for upstart division. Comprehensive knowledge of managed care and
+                    physician group, and clinical trials market.
+                </p>
             </div>
         </div>
         <ResumeFooter name="Experience" />

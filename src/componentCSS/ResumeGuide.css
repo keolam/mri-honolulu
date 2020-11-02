@@ -33,6 +33,7 @@
     display: flex;
     align-items: left;
     flex-direction: column; 
+    text-align: justify;
     width: 100%;
     line-height: 1.5; 
     margin-top: 1.2rem;
@@ -68,7 +69,7 @@
     font-family: 'Montserrat', sans-serif;
     color: rgb(39, 111, 119);
     width: 66%;
-    font-size: 1rem;
+    font-size: 1.4rem;
     text-decoration: none;
     margin-left: auto;
     margin-right: auto;
@@ -94,7 +95,7 @@
     font-size: 1.2rem;
     color: #b32f2f;
     line-height: 1.5;
-    text-align: center;
+    text-align: justify;
     align-items: left;
     flex-direction: row; 
     width: 60%;
