@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import Image from './../Data/imageDir';
 import Doc from './../Data/docDirectory';
-import '../componentCSS/ResumeGuide.css'
+import '../componentCSS/AlternativeResume.css'
 
 const TraditionalFormats = () => (
     <section>
@@ -11,7 +11,7 @@ const TraditionalFormats = () => (
         <div id="main-column">
             <div className="basic-paragraph">
 
-                <p className="objective">
+                <p className="top-paragraph">
                     The following examples are available as Rich Text Files.
                     Feel free to download and use these examples as a layout template for creating your own resume.
         </p>
@@ -36,7 +36,9 @@ const TraditionalFormats = () => (
                     <a href={Doc.creative} download>Creative Resume Sample</a>
                 </div>
             </div>
-            <Link to='/ResumeGuidelines'>« Back to Resume Guidelines</Link>
+            <div className="return-link">
+                <Link to='/ResumeGuidelines'>« Back to Resume Guidelines</Link>
+            </div>
         </div>
     </section>
 )

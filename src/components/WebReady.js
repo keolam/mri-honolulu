@@ -24,9 +24,11 @@ const WebReady = () => (
             should those words demonstrate your skills and experience; they should also reflect the type of job
             you're trying to find.
             </p>
-
-            <a href={Doc.analytical} download>Example of a Keyword Resume</a>
-
+            <br />
+            <br />
+            <a href={Doc.keyword} download>Example of a Keyword Resume</a>
+            <br />
+            <br />
 
             <h2>The ASCII Plain Text Resume</h2>
             <div className="support-paragraph">
@@ -44,11 +46,16 @@ const WebReady = () => (
                     <li>Use a separate line for job title, company name, location and employment history.</li>
                 </ul>
             </div>
+            <br />
+            <br />
+            <a href={Doc.ascii} download>Example of an ASCII Plain-Text Resume</a>
+            <br />
+            <br />
 
-            <a href={Doc.analytical} download>Example of an ASCII Plain-Text Resume</a>
-
+            <div className="return-link">
+                <Link to='/AlternativeFormats'>Back to Alternative Resume Formats</Link>
+            </div>
         </div>
-        <Link to='/AlternativeFormats'>« Back to Alternative Resume Formats</Link>
     </section>
 )
 

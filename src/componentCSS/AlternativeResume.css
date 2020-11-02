@@ -7,6 +7,7 @@
     filter: brightness(.5);
 }
 h1 {
+    margin-top: 4rem;
     font-size: 1.4rem;
 }
 
@@ -20,6 +21,7 @@ h2 {
 }
 .support-paragraph {
     font-size: 1rem;
+    line-height: 1.5;
     color: #b32f2f;
 }
 .return-link {

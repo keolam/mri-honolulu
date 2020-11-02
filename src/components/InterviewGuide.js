@@ -8,7 +8,12 @@ const InterviewGuide = () => (
     <>
         <img src={Image.interviewGuide} id="interviewing-hero" alt="workspace" data-aos="fade-in" data-aos-delay="300"></img>
         <h1 data-aos="fade-in" data-aos-delay="300">Interviewing Guide</h1>
-        <p className="smalltxt" data-aos="fade-in" data-aos-delay="300"> Our service to you as an employer is to help you make the best decisions possible in hiring the right talent to add to your team. The interview is the most critical stage of this process, and we offer you here a guide for interviewing candidates developed from years of experience in the recruitment industry by MRINetwork recruiters. Just keep in mind that since each individual – and each interview – is different, these points should serve only as basic guidelines, not as inflexible rules.</p>
+        <p className="smalltxt" data-aos="fade-in" data-aos-delay="300"> Our service to you as an employer is to help you make
+            the best decisions possible in hiring the right talent to add to your team. The interview is the most critical stage
+            of this process, and we offer you here a guide for interviewing candidates developed from years of experience in the
+            recruitment industry by MRINetwork recruiters. Just keep in mind that since each individual – and each interview
+            – is different, these points should serve only as basic guidelines, not as inflexible rules.
+        </p>
         <h3 data-aos="fade-in" data-aos-delay="300">Meeting the Candidate</h3>
         <div className="smalltxt" data-aos="fade-in" data-aos-delay="300">
             <p>At the outset, act friendly but avoid prolonged small talk – interviewing time costs money.</p>
