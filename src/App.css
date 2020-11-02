@@ -19,8 +19,6 @@ nav {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  /*align-items: center;
-  justify-content: left;*/
   margin-bottom: 1.5rem;
   margin-bottom: 1.5rem;
   margin-top: 1.5rem;
@@ -226,21 +224,6 @@ footer {
     margin-left: auto;
     margin-right: auto; 
   }
-  /*
-  #mr {
-    display: block;
-    margin: 10px;
-  }
-  #business-name {
-    display: center;
-    width: 90%;
-  }
-  .site-links {
-    display: float;
-    width: 90%;
-    margin-left: 38px;
-    margin-right: 38px;
-  }*/
   footer {
     display: flex;
     flex-direction: column;

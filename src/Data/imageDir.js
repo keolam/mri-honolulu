@@ -25,6 +25,7 @@ export default {
     resumeBasic: '/assets/images/ResumeBasic.jpg',
     traditional: '/assets/images/Traditional.jpg',
     alternative: '/assets/images/Alternative.jpg',
+    alternativeFormats: '/assets/images/AlternativeFormats.jpg',
     interviewGuide: '/assets/images/InterviewGuide.jpg',
     officeEquip: '/assets/images/OfficeEquip.jpg',
     itSales: '/assets/images/ITsales.jpg',

@@ -1,0 +1,30 @@
+#main-column {
+    width: 66%;
+    font-family: 'Montserrat', sans-serif;
+}
+#hero {
+    width: 100%;
+    filter: brightness(.5);
+}
+h1 {
+    font-size: 1.4rem;
+}
+
+h2 {
+    font-size: 1.2rem;
+}
+.top-paragraph {
+    line-height: 1.5;
+    font-size: 1.2rem;
+    color: rgb(39, 111, 119);
+}
+.support-paragraph {
+    font-size: 1rem;
+    color: #b32f2f;
+}
+.return-link {
+    text-align: justify;
+    margin-top: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+}

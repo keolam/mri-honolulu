@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { Route, Link } from 'react-router-dom';
-import { Parallax, ParallaxLayer } from 'react-spring/renderprops'
 import './App.css';
 import Landing from './components/Landing';
 import JobListings from './components/JobListings';
@@ -25,6 +24,9 @@ import InterviewGuide from './components/InterviewGuide';
 import ResumeBasics from './components/ResumeBasics';
 import TraditionalFormats from './components/TraditionalFormats';
 import AlternativeFormats from './components/AlternativeFormats';
+import WebReady from './components/WebReady';
+import Scannable from './components/Scannable';
+import ProjectFocused from './components/ProjectFocused';
 import ScrollToTop from './helpers/ScrollToTop';
 import Image from './Data/imageDir';
 
@@ -125,6 +127,9 @@ class App extends Component {
                     <Route path="/Tips" component={Tips} />
                     <Route path="/TraditionalFormats" component={TraditionalFormats} />
                     <Route path="/AlternativeFormats" component={AlternativeFormats} />
+                    <Route path="/WebReady" component={WebReady} />
+                    <Route path="/Scannable" component={Scannable} />
+                    <Route path="/ProjectFocused" component={ProjectFocused} />
                     <Route path="/InterviewTips" component={InterviewTips} />
                     <Route path="/CounterOffer" component={CounterOffer} />
                     <Route path="/ReloInfo" component={ReloInfo} />
