@@ -29,13 +29,11 @@
     margin-top: 4rem;
     margin-bottom: .5em;
     color: #2a7ca5;
-    /*color: rgb(74 94 97);*/
 }
 
 .ind-list {
     display: flex;
     flex-direction: column;
-    /*width: 58%;*/
     margin-top: 3rem;
     margin-left: auto;
     margin-right: auto;
@@ -246,9 +244,7 @@
 }
 
 @media only screen and (max-width: 700px) {
-    /*#hero {
-        display: none;
-    }*/
+
     #title {
         font-size: 1.4rem;
         margin: auto;

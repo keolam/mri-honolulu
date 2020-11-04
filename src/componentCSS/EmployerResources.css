@@ -34,8 +34,6 @@ h1 {
 @media only screen and (max-width: 588px) {
     .emp-rec-links {
         margin: .13rem;
-        /*font-size: calc(10px + 50vmin);
-        font-size: 2px;*/
         font-weight: lighter;
   }
 }
