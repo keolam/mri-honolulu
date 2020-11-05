@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Route, Link, /*useHistory,*/ Switch } from 'react-router-dom';
+import { Route, Link, HashRouter as Router, Switch } from 'react-router-dom';
 import './App.css';
 import Landing from './components/Landing';
 import JobListings from './components/JobListings';
@@ -30,8 +30,6 @@ import ProjectFocused from './components/ProjectFocused';
 import ScrollToTop from './helpers/ScrollToTop';
 import Image from './Data/imageDir';
 
-/*const history = useHistory();*/
-
 class App extends Component {
     constructor() {
         super();
@@ -59,109 +57,116 @@ class App extends Component {
 
     render() {
         return (
-            <div className="App">
-                <header>
-                    <nav>
-                        <div className="mri-logo">
-                            <Link to='/' id="business-name">
-                                <p id="mr">MANAGEMENT RECRUITERS &</p>
-                                <p id="sc">SALES CONSULTANTS</p>
-                                <p id="hnl">of Honolulu</p>
+            <Router>
+                <div className="App">
+                    <header>
+                        <nav>
+                            <div className="mri-logo">
+                                <Link to='/' id="business-name">
+                                    <p id="mr">MANAGEMENT RECRUITERS &</p>
+                                    <p id="sc">SALES CONSULTANTS</p>
+                                    <p id="hnl">of Honolulu</p>
+                                </Link>
+                            </div>
+                            <div className="site-links">
+                                <Link to='/JobListings' id="job-listing"
+                                    style={{
+                                        fontSize: this.state.hover === 'jl' ? '1.2rem' : '1.15rem',
+                                        color: this.state.hover === 'jl' ? 'lightcoral' : '#8f6471'
+                                    }}
+                                    onMouseEnter={() => this.mouseEnter1()}
+                                    onMouseLeave={() => this.mouseLeave()}>
+                                    Job Listings
                             </Link>
+                                <Link to='/EmployerResources' id="emp-rec"
+                                    style={{
+                                        fontSize: this.state.hover === 'er' ? '1.2rem' : '1.15rem',
+                                        color: this.state.hover === 'er' ? 'lightcoral' : '#8f6471'
+                                    }}
+                                    onMouseEnter={() => this.mouseEnter2()}
+                                    onMouseLeave={() => this.mouseLeave()}>
+                                    Employer Resources
+                            </Link>
+                                <Link to='/CandidateResources' id="can-rec"
+                                    style={{
+                                        fontSize: this.state.hover === 'cr' ? '1.2rem' : '1.15rem',
+                                        color: this.state.hover === 'cr' ? 'lightcoral' : '#8f6471'
+                                    }}
+                                    onMouseEnter={() => this.mouseEnter3()}
+                                    onMouseLeave={() => this.mouseLeave()}>
+                                    Candidate Resources
+                            </Link>
+                                <Link to='/OurStaff' id="staff"
+                                    style={{
+                                        fontSize: this.state.hover === 'st' ? '1.2rem' : '1.15rem',
+                                        color: this.state.hover === 'st' ? 'lightcoral' : '#8f6471'
+                                    }}
+                                    onMouseEnter={() => this.mouseEnter4()}
+                                    onMouseLeave={() => this.mouseLeave()}>
+                                    Our Staff
+                            </Link>
+                            </div>
+                        </nav>
+                    </header>
+                    <main id="front-page">
+                        <ScrollToTop />
+
+                        <Switch>
+                            <Route exact path="/" component={Landing} />
+                            <Route path="/JobListings" component={JobListings} />
+                            <Route path="/EmployerResources" component={EmployerResources} />
+                            <Route path="/HowWeWork" component={HowWeWork} />
+                            <Route path="/InterviewGuide" component={InterviewGuide} />
+                            <Route path="/ValueAddedServices" component={ValueAddedServices} />
+                            <Route path="/CandidateResources" component={CandidateResources} />
+                            <Route path="/ResumeGuidelines" component={ResumeGuidelines} />
+                            <Route path="/ResumeBasics" component={ResumeBasics} />
+                            <Route path="/ContactInfo" component={ContactInfo} />
+                            <Route path="/Objective" component={Objective} />
+                            <Route path="/Skills" component={Skills} />
+                            <Route path="/Experience" component={Experience} />
+                            <Route path="/Education" component={Education} />
+                            <Route path="/Finish" component={Finish} />
+                            <Route path="/Tips" component={Tips} />
+                            <Route path="/TraditionalFormats" component={TraditionalFormats} />
+                            <Route path="/AlternativeFormats" component={AlternativeFormats} />
+                            <Route path="/WebReady" component={WebReady} />
+                            <Route path="/Scannable" component={Scannable} />
+                            <Route path="/ProjectFocused" component={ProjectFocused} />
+                            <Route path="/InterviewTips" component={InterviewTips} />
+                            <Route path="/CounterOffer" component={CounterOffer} />
+                            <Route path="/ReloInfo" component={ReloInfo} />
+                            <Route path="/Submit" component={Submit} />
+                            <Route path="/OurStaff" component={OurStaff} />
+                            <Route render={
+                                () => <h3 style={{ textAlign: "center", fontSize: "3rem" }}>404 Not Found<br />Please check URL again</h3>
+                            } />
+                        </Switch>
+
+                    </main>
+                    <footer>
+                        <div id="contact" data-aos="fade-up" data-aos-offset="180">
+                            <span id="mail-icon">
+                                <a href="mailto: mail@mrihonolulu.com"><img src={Image.mailIcon} alt="email"></img></a>
+                            </span>
+                            <span id="phone-icon">
+                                <img src={Image.phone} alt="phone"></img>
+                            </span>
+                            <span id="phone-number">   808.533.3282 </span>
+                            <span id="toll-free">1.800.879.0448</span>
+                            <span id="location-icon">
+                                <img src={Image.location} alt="location"></img>
+                            </span>
+                            <span id="street-address">   32 Merchant St., Suite 101  </span>
+                            <span id="city-zip">  Honolulu, HI 96813  </span>
+                            <span id="linkedin-icon">
+                                <a href="https://www.linkedin.com/company/sales-consultants-and-management-recruiters-of-honolulu/about/"><img src={Image.linkedIn} alt="linkedin"></img></a>
+                            </span>
+                            <span id="copyright">© 2020 MRI and MRINetwork are registered trademarks of Management Recruiters International, Inc.</span>
                         </div>
-                        <div className="site-links">
-                            <Link to='/JobListings' id="job-listing"
-                                style={{
-                                    fontSize: this.state.hover === 'jl' ? '1.2rem' : '1.15rem',
-                                    color: this.state.hover === 'jl' ? 'lightcoral' : '#8f6471'
-                                }}
-                                onMouseEnter={() => this.mouseEnter1()}
-                                onMouseLeave={() => this.mouseLeave()}>
-                                Job Listings
-                            </Link>
-                            <Link to='/EmployerResources' id="emp-rec"
-                                style={{
-                                    fontSize: this.state.hover === 'er' ? '1.2rem' : '1.15rem',
-                                    color: this.state.hover === 'er' ? 'lightcoral' : '#8f6471'
-                                }}
-                                onMouseEnter={() => this.mouseEnter2()}
-                                onMouseLeave={() => this.mouseLeave()}>
-                                Employer Resources
-                            </Link>
-                            <Link to='/CandidateResources' id="can-rec"
-                                style={{
-                                    fontSize: this.state.hover === 'cr' ? '1.2rem' : '1.15rem',
-                                    color: this.state.hover === 'cr' ? 'lightcoral' : '#8f6471'
-                                }}
-                                onMouseEnter={() => this.mouseEnter3()}
-                                onMouseLeave={() => this.mouseLeave()}>
-                                Candidate Resources
-                            </Link>
-                            <Link to='/OurStaff' id="staff"
-                                style={{
-                                    fontSize: this.state.hover === 'st' ? '1.2rem' : '1.15rem',
-                                    color: this.state.hover === 'st' ? 'lightcoral' : '#8f6471'
-                                }}
-                                onMouseEnter={() => this.mouseEnter4()}
-                                onMouseLeave={() => this.mouseLeave()}>
-                                Our Staff
-                            </Link>
-                        </div>
-                    </nav>
-                </header>
-                <main id="front-page">
-                    <ScrollToTop />
-                    <Switch>
-                        <Route exact path="/" component={Landing} />
-                        <Route path="/JobListings" component={JobListings} />
-                        <Route path="/EmployerResources" component={EmployerResources} />
-                        <Route path="/HowWeWork" component={HowWeWork} />
-                        <Route path="/InterviewGuide" component={InterviewGuide} />
-                        <Route path="/ValueAddedServices" component={ValueAddedServices} />
-                        <Route path="/CandidateResources" component={CandidateResources} />
-                        <Route path="/ResumeGuidelines" component={ResumeGuidelines} />
-                        <Route path="/ResumeBasics" component={ResumeBasics} />
-                        <Route path="/ContactInfo" component={ContactInfo} />
-                        <Route path="/Objective" component={Objective} />
-                        <Route path="/Skills" component={Skills} />
-                        <Route path="/Experience" component={Experience} />
-                        <Route path="/Education" component={Education} />
-                        <Route path="/Finish" component={Finish} />
-                        <Route path="/Tips" component={Tips} />
-                        <Route path="/TraditionalFormats" component={TraditionalFormats} />
-                        <Route path="/AlternativeFormats" component={AlternativeFormats} />
-                        <Route path="/WebReady" component={WebReady} />
-                        <Route path="/Scannable" component={Scannable} />
-                        <Route path="/ProjectFocused" component={ProjectFocused} />
-                        <Route path="/InterviewTips" component={InterviewTips} />
-                        <Route path="/CounterOffer" component={CounterOffer} />
-                        <Route path="/ReloInfo" component={ReloInfo} />
-                        <Route path="/Submit" component={Submit} />
-                        <Route path="/OurStaff" component={OurStaff} />
-                    </Switch>
-                </main>
-                <footer>
-                    <div id="contact" data-aos="fade-up" data-aos-offset="180">
-                        <span id="mail-icon">
-                            <a href="mailto: mail@mrihonolulu.com"><img src={Image.mailIcon} alt="email"></img></a>
-                        </span>
-                        <span id="phone-icon">
-                            <img src={Image.phone} alt="phone"></img>
-                        </span>
-                        <span id="phone-number">   808.533.3282 </span>
-                        <span id="toll-free">1.800.879.0448</span>
-                        <span id="location-icon">
-                            <img src={Image.location} alt="location"></img>
-                        </span>
-                        <span id="street-address">   32 Merchant St., Suite 101  </span>
-                        <span id="city-zip">  Honolulu, HI 96813  </span>
-                        <span id="linkedin-icon">
-                            <a href="https://www.linkedin.com/company/sales-consultants-and-management-recruiters-of-honolulu/about/"><img src={Image.linkedIn} alt="linkedin"></img></a>
-                        </span>
-                        <span id="copyright">© 2020 MRI and MRINetwork are registered trademarks of Management Recruiters International, Inc.</span>
-                    </div>
-                </footer>
-            </div>
+                    </footer>
+                </div>
+            </Router>
         );
     }
 }
