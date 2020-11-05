@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Route, Link } from 'react-router-dom';
+import { Route, Link, /*useHistory,*/ Switch } from 'react-router-dom';
 import './App.css';
 import Landing from './components/Landing';
 import JobListings from './components/JobListings';
@@ -30,6 +30,7 @@ import ProjectFocused from './components/ProjectFocused';
 import ScrollToTop from './helpers/ScrollToTop';
 import Image from './Data/imageDir';
 
+/*const history = useHistory();*/
 
 class App extends Component {
     constructor() {
@@ -38,6 +39,7 @@ class App extends Component {
             hover: ''
         }
     }
+
     mouseEnter1() {
         this.setState({ hover: 'jl' })
     }
@@ -109,32 +111,34 @@ class App extends Component {
                 </header>
                 <main id="front-page">
                     <ScrollToTop />
-                    <Route exact path="/" component={Landing} />
-                    <Route path="/JobListings" component={JobListings} />
-                    <Route path="/EmployerResources" component={EmployerResources} />
-                    <Route path="/HowWeWork" component={HowWeWork} />
-                    <Route path="/InterviewGuide" component={InterviewGuide} />
-                    <Route path="/ValueAddedServices" component={ValueAddedServices} />
-                    <Route path="/CandidateResources" component={CandidateResources} />
-                    <Route path="/ResumeGuidelines" component={ResumeGuidelines} />
-                    <Route path="/ResumeBasics" component={ResumeBasics} />
-                    <Route path="/ContactInfo" component={ContactInfo} />
-                    <Route path="/Objective" component={Objective} />
-                    <Route path="/Skills" component={Skills} />
-                    <Route path="/Experience" component={Experience} />
-                    <Route path="/Education" component={Education} />
-                    <Route path="/Finish" component={Finish} />
-                    <Route path="/Tips" component={Tips} />
-                    <Route path="/TraditionalFormats" component={TraditionalFormats} />
-                    <Route path="/AlternativeFormats" component={AlternativeFormats} />
-                    <Route path="/WebReady" component={WebReady} />
-                    <Route path="/Scannable" component={Scannable} />
-                    <Route path="/ProjectFocused" component={ProjectFocused} />
-                    <Route path="/InterviewTips" component={InterviewTips} />
-                    <Route path="/CounterOffer" component={CounterOffer} />
-                    <Route path="/ReloInfo" component={ReloInfo} />
-                    <Route path="/Submit" component={Submit} />
-                    <Route path="/OurStaff" component={OurStaff} />
+                    <Switch>
+                        <Route exact path="/" component={Landing} />
+                        <Route path="/JobListings" component={JobListings} />
+                        <Route path="/EmployerResources" component={EmployerResources} />
+                        <Route path="/HowWeWork" component={HowWeWork} />
+                        <Route path="/InterviewGuide" component={InterviewGuide} />
+                        <Route path="/ValueAddedServices" component={ValueAddedServices} />
+                        <Route path="/CandidateResources" component={CandidateResources} />
+                        <Route path="/ResumeGuidelines" component={ResumeGuidelines} />
+                        <Route path="/ResumeBasics" component={ResumeBasics} />
+                        <Route path="/ContactInfo" component={ContactInfo} />
+                        <Route path="/Objective" component={Objective} />
+                        <Route path="/Skills" component={Skills} />
+                        <Route path="/Experience" component={Experience} />
+                        <Route path="/Education" component={Education} />
+                        <Route path="/Finish" component={Finish} />
+                        <Route path="/Tips" component={Tips} />
+                        <Route path="/TraditionalFormats" component={TraditionalFormats} />
+                        <Route path="/AlternativeFormats" component={AlternativeFormats} />
+                        <Route path="/WebReady" component={WebReady} />
+                        <Route path="/Scannable" component={Scannable} />
+                        <Route path="/ProjectFocused" component={ProjectFocused} />
+                        <Route path="/InterviewTips" component={InterviewTips} />
+                        <Route path="/CounterOffer" component={CounterOffer} />
+                        <Route path="/ReloInfo" component={ReloInfo} />
+                        <Route path="/Submit" component={Submit} />
+                        <Route path="/OurStaff" component={OurStaff} />
+                    </Switch>
                 </main>
                 <footer>
                     <div id="contact" data-aos="fade-up" data-aos-offset="180">
