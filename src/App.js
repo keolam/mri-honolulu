@@ -157,7 +157,7 @@ class App extends Component {
                             <span id="location-icon">
                                 <img src={Image.location} alt="location"></img>
                             </span>
-                            <span id="street-address">   32 Merchant St., Suite 101  </span>
+                            <span id="street-address">   850 Richards St., Suite 508  </span>
                             <span id="city-zip">  Honolulu, HI 96813  </span>
                             <span id="linkedin-icon">
                                 <a href="https://www.linkedin.com/company/sales-consultants-and-management-recruiters-of-honolulu/about/"><img src={Image.linkedIn} alt="linkedin"></img></a>
