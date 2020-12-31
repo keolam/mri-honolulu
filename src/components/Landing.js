@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Image from './../Data/imageDir'
-import { Route, Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import '../componentCSS/Landing.css'
 
 class Landing extends Component {
