@@ -73,7 +73,7 @@ nav {
   margin: 1.8rem;
 }
 
-#staff, #job-listing, #emp-rec, #can-rec {
+#staff, #job-listing, #job-list, #emp-rec, #can-rec {
     text-decoration: none;
 }
 
@@ -208,6 +208,12 @@ footer {
     margin-left: auto;
     margin-right: auto; 
   }
+  #contact{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
   html {
     font-size: 84%;
   }

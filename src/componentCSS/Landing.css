@@ -1,4 +1,4 @@
-#hero {
+#diamond-head {
     width: 100%;
     filter: brightness(.8);
 }
@@ -37,7 +37,7 @@
     margin-top: 3rem;
     margin-left: auto;
     margin-right: auto;
-    justify-content: center;
+    width: 52%;
     text-shadow: .05rem .05rem white;
     color: rgb(143, 100, 113);
     font-size: 1.8rem;
@@ -47,6 +47,7 @@
     height: auto;
     position: relative;
     display: flex;
+    justify-content: flex-start;
 }
 
 .right-fade {
@@ -55,141 +56,125 @@
     position: relative;
     justify-content: flex-end;
 }
-
-.inline-box{
-    position: relative;
-    display: inline-block;
+.left-one {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-bottom: 2rem;
 }
 
-.ind-text {
-    position: absolute;
-    z-index: 999;
-    text-align: center;
+.left-img-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.left-img-container {
+    display: flex;
+    justify-content: flex-start;
+    height: auto;
+    width: 20rem;
+}
+.left-img-container img {
+    width: 100%;
+}
+.left-text {
+    height: auto;
+    text-align: left;
+    font-size: 1.8rem;
+    width: 100%;
+    text-shadow: .05rem .05rem white;
+}
+.right-one {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-bottom: 2rem;
+}
+.right-img-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.right-img-container {
+    display: flex;
+    justify-content: flex-end;
+    height: auto;
+    width: 20rem;
+}
+.right-img-container img {
+    width: 100%;
+}
+.right-text {
+    height: auto;
+    width: 100%;
+    text-align: right;
     font-size: 1.8rem;
     width: 100%;
     text-shadow: .05rem .05rem white;
 }
 
-.left-fade .ind-text {
-    left: 10rem;
-    right: 0;
-}
-
-.right-fade .ind-text {
-    left: 0rem;
-    right: 0rem;
-}
-
-.img-container {
-    height: auto;
-    position: relative;
-    width: 20rem;
-}
-
-.img-container img {
-    width: 100%;
-    filter: grayscale(100%);
-}
-
-.left-fade .img-container:after {
-    position: absolute;
-    content: "";
-    height: 100%;
-    width: 100%;
-    top: 0;
-    left: 0;
-    background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.4) 42%, rgb(255, 255, 255) 93%, rgb(255, 255, 255) 100%);
-    background: -o-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.4) 42%, rgb(255, 255, 255) 93%, rgb(255, 255, 255) 100%);
-    background: -ms-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.4) 42%, rgb(255, 255, 255) 93%, rgb(255, 255, 255) 100%);
-    background: -moz-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.4) 42%, rgb(255, 255, 255) 93%, rgb(255, 255, 255) 100%);
-    background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.4) 42%, rgb(255, 255, 255) 93%, rgb(255, 255, 255) 100%);
-
-}
-
-.right-fade .img-container:after {
-    position: absolute;
-    content: "";
-    height: 100%;
-    width: 100%;
-    top: 0;
-    left: 0;
-    background: -webkit-linear-gradient(right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.4) 80%, rgb(255, 255, 255) 98%, rgb(255, 255, 255) 100%);
-    background: -o-linear-gradient(right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.4) 80%, rgb(255, 255, 255) 98%, rgb(255, 255, 255) 100%);
-    background: -ms-linear-gradient(right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.4) 80%, rgb(255, 255, 255) 98%, rgb(255, 255, 255) 100%);
-    background: -moz-linear-gradient(right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.4) 80%, rgb(255, 255, 255) 98%, rgb(255, 255, 255) 100%);
-    background: linear-gradient(to left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.4) 80%, rgb(255, 255, 255) 98%, rgb(255, 255, 255) 100%);
-}
-
-#office-text {
-    top: 74%;
-    width: 110%;
-}
 #office-img {
     filter: grayscale(60%);
-}
-#it-text {
-    top: 64%;
-    width: 57%;
 }
 #it-img {
     filter: grayscale(40%);
 }
-#telecom {
-    top: 64%;
-    width: 100%;
-}
 #tele-img {
     filter: grayscale(66%);
-}
-#construction {
-    top: 64%;
-    width: 76%;
 }
 #const-img {
     filter: grayscale(36%);
 }
-#indust {
-    top: 76%;
-    width: 106%;
-}
 #indust-img {
     filter: grayscale(14%);
-}
-#consumer {
-    top: 74%;
-    width: 50%;
 }
 #consumer-img {
     filter: grayscale(46%);
 }
-#restaurant {
-    top: 79%;
-    width: 113%;
-}
 #restaurant-img {
     filter: grayscale(50%);
-}
-#pharma {
-    top: 77%;
-    width: 72%;
 }
 #pharma-img {
     filter: grayscale(6%);
 }
-#banking {
-    top: 64%;
-    width: 135%;
-}
 #bank-img {
     filter: grayscale(26%);
-}
-#health {
-    top: 73%;
-    width: 34%;
 }
 #health-img {
     filter: grayscale(76%);
 }
+#office-text {
+    width: 100%;
+}
+#it-text {
+    width: 94%;
+}
+#telecom {
+    font-size: 1.5rem; 
+}
+#construction {
+    font-size: 1.5rem;
+}
+#indust {
+    font-size: 1.5rem;
+}
+#consumer {
+    width: 88%;
+}
+#restaurant {
+    font-size: 1.5rem;
+}
+#pharma {
+    font-size: 1.5rem;
+}
+#banking {
+    font-size: 1.5rem;
+}
+#health {
+    width: 66%;
+}
+
 .bottom-links {
     display: flex;
     flex-direction: row;
@@ -228,27 +213,84 @@
 
 @media only screen and (min-width: 1440.1px) {
     .ind-list {
-      width: 66%;
+      width: 46%;
     }
 }
 @media only screen and (max-width: 1440px) {
     .ind-list {
-      width: 60%;
+      width: 46%;
     }
-    .right-fade .ind-text {
-    left: -10rem;
-    }
-    .left-fade .ind-text {
-    left: 16rem;
+}
+@media only screen and (max-width: 1024px) {
+    .ind-list {
+      width: 46%;
     }
 }
 
-@media only screen and (max-width: 700px) {
-
+@media only screen and (max-width: 648px) {
     #title {
         font-size: 1.4rem;
         margin: auto;
         width: 80%;
     }
+    .bottom-links {
+        flex-direction: column;
+    }
+    #job-listing, #emp-rec, #can-rec {
+        font-size: 2rem;
+    }
+}
+@media only screen and (max-width: 606px) {
+    #video { 
+        margin: 10rem;
+    }
+}
+/*
+@media only screen and (max-width: 440px) {
+
+    #title {
+        font-size: 1.2rem;
+        margin: auto;
+        width: 76%;
+    }
+}*/
+/*
+
+.left-fade .ind-text {
+    left: 10rem;
+    right: 0;
+}
+.right-fade .ind-text {
+    left: 0rem;
+    right: 0rem;
 }
 
+
+.left-fade .img-container:after {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.4) 42%, rgb(255, 255, 255) 93%, rgb(255, 255, 255) 100%);
+    background: -o-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.4) 42%, rgb(255, 255, 255) 93%, rgb(255, 255, 255) 100%);
+    background: -ms-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.4) 42%, rgb(255, 255, 255) 93%, rgb(255, 255, 255) 100%);
+    background: -moz-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.4) 42%, rgb(255, 255, 255) 93%, rgb(255, 255, 255) 100%);
+    background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.4) 42%, rgb(255, 255, 255) 93%, rgb(255, 255, 255) 100%);
+
+}
+
+.right-fade .img-container:after {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: -webkit-linear-gradient(right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.4) 80%, rgb(255, 255, 255) 98%, rgb(255, 255, 255) 100%);
+    background: -o-linear-gradient(right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.4) 80%, rgb(255, 255, 255) 98%, rgb(255, 255, 255) 100%);
+    background: -ms-linear-gradient(right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.4) 80%, rgb(255, 255, 255) 98%, rgb(255, 255, 255) 100%);
+    background: -moz-linear-gradient(right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.4) 80%, rgb(255, 255, 255) 98%, rgb(255, 255, 255) 100%);
+    background: linear-gradient(to left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.4) 80%, rgb(255, 255, 255) 98%, rgb(255, 255, 255) 100%);
+}*/

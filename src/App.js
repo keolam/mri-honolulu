@@ -152,17 +152,17 @@ class App extends Component {
                             <span id="phone-icon">
                                 <img src={Image.phone} alt="phone"></img>
                             </span>
-                            <span id="phone-number">   808.533.3282 </span>
+                            <span id="phone-number">808.533.3282</span>
                             <span id="toll-free">1.800.879.0448</span>
                             <span id="location-icon">
                                 <img src={Image.location} alt="location"></img>
                             </span>
-                            <span id="street-address">   850 Richards St., Suite 508  </span>
-                            <span id="city-zip">  Honolulu, HI 96813  </span>
+                            <span id="street-address">850 Richards St., Suite 508</span>
+                            <span id="city-zip">Honolulu, HI 96813</span>
                             <span id="linkedin-icon">
                                 <a href="https://www.linkedin.com/company/sales-consultants-and-management-recruiters-of-honolulu/about/"><img src={Image.linkedIn} alt="linkedin"></img></a>
                             </span>
-                            <span id="copyright">© 2020 MRI and MRINetwork are registered trademarks of Management Recruiters International, Inc.</span>
+                            <span id="copyright">© 2021 MRI and MRINetwork are registered trademarks of Management Recruiters International, Inc.</span>
                         </div>
                     </footer>
                 </div>
