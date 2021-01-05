@@ -245,7 +245,7 @@
         margin: 10rem;
     }
 }
-/*
+
 @media only screen and (max-width: 440px) {
 
     #title {
@@ -253,19 +253,8 @@
         margin: auto;
         width: 76%;
     }
-}*/
+}
 /*
-
-.left-fade .ind-text {
-    left: 10rem;
-    right: 0;
-}
-.right-fade .ind-text {
-    left: 0rem;
-    right: 0rem;
-}
-
-
 .left-fade .img-container:after {
     position: absolute;
     content: "";
