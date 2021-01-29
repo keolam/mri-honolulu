@@ -2,6 +2,7 @@ export default {
     honolulu: '/assets/images/HonoluluHero2.jpg',
     office: '/assets/images/Office.jpg',
     dataRoom: '/assets/images/EmpResource.jpg',
+    diamondHeadFisheye: '/assets/images/DiamondHeadFisheye.jpg',
     canRec: '/assets/images/CanRec.jpg',
     staffHNL: '/assets/images/StaffHNL.jpg',
     donBishop: '/assets/images/DonBishop.jpg',

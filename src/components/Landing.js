@@ -70,7 +70,9 @@ class Landing extends Component {
                         </div>
                         <div id="indust" className="right-text">Industrial & Environmental Services</div>
                     </div>
-
+                </section>
+                    <img src={Image.diamondHeadFisheye} id="diamond-head" alt="honolulu" data-aos="fade-in" data-aos-delay="50"></img>
+                <section className="ind-list" data-aos="fade-in">
                     <div className="left-one" data-aos="fade-left">
                         <div className="left-img-row">
                             <div className="left-img-container"><img id="consumer-img" src={Image.retail} alt=""></img></div>
