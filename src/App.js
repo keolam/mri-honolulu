@@ -152,8 +152,8 @@ class App extends Component {
                             <span id="phone-icon">
                                 <img src={Image.phone} alt="phone"></img>
                             </span>
-                            <span id="phone-number">808.533.3282</span>
-                            <span id="toll-free">1.800.879.0448</span>
+                            <span id="phone-number"><a href="tel:+18085333282">808.533.3282</a></span>
+                            <span id="toll-free"><a href="tel:+18008790448">1.800.879.0448</a></span>
                             <span id="location-icon">
                                 <img src={Image.location} alt="location"></img>
                             </span>

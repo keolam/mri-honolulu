@@ -38,6 +38,7 @@ class Landing extends Component {
 
                     <div className="right-one" data-aos="fade-right">
                         <div className="right-img-row">
+                            <div className="ind-icon"><img src={Image.officeSup}></img></div>
                             <div className="right-img-container"><img id="office-img" src={Image.officeEquip} alt=""></img></div>
                         </div>
                         <div id="office-text" className="right-text">Office Product & Equipment Sales</div>
@@ -46,12 +47,14 @@ class Landing extends Component {
                     <div className="left-one" data-aos="fade-left">
                         <div className="left-img-row">
                             <div className="left-img-container"><img id="imt-img" src={Image.itSales} alt=""></img></div>
+                            <div className="ind-icon"><img src={Image.satellite}></img></div>
                         </div>
                         <div id="it-text" className="left-text">Information Technology Sales</div>
                     </div>
 
                     <div className="right-one" data-aos="fade-right">
                         <div className="right-img-row">
+                            <div className="ind-icon"><img src={Image.teleData}></img></div>
                             <div className="right-img-container"><img id="tele-img" src={Image.telecom} alt=""></img></div>
                         </div>
                         <div id="telecom" className="right-text">Telecommunications & Data Networking</div>
@@ -60,28 +63,34 @@ class Landing extends Component {
                     <div className="left-one" data-aos="fade-left">
                         <div className="left-img-row">
                             <div className="left-img-container"><img id="const-img" src={Image.construction} alt=""></img></div>
+                            <div className="ind-icon"><img src={Image.conArchEng}></img></div>
                         </div>
                         <div id="construction" className="left-text">Construction, Architecture & Engineering</div>
                     </div>
 
                     <div className="right-one" data-aos="fade-right">
                         <div className="right-img-row">
+                            <div className="ind-icon"><img src={Image.factory}></img></div>
                             <div className="right-img-container"><img id="indust-img" src={Image.environmental} alt=""></img></div>
                         </div>
                         <div id="indust" className="right-text">Industrial & Environmental Services</div>
                     </div>
                 </section>
-                    <img src={Image.diamondHeadFisheye} id="diamond-head" alt="honolulu" data-aos="fade-in" data-aos-delay="50"></img>
+                <div id="midpage-graphic" data-aos="fade-in" data-aos-delay="10">
+                    <h2>This is badass!</h2>
+                </div>
                 <section className="ind-list" data-aos="fade-in">
                     <div className="left-one" data-aos="fade-left">
                         <div className="left-img-row">
                             <div className="left-img-container"><img id="consumer-img" src={Image.retail} alt=""></img></div>
+                            <div className="ind-icon"><img src={Image.cashRegister}></img></div>
                         </div>
                         <div id="consumer" className="left-text">Consumer Goods & Retail</div>
                     </div>
 
                     <div className="right-one" data-aos="fade-right">
                         <div className="right-img-row">
+                            <div className="ind-icon"><img src={Image.dining}></img></div>
                             <div className="right-img-container"><img id="restaurant-img" src={Image.restaurant} alt=""></img></div>
                         </div>
                         <div id="restaurant" className="right-text">Restaurant & Food Service Sales</div>
@@ -90,19 +99,23 @@ class Landing extends Component {
                     <div className="left-one" data-aos="fade-left">
                         <div className="left-img-row">
                             <div className="left-img-container"><img id="pharma-img" src={Image.healthcare} alt=""></img></div>
+                            <div className="ind-icon"><img src={Image.stetho}></img></div>
                         </div>
                         <div id="health" className="left-text">Healthcare Sales</div>
                     </div>
 
                     <div className="right-one" data-aos="fade-right">
                         <div className="right-img-row">
+                            <div className="ind-icon"><img src={Image.bank}></img></div>
                             <div className="right-img-container"><img id="bank-img" src={Image.banking} alt=""></img></div>
+
                         </div>
                         <div id="banking" className="right-text">Banking & Finance</div>
                     </div>
 
                     <div className="left-one" data-aos="fade-left">
                         <div className="left-img-row">
+                            <div className="ind-icon"><img src={Image.pharma}></img></div>
                             <div className="left-img-container"><img id="health-img" src={Image.medical} alt=""></img></div>
                         </div>
                         <div id="pharma" className="left-text">Pharmaceutical & Medical Device Sales</div>

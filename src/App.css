@@ -1,266 +1,316 @@
 * {
-  box-sizing: border-box;
-} 
+	box-sizing: border-box;
+}
 html {
-  font-size: 100%;
+	font-size: 100%;
 }
 
 body {
-  display: flex;
-  flex-direction: column;
-  margin: 0;
+	display: flex;
+	flex-direction: column;
+	margin: 0;
 }
 
 App {
-  text-align: auto;
+	text-align: auto;
 }
 
 nav {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  margin-bottom: 1.5rem;
-  margin-bottom: 1.5rem;
-  margin-top: 1.5rem;
-  color: white;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-bottom: 1.5rem;
+	margin-bottom: 1.5rem;
+	margin-top: 1.5rem;
+	color: white;
 }
 
 .mri-logo {
-  width: 42%;
-  margin-left: 0.9rem;
-  font-family: 'Raleway', sans-serif;
-  display: flex;
-  flex-direction: column; 
+	width: 42%;
+	margin-left: 0.9rem;
+	font-family: "Raleway", sans-serif;
+	display: flex;
+	flex-direction: column;
 }
 
 #business-name {
-  text-decoration: none;
-  font-weight: 600;
+	text-decoration: none;
+	font-weight: 600;
 }
 
 #mr {
-  margin-bottom: 0;
-  margin-top: 1.2rem;
-  font-size: 2.3rem;
-  color: brown;
+	margin-bottom: 0;
+	margin-top: 1.2rem;
+	font-size: 2.3rem;
+	color: brown;
 }
 
 #sc {
-  margin-bottom: 0;
-  margin-top: .3px;
-  font-size: 2.5rem;
-  color: coral;
-  text-align: right;
+	margin-bottom: 0;
+	margin-top: 0.3px;
+	font-size: 2.5rem;
+	color: coral;
+	text-align: right;
 }
 
 #hnl {
-  margin-bottom: 0;
-  margin-top: .3rem;
-  font-size: 1.65rem;
-  color: darkgoldenrod;
-  text-align: right;
+	margin-bottom: 0;
+	margin-top: 0.3rem;
+	font-size: 1.65rem;
+	color: darkgoldenrod;
+	text-align: right;
 }
 
 .site-links {
-  width: 46%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  text-decoration: none;
-  font-size: 1.65rem;
-  font-family: 'Montserrat', sans-serif;
-  margin: 1.8rem;
+	width: 46%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	text-decoration: none;
+	font-size: 1.65rem;
+	font-family: "Montserrat", sans-serif;
+	margin: 1.8rem;
 }
 
-#staff, #job-listing, #job-list, #emp-rec, #can-rec {
-    text-decoration: none;
+#staff,
+#job-listing,
+#job-list,
+#emp-rec,
+#can-rec {
+	text-decoration: none;
 }
 
 .back-to {
-  font-size: 16px;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    color: sienna;
-    font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	color: sienna;
+	font-family: "Montserrat", sans-serif;
 }
 footer {
-  color: #8f6471;
-  font-family: 'Montserrat', sans-serif;
-  text-align: left;
-  width: 66%;
-  margin-left: auto;
-  margin-right: auto;
+	color: #8f6471;
+	font-family: "Montserrat", sans-serif;
+	text-align: left;
+	width: 66%;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 #contact {
-  display: grid;
-  grid-template-columns: 23% 5% 27% 5% 30% 10% ;
-  grid-template-rows: 45% 45% 10%;
-  margin-top: 4rem;
-  margin-bottom: 8rem;
+	display: grid;
+	grid-template-columns: 23% 5% 27% 5% 30% 10%;
+	grid-template-rows: 45% 45% 10%;
+	margin-top: 4rem;
+	margin-bottom: 8rem;
 }
 
 #mail-icon {
-  grid-area: 1 / 1 / 3 / 2;
-  align-self: center;
-} 
+	grid-area: 1 / 1 / 3 / 2;
+	align-self: center;
+}
 #mail-icon img {
-  width: 3rem; 
-  height: 3rem;   
+	width: 3rem;
+	height: 3rem;
 }
 #phone-icon {
-  grid-area: 1 / 2 / 3 / 3;
-  align-self: center;
-} 
+	grid-area: 1 / 2 / 3 / 3;
+	align-self: center;
+}
 #phone-icon img {
-  width: 3rem; 
-  height: 3rem; 
+	width: 3rem;
+	height: 3rem;
 }
 #phone-number {
-  grid-area: 1 / 3 / 2 / 4;
-  margin-left: 2rem;
-  align-self: end;
+	grid-area: 1 / 3 / 2 / 4;
+	margin-left: 2rem;
+	align-self: end;
 }
+#phone-number a {
+	text-decoration: none;
+	color: #2a7ca5;
+}	
 #toll-free {
-  grid-area: 2 / 3 / 3 / 4;
-  margin-left: 2rem;
+	grid-area: 2 / 3 / 3 / 4;
+	margin-left: 2rem;
 }
+#toll-free a {
+	text-decoration: none;
+	color: #2a7ca5;
+}	
 #location-icon {
-  grid-area: 1 / 4 / 3 / 5;
-  align-self: center;
+	grid-area: 1 / 4 / 3 / 5;
+	align-self: center;
 }
-#location-icon img{
-  width: 3rem;
-  height: 3rem; 
+#location-icon img {
+	width: 3rem;
+	height: 3rem;
 }
-#street-address{
-  grid-area: 1 / 5 / 2 / 6;
-  margin-left: 1.5rem;
-  align-self: end;
+#street-address {
+	grid-area: 1 / 5 / 2 / 6;
+	margin-left: 1.5rem;
+	align-self: end;
+	color: #2a7ca5;
 }
-#city-zip{
-  grid-area: 2 / 5 / 3 / 6;
-  margin-left: 1.5rem;
+#city-zip {
+	grid-area: 2 / 5 / 3 / 6;
+	margin-left: 1.5rem;
+	color: #2a7ca5;
 }
 #linkedin-icon {
-  grid-area: 1 / 6 / 3 / 7;
-  align-self: center;
-  justify-self: end;
+	grid-area: 1 / 6 / 3 / 7;
+	align-self: center;
+	justify-self: end;
 }
-#linkedin-icon img{
-  width: 4rem;
-  height: 3rem;
+#linkedin-icon img {
+	width: 4rem;
+	height: 3rem;
 }
 #copyright {
-  grid-area: 3 / 1 / 4 / 7;
-  height: 2rem;
-  text-align: center;
-  margin-top: 2rem;
+	grid-area: 3 / 1 / 4 / 7;
+	height: 2rem;
+	text-align: center;
+	margin-top: 2rem;
+}
+.hamburger {
+	display: none;
 }
 
 @media only screen and (max-width: 1260px) {
-  html {
-    font-size: 92%;
-  }
+	html {
+		font-size: 92%;
+	}
+	nav {
+		flex-direction: column;
+	}
+	.mri-logo {
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.site-links {
+		margin-left: auto;
+		margin-right: auto;
+	}
 }
 
 @media only screen and (max-width: 1176px) {
-  html {
-    font-size: 84%;
-  }
+	html {
+		font-size: 84%;
+	}
 }
 @media only screen and (max-width: 1088px) {
-  html {
-    font-size: 77%;
-  }
+	html {
+		font-size: 77%;
+	}
 }
 @media only screen and (max-width: 980px) {
-  html {
-    font-size: 73%;
-  }
+	html {
+		font-size: 73%;
+	}
+	.site-links {
+		flex-direction: column;
+	}
 }
 @media only screen and (max-width: 930px) {
-  html {
-    font-size: 69%;
-  }
+	html {
+		font-size: 69%;
+	}
 }
 @media only screen and (max-width: 882px) {
-  html {
-    font-size: 62%;
-  }
+	html {
+		font-size: 62%;
+	}
 }
 @media only screen and (max-width: 786px) {
-  html {
-    font-size: 58%;
-  }
+	html {
+		font-size: 58%;
+	}
 }
 @media only screen and (max-width: 736px) {
-  nav {
-    flex-direction: column;
-  }
-  .mri-logo {
-    margin-left: auto;
-    margin-right: auto;
-  }
-  .site-links {
-    margin-left: auto;
-    margin-right: auto; 
-  }
-  #contact{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-  }
+	nav {
+		flex-direction: column;
+	}
+	.mri-logo {
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.site-links {
+		display: none;
+	}
+	.hamburger {
+		display: flex;
+	}
+	#contact {
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+	}
 
-  html {
-    font-size: 84%;
-  }
+	html {
+		font-size: 84%;
+	}
 }
 @media only screen and (max-width: 598px) {
-  nav {
-    flex-direction: column;
-  }
-  .mri-logo {
-    margin-left: auto;
-    margin-right: auto;
-  }
-  .site-links {
-    margin-left: auto;
-    margin-right: auto; 
-  }
-  footer {
-    display: flex;
-    flex-direction: column;
-  }
-  .footer-text {
-    display: none;
-  }
+	nav {
+		flex-direction: column;
+	}
+	.mri-logo {
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.site-links {
+		margin-left: auto;
+		margin-right: auto;
+	}
+	footer {
+		display: flex;
+		flex-direction: column;
+	}
+	.footer-text {
+		display: none;
+	}
 }
 @media only screen and (max-width: 546px) {
-  nav {
-    flex-direction: column;
-  }
-  .mri-logo {
-    margin-left: auto;
-    margin-right: auto;
-  }
-  .site-links {
-    flex-direction: column;
-    margin-left: auto;
-    margin-right: auto; 
-  }
-  html {
-    font-size: 92%;
-  }
+	nav {
+		flex-direction: column;
+	}
+	.mri-logo {
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.site-links {
+		flex-direction: column;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	html {
+		font-size: 92%;
+	}
+}
+@media only screen and (max-width: 520px) {
+	nav {
+		flex-direction: column;
+	}
+	.mri-logo {
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.site-links {
+		flex-direction: column;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	html {
+		font-size: 70%;
+	}
 }
 
 @keyframes fontbulger {
-  0% {
-    font-size: 16px;
-  }
-  100% {
-    font-size: 17px;
-  }
+	0% {
+		font-size: 16px;
+	}
+	100% {
+		font-size: 17px;
+	}
 }

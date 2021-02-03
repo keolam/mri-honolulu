@@ -33,5 +33,15 @@ export default {
     phone: '/assets/icons/phone.png',
     mailIcon: '/assets/icons/email.png',
     linkedIn: '/assets/icons/linkedin.png',
-    location: '/assets/icons/location.png'
+    location: '/assets/icons/location.png',
+    officeSup: '/assets/icons/office.ico',
+    satellite: '/assets/icons/satellite.ico',
+    teleData: '/assets/icons/phone.ico',
+    conArchEng: '/assets/icons/construction.ico',
+    factory: '/assets/icons/factory.ico',
+    cashRegister: '/assets/icons/cash-register.ico',
+    dining: '/assets/icons/dining.ico',
+    stetho: '/assets/icons/stetho.ico',
+    bank: '/assets/icons/bank.ico',
+    pharma: '/assets/icons/pharma.ico'
 }

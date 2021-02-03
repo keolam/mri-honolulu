@@ -1,258 +1,286 @@
 #diamond-head {
-    width: 100%;
-    filter: brightness(.8);
+	width: 100%;
+	filter: brightness(0.8);
 }
 .landing {
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
-    margin-left: auto;
-    margin-right: auto;
+	text-align: center;
+	font-family: "Montserrat", sans-serif;
+	margin-left: auto;
+	margin-right: auto;
 }
 #brand-title {
-    font-size: 1rem;
-    margin-top: .2rem;
-    margin-bottom: 6rem;
-    margin-left: auto;
-    margin-right: auto;
-    width: 66%;
-    color: sienna;
+	font-size: 1rem;
+	margin-top: 0.2rem;
+	margin-bottom: 6rem;
+	margin-left: auto;
+	margin-right: auto;
+	width: 66%;
+	color: sienna;
 }
 
 #brand-one {
-    font-size: 1.5rem;
-    margin-top: 4rem;
-    margin-bottom: 1rem;
-    color: #2a7ca5;
+	font-size: 1.5rem;
+	margin-top: 4rem;
+	margin-bottom: 1rem;
+	color: #2a7ca5;
 }
 #brand-two {
-    font-size: 1.4rem;
-    margin-top: 4rem;
-    margin-bottom: .5em;
-    color: #2a7ca5;
+	font-size: 1.4rem;
+	margin-top: 4rem;
+	margin-bottom: 0.5em;
+	color: #2a7ca5;
 }
-
+#midpage-graphic {
+	height: 23rem;
+    background-image: linear-gradient(180deg,rgba(13,35,65,0.97) 0%,rgba(13,35,65,0.66) 100%),
+	url(https://mrihonolulu.com/assets/images/DiamondHeadFisheye.jpg)!important;
+	background-repeat: no-repeat;
+	background-position: 15px 25px;
+}
 .ind-list {
-    display: flex;
-    flex-direction: column;
-    margin-top: 3rem;
-    margin-left: auto;
-    margin-right: auto;
-    width: 52%;
-    text-shadow: .05rem .05rem white;
-    color: rgb(143, 100, 113);
-    font-size: 1.8rem;
+	display: flex;
+	flex-direction: column;
+	margin-top: 3rem;
+	margin-left: auto;
+	margin-right: auto;
+	width: 52%;
+	text-shadow: 0.05rem 0.05rem white;
+	color: rgb(143, 100, 113);
+	font-size: 1.8rem;
 }
 
 .left-fade {
-    height: auto;
-    position: relative;
-    display: flex;
-    justify-content: flex-start;
+	height: auto;
+	position: relative;
+	display: flex;
+	justify-content: flex-start;
 }
 
 .right-fade {
-    display: flex;
-    height: auto;
-    position: relative;
-    justify-content: flex-end;
+	display: flex;
+	height: auto;
+	position: relative;
+	justify-content: flex-end;
 }
 .left-one {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    margin-bottom: 2rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	margin-bottom: 2rem;
 }
 
 .left-img-row {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
 }
 .left-img-container {
-    display: flex;
-    justify-content: flex-start;
-    height: auto;
-    width: 20rem;
+	display: flex;
+	justify-content: flex-start;
+	height: auto;
+	width: 20rem;
 }
 .left-img-container img {
-    width: 100%;
+	width: 100%;
 }
 .left-text {
-    height: auto;
-    text-align: left;
-    font-size: 1.8rem;
-    width: 100%;
-    text-shadow: .05rem .05rem white;
+	height: auto;
+	text-align: left;
+	font-size: 1.8rem;
+	width: 100%;
+	text-shadow: 0.05rem 0.05rem white;
 }
 .right-one {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    margin-bottom: 2rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	margin-bottom: 2rem;
 }
 .right-img-row {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
 }
 
 .right-img-container {
-    display: flex;
-    justify-content: flex-end;
-    height: auto;
-    width: 20rem;
+	display: flex;
+	justify-content: flex-end;
+	height: auto;
+	width: 20rem;
 }
 .right-img-container img {
-    width: 100%;
+	width: 100%;
 }
 .right-text {
-    height: auto;
-    width: 100%;
-    text-align: right;
-    font-size: 1.8rem;
-    width: 100%;
-    text-shadow: .05rem .05rem white;
+	height: auto;
+	width: 100%;
+	text-align: right;
+	font-size: 1.8rem;
+	width: 100%;
+	text-shadow: 0.05rem 0.05rem white;
 }
 
 #office-img {
-    filter: grayscale(60%);
+	filter: grayscale(60%);
 }
 #it-img {
-    filter: grayscale(40%);
+	filter: grayscale(40%);
 }
 #tele-img {
-    filter: grayscale(66%);
+	filter: grayscale(66%);
 }
 #const-img {
-    filter: grayscale(36%);
+	filter: grayscale(36%);
 }
 #indust-img {
-    filter: grayscale(14%);
+	filter: grayscale(14%);
 }
 #consumer-img {
-    filter: grayscale(46%);
+	filter: grayscale(46%);
 }
 #restaurant-img {
-    filter: grayscale(50%);
+	filter: grayscale(50%);
 }
 #pharma-img {
-    filter: grayscale(6%);
+	filter: grayscale(6%);
 }
 #bank-img {
-    filter: grayscale(26%);
+	filter: grayscale(26%);
 }
 #health-img {
-    filter: grayscale(76%);
+	filter: grayscale(76%);
 }
 #office-text {
-    width: 100%;
+	width: 100%;
 }
 #it-text {
-    width: 94%;
+	width: 94%;
 }
 #telecom {
-    font-size: 1.5rem; 
+	font-size: 1.5rem;
 }
 #construction {
-    font-size: 1.5rem;
+	font-size: 1.5rem;
 }
 #indust {
-    font-size: 1.5rem;
+	font-size: 1.5rem;
 }
 #consumer {
-    width: 88%;
+	width: 88%;
 }
 #restaurant {
-    font-size: 1.5rem;
+	font-size: 1.5rem;
 }
 #pharma {
-    font-size: 1.5rem;
+	font-size: 1.5rem;
 }
 #banking {
-    font-size: 1.5rem;
+	font-size: 1.5rem;
 }
 #health {
-    width: 66%;
+	width: 66%;
+}
+.ind-icon {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 4rem;
+	opacity: .6;
+	transform: scale(1.4); 
 }
 
 .bottom-links {
-    display: flex;
-    flex-direction: row;
-    width: 44%;
-    margin-top: 5rem;
-    margin-left: auto;
-    margin-right: auto;
-    justify-content: space-around;
-    font-size: 1.4rem;
+	display: flex;
+	flex-direction: row;
+	width: 44%;
+	margin-top: 5rem;
+	margin-left: auto;
+	margin-right: auto;
+	justify-content: space-around;
+	font-size: 1.4rem;
 }
 
 #work-link {
-    text-decoration: none;
+	text-decoration: none;
 }
 #video-section {
-    display: flex;
-    flex-direction: row;
-    margin-left: auto;
-    margin-right: auto;
-    justify-content: center;
+	display: flex;
+	flex-direction: row;
+	margin-left: auto;
+	margin-right: auto;
+	justify-content: center;
 }
 #video-frame {
-    margin-top: 6rem;
-    width: 40rem; 
-    height: 33rem; 
-    border: .13rem;
-    border-radius: 1.5rem;
-    border-style: solid;
-    border-color: sienna;
+	margin-top: 6rem;
+	width: 40rem;
+	height: 33rem;
+	border: 0.13rem;
+	border-radius: 1.5rem;
+	border-style: solid;
+	border-color: sienna;
 }
 
 #video {
-    width: 36rem; 
-    height: 33rem; 
+	width: 36rem;
+	height: 33rem;
 }
 
 @media only screen and (min-width: 1440.1px) {
-    .ind-list {
-      width: 46%;
-    }
+	.ind-list {
+		width: 46%;
+	}
 }
 @media only screen and (max-width: 1440px) {
-    .ind-list {
-      width: 46%;
-    }
+	.ind-list {
+		width: 46%;
+	}
 }
 @media only screen and (max-width: 1024px) {
-    .ind-list {
-      width: 46%;
-    }
+	.ind-list {
+		width: 46%;
+	}
 }
 
 @media only screen and (max-width: 648px) {
-    #title {
-        font-size: 1.4rem;
-        margin: auto;
-        width: 80%;
-    }
-    .bottom-links {
-        flex-direction: column;
-    }
-    #job-listing, #emp-rec, #can-rec {
-        font-size: 2rem;
-    }
+	#title {
+		font-size: 1.4rem;
+		margin: auto;
+		width: 80%;
+	}
+	.bottom-links {
+		flex-direction: column;
+	}
+	#job-listing,
+	#emp-rec,
+	#can-rec {
+		font-size: 2rem;
+	}
 }
 @media only screen and (max-width: 606px) {
-    #video { 
-        margin: 10rem;
-    }
+	#video-section {
+		display: none;
+		/*margin: 10rem;*/
+	}
 }
 
 @media only screen and (max-width: 440px) {
+	#title {
+		font-size: 1.2rem;
+		margin: auto;
+		width: 76%;
+	}
+}
 
-    #title {
-        font-size: 1.2rem;
-        margin: auto;
-        width: 76%;
-    }
+@media only screen and (max-width: 384px) {
+	#title {
+		font-size: 1.2rem;
+		margin: auto;
+		width: 76%;
+	}
+	.landing {
+		font-size: 0.2rem;
+		width: 100%;
+	}
 }
 /*
 .left-fade .img-container:after {
