@@ -43,5 +43,6 @@ export default {
     dining: '/assets/icons/dining.ico',
     stetho: '/assets/icons/stetho.ico',
     bank: '/assets/icons/bank.ico',
-    pharma: '/assets/icons/pharma.ico'
+    pharma: '/assets/icons/pharma.ico',
+    hamburger: '/assets/icons/hamburger.png'
 }

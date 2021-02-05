@@ -141,6 +141,7 @@ footer {
 }	
 #location-icon {
 	grid-area: 1 / 4 / 3 / 5;
+	align-self: end;
 	align-self: center;
 }
 #location-icon img {
@@ -153,6 +154,7 @@ footer {
 	align-self: end;
 	color: #2a7ca5;
 }
+
 #city-zip {
 	grid-area: 2 / 5 / 3 / 6;
 	margin-left: 1.5rem;
@@ -246,6 +248,18 @@ footer {
 		flex-direction: column;
 		text-align: center;
 	}
+	#phone-icon, #location-icon, #linkedin-icon {
+		margin-top: 2rem;
+	}
+	#toll-free, #city-zip, {
+		margin-bottom: 8rem;
+	}
+	#phone-number, #street-address {
+		align-self: center;
+	}
+	.footer-text {
+		display: none;
+	}
 
 	html {
 		font-size: 84%;
@@ -267,9 +281,7 @@ footer {
 		display: flex;
 		flex-direction: column;
 	}
-	.footer-text {
-		display: none;
-	}
+    
 }
 @media only screen and (max-width: 546px) {
 	nav {
@@ -303,6 +315,20 @@ footer {
 	}
 	html {
 		font-size: 70%;
+	}
+}
+
+@media only screen and (max-width: 360px) {
+	body {
+		width: 100%;
+		margin-right: -20rem;
+	}
+	footer {
+		width: 30%;
+		font-size: 60%;
+	}
+	#copyright {
+		font-size: 60%;
 	}
 }
 

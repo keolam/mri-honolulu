@@ -31,11 +31,24 @@
 	color: #2a7ca5;
 }
 #midpage-graphic {
-	height: 23rem;
     background-image: linear-gradient(180deg,rgba(13,35,65,0.97) 0%,rgba(13,35,65,0.66) 100%),
 	url(https://mrihonolulu.com/assets/images/DiamondHeadFisheye.jpg)!important;
 	background-repeat: no-repeat;
-	background-position: 15px 25px;
+	background-position: center bottom;
+	height: 26rem;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	
+}
+#midpage-graphic h2 {
+	align-self: center;
+	font-size: 2rem;
+	padding: 16rem;
+	text-align: center;
+	line-height: 2; 
 }
 .ind-list {
 	display: flex;
@@ -66,7 +79,7 @@
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-start;
-	margin-bottom: 2rem;
+	margin-bottom: .6rem;
 }
 
 .left-img-row {
@@ -94,7 +107,7 @@
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-end;
-	margin-bottom: 2rem;
+	margin-bottom: .6rem;
 }
 .right-img-row {
 	display: flex;
@@ -255,7 +268,11 @@
 	#can-rec {
 		font-size: 2rem;
 	}
+	.right-img-container, .left-img-container, #midpage-graphic {
+		display: none;
+	}
 }
+
 @media only screen and (max-width: 606px) {
 	#video-section {
 		display: none;

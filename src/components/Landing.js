@@ -77,7 +77,7 @@ class Landing extends Component {
                     </div>
                 </section>
                 <div id="midpage-graphic" data-aos="fade-in" data-aos-delay="10">
-                    <h2>This is badass!</h2>
+                    <h2>We believe effective talent advisory and search firms can change lives and industries.</h2>
                 </div>
                 <section className="ind-list" data-aos="fade-in">
                     <div className="left-one" data-aos="fade-left">
