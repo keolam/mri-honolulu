@@ -106,6 +106,7 @@ class App extends Component {
                                     Our Staff
                             </Link>
                             </div>
+                            <div>Hamburger</div>
                         </nav>
                     </header>
                     <main id="front-page">
