@@ -1,3 +1,10 @@
+* {
+	box-sizing: border-box;
+}
+html {
+	font-size: 100%;
+}
+
 #diamond-head {
 	width: 100%;
 	filter: brightness(0.8);
@@ -31,8 +38,12 @@
 	color: #2a7ca5;
 }
 #midpage-graphic {
-    background-image: linear-gradient(180deg,rgba(13,35,65,0.97) 0%,rgba(13,35,65,0.66) 100%),
-	url(https://mrihonolulu.com/assets/images/DiamondHeadFisheye.jpg)!important;
+	background-image: linear-gradient(
+			180deg,
+			rgba(13, 35, 65, 0.97) 0%,
+			rgba(13, 35, 65, 0.66) 100%
+		),
+		url(https://mrihonolulu.com/assets/images/DiamondHeadFisheye.jpg) !important;
 	background-repeat: no-repeat;
 	background-position: center bottom;
 	height: 26rem;
@@ -41,14 +52,13 @@
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	
 }
 #midpage-graphic h2 {
 	align-self: center;
 	font-size: 2rem;
 	padding: 16rem;
 	text-align: center;
-	line-height: 2; 
+	line-height: 2;
 }
 .ind-list {
 	display: flex;
@@ -79,7 +89,7 @@
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-start;
-	margin-bottom: .6rem;
+	margin-bottom: 0.6rem;
 }
 
 .left-img-row {
@@ -107,7 +117,7 @@
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-end;
-	margin-bottom: .6rem;
+	margin-bottom: 0.6rem;
 }
 .right-img-row {
 	display: flex;
@@ -198,8 +208,8 @@
 	justify-content: center;
 	align-items: center;
 	padding: 4rem;
-	opacity: .6;
-	transform: scale(1.4); 
+	opacity: 0.6;
+	transform: scale(1.4);
 }
 
 .bottom-links {
@@ -268,7 +278,9 @@
 	#can-rec {
 		font-size: 2rem;
 	}
-	.right-img-container, .left-img-container, #midpage-graphic {
+	.right-img-container,
+	.left-img-container,
+	#midpage-graphic {
 		display: none;
 	}
 }
@@ -289,14 +301,19 @@
 }
 
 @media only screen and (max-width: 384px) {
+	html {
+		font-size: 50%;
+	}
 	#title {
-		font-size: 1.2rem;
+		/*font-size: 0.8rem;*/
 		margin: auto;
 		width: 76%;
 	}
 	.landing {
-		font-size: 0.2rem;
 		width: 100%;
+	}
+	.ind-list {
+		font-size: 0.2rem;
 	}
 }
 /*

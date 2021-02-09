@@ -11,11 +11,11 @@ const ResumeFooter = (props) => {
     });
 
     const removeSpace = (string) => {
-        if (string.includes(' ')) {
+       /* if (string.includes(' ')) {*/
             let wordArr = string.split('');
             wordArr.splice(wordArr.indexOf(' '), 1);
             return wordArr.join('');
-        }
+     //   }
     };
 
     return (

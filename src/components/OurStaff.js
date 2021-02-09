@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from './../Data/imageDir';
+import BottomNav from './BottomNav';
 import '../componentCSS/OurStaff.css';
 
 const OurStaff = () => (
@@ -37,6 +38,7 @@ const OurStaff = () => (
       </div>
       </div>
     </section>
+    <BottomNav name="Our Staff" />
   </div>
 );
 

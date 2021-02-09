@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Route, Link, HashRouter as Router, Switch } from 'react-router-dom';
 import './App.css';
-import Landing from './components/Landing';
+import Main from './components/Main';
 import JobListings from './components/JobListings';
 import EmployerResources from './components/EmployerResources';
 import CandidateResources from './components/CandidateResources';
@@ -29,91 +29,97 @@ import Scannable from './components/Scannable';
 import ProjectFocused from './components/ProjectFocused';
 import ScrollToTop from './helpers/ScrollToTop';
 import Image from './Data/imageDir';
+import MobileNav from './components/mobileNav';
+import Header from './components/Header';
 
 class App extends Component {
     constructor() {
         super();
-        this.state = {
-            hover: ''
-        }
-    }
+        //     this.state = {
+        //         hover: ''
+        //     }
+        // }
 
-    mouseEnter1() {
-        this.setState({ hover: 'jl' })
+        // mouseEnter1() {
+        //     this.setState({ hover: 'jl' })
+        // }
+        // mouseEnter2() {
+        //     this.setState({ hover: 'er' })
+        // }
+        // mouseEnter3() {
+        //     this.setState({ hover: 'cr' })
+        // }
+        // mouseEnter4() {
+        //     this.setState({ hover: 'st' })
+        // }
+        // mouseLeave() {
+        //     this.setState({ hover: '' })
+        // }
     }
-    mouseEnter2() {
-        this.setState({ hover: 'er' })
-    }
-    mouseEnter3() {
-        this.setState({ hover: 'cr' })
-    }
-    mouseEnter4() {
-        this.setState({ hover: 'st' })
-    }
-    mouseLeave() {
-        this.setState({ hover: '' })
-    }
-
 
     render() {
         return (
             <Router>
                 <div className="App">
-                    <header>
-                        <nav>
-                            <div className="mri-logo">
-                                <Link to='/' id="business-name">
-                                    <p id="mr">MANAGEMENT RECRUITERS &</p>
-                                    <p id="sc">SALES CONSULTANTS</p>
-                                    <p id="hnl">of Honolulu</p>
-                                </Link>
-                            </div>
-                            <div className="site-links">
-                                <Link to='/JobListings' id="job-listing"
-                                    style={{
-                                        fontSize: this.state.hover === 'jl' ? '1.2rem' : '1.15rem',
-                                        color: this.state.hover === 'jl' ? 'lightcoral' : '#8f6471'
-                                    }}
-                                    onMouseEnter={() => this.mouseEnter1()}
-                                    onMouseLeave={() => this.mouseLeave()}>
-                                    Job Listings
-                            </Link>
-                                <Link to='/EmployerResources' id="emp-rec"
-                                    style={{
-                                        fontSize: this.state.hover === 'er' ? '1.2rem' : '1.15rem',
-                                        color: this.state.hover === 'er' ? 'lightcoral' : '#8f6471'
-                                    }}
-                                    onMouseEnter={() => this.mouseEnter2()}
-                                    onMouseLeave={() => this.mouseLeave()}>
-                                    Employer Resources
-                            </Link>
-                                <Link to='/CandidateResources' id="can-rec"
-                                    style={{
-                                        fontSize: this.state.hover === 'cr' ? '1.2rem' : '1.15rem',
-                                        color: this.state.hover === 'cr' ? 'lightcoral' : '#8f6471'
-                                    }}
-                                    onMouseEnter={() => this.mouseEnter3()}
-                                    onMouseLeave={() => this.mouseLeave()}>
-                                    Candidate Resources
-                            </Link>
-                                <Link to='/OurStaff' id="staff"
-                                    style={{
-                                        fontSize: this.state.hover === 'st' ? '1.2rem' : '1.15rem',
-                                        color: this.state.hover === 'st' ? 'lightcoral' : '#8f6471'
-                                    }}
-                                    onMouseEnter={() => this.mouseEnter4()}
-                                    onMouseLeave={() => this.mouseLeave()}>
-                                    Our Staff
-                            </Link>
-                            </div>
-                            <div>Hamburger</div>
-                        </nav>
-                    </header>
+                        {/* <header>
+                            <nav>
+                                <div className="mri-logo">
+                                    <Link to='/' id="business-name">
+                                        <p id="mr">MANAGEMENT RECRUITERS &</p>
+                                        <p id="sc">SALES CONSULTANTS</p>
+                                        <p id="hnl">of Honolulu</p>
+                                    </Link>
+                                </div>
+                                
+                                <MobileNav /> 
+                                <div className="site-links">
+                                    <Link to='/JobListings' id="job-listing"
+                                        style={{
+                                            fontSize: this.state.hover === 'jl' ? '1.2rem' : '1.15rem',
+                                            color: this.state.hover === 'jl' ? 'lightcoral' : '#8f6471'
+                                        }}
+                                        onMouseEnter={() => this.mouseEnter1()}
+                                        onMouseLeave={() => this.mouseLeave()}>
+                                        Job Listings
+                                    </Link>
+                                    <Link to='/EmployerResources' id="emp-rec"
+                                        style={{
+                                            fontSize: this.state.hover === 'er' ? '1.2rem' : '1.15rem',
+                                            color: this.state.hover === 'er' ? 'lightcoral' : '#8f6471'
+                                        }}
+                                        onMouseEnter={() => this.mouseEnter2()}
+                                        onMouseLeave={() => this.mouseLeave()}>
+                                        Employer Resources
+                                    </Link>
+                                    <Link to='/CandidateResources' id="can-rec"
+                                        style={{
+                                            fontSize: this.state.hover === 'cr' ? '1.2rem' : '1.15rem',
+                                            color: this.state.hover === 'cr' ? 'lightcoral' : '#8f6471'
+                                        }}
+                                        onMouseEnter={() => this.mouseEnter3()}
+                                        onMouseLeave={() => this.mouseLeave()}>
+                                        Candidate Resources
+                                    </Link>
+                                    <Link to='/OurStaff' id="staff"
+                                        style={{
+                                            fontSize: this.state.hover === 'st' ? '1.2rem' : '1.15rem',
+                                            color: this.state.hover === 'st' ? 'lightcoral' : '#8f6471'
+                                        }}
+                                        onMouseEnter={() => this.mouseEnter4()}
+                                        onMouseLeave={() => this.mouseLeave()}>
+                                        Our Staff
+                                    </Link>
+                                </div>
+                                
+                            </nav>
+                        </header> */}
+                    <Header />    
                     <main id="front-page">
                         <ScrollToTop />
 
                         <Switch>
-                            <Route exact path="/" component={Landing} />
+                         
+                            <Route exact path="/" component={Main} />
                             <Route path="/JobListings" component={JobListings} />
                             <Route path="/EmployerResources" component={EmployerResources} />
                             <Route path="/HowWeWork" component={HowWeWork} />
@@ -173,3 +179,5 @@ class App extends Component {
 }
 
 export default App;
+
+ /*  <Route exact path="/" component={Main} />*/

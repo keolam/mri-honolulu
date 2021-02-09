@@ -1,5 +1,5 @@
 export default {
-    honolulu: '/assets/images/HonoluluHero2.jpg',
+    honolulu: '/assets/images/HonoluluDH.jpg',
     office: '/assets/images/Office.jpg',
     dataRoom: '/assets/images/EmpResource.jpg',
     diamondHeadFisheye: '/assets/images/DiamondHeadFisheye.jpg',
