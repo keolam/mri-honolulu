@@ -1,10 +1,10 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Image from '../Data/imageDir';
 import BottomNav from './BottomNav';
-/*import { Link } from 'react-router-dom';*/
 import '../componentCSS/Landing.css'
 
 const Main = () => ( 
+
     <section className="landing">
         <img src={Image.honolulu} id="diamond-head" alt="honolulu" data-aos="fade-in" data-aos-delay="300"></img>
         <section id="brand-title">

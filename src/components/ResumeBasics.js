@@ -4,7 +4,7 @@ import Image from './../Data/imageDir';
 import Doc from './../Data/docDirectory';
 import '../componentCSS/ResumeGuide.css'
 
-const ResumeBasics = (props) => (
+const ResumeBasics = () => (
     <div id="res-basics">
         <section>
             <img src={Image.resumeBasic} id="hero" alt="resume" data-aos="fade-in" data-aos-delay="300"></img>
@@ -23,7 +23,7 @@ const ResumeBasics = (props) => (
                     <p className="basic-paragraph">
                         So, how do you create a resume that gets noticed?
                         Let's start with the basics:
-                    <br />
+                        <br />
                         <br />
                         Contact Information, Objective, Summary of Skills, Professional Experience,
                         Education, Finishing Up, and finally, some added tips.
