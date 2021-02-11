@@ -1,0 +1,72 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+.site-links {
+	width: 46%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	text-decoration: none;
+	font-size: 1.65rem;
+	font-family: "Montserrat", sans-serif;
+	margin-right: 1.8rem;
+}
+
+.b-link {
+	padding: 0;
+	text-decoration: none;
+	box-sizing: content-box;
+}
+
+@media only screen and (max-width: 1260px) {
+	html {
+		font-size: 92%;
+	}
+	nav {
+		flex-direction: column;
+	}
+	.site-links {
+		width: 76%;
+		flex-direction: column;
+		justify-content: space-between;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.b-link {
+		font-size: 1.4rem;
+
+		padding: 0.6rem;
+	}
+}
+@media only screen and (max-width: 736px) {
+	nav {
+		flex-direction: column;
+	}
+	.site-links {
+		display: none;
+	}
+	.hamburger {
+		display: flex;
+		align-content: flex-start;
+		margin-left: 3rem;
+	}
+	.hamburger img {
+		filter: invert(28%) sepia(32%) saturate(4007%) hue-rotate(339deg)
+			brightness(76%) contrast(90%);
+		max-height: 2rem;
+	}
+	.hamburger-links {
+		margin: 2rem auto;
+		flex-direction: column;
+	}
+	.hamburger-links .b-link {
+		margin: auto;
+		font-size: 1.4rem;
+		text-decoration: none;
+		font-size: 1.65rem;
+		font-family: "Montserrat", sans-serif;
+	}
+}

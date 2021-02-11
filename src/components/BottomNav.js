@@ -23,7 +23,6 @@ class BottomNav extends Component {
     mouseLeave(key){
         this.setState({ hover: '' })
     }
- 
     removeSpace = (string) => {
         if (string.includes(' ')) {
             let wordArr = string.split('');
@@ -37,7 +36,7 @@ class BottomNav extends Component {
         return (
             <div id="bottom-links" data-aos="fade-in" data-aos-delay="300">
                 {this.state.linkNames.map((linkName) => (    
-                    <Link to={linkName.includes('Main') ?  '/' : this.removeSpace(linkName) } 
+                    <Link to={linkName === 'Main' ?  '/' : this.removeSpace(linkName) } 
                         className="b-link" 
                         key={linkName.toLowerCase()}
                         style={{

@@ -1,0 +1,33 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+#business-name {
+	text-decoration: none;
+	font-weight: 600;
+}
+
+@media only screen and (max-width: 1260px) {
+	html {
+		font-size: 92%;
+	}
+	#business-name {
+		margin-bottom: 1rem;
+	}
+}
+@media only screen and (max-width: 736px) {
+	.mri-logo {
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+@media only screen and (max-width: 384px) {
+	html {
+		font-size: 50%;
+	}
+	.hamburger img {
+		width: 2rem;
+	}
+}
