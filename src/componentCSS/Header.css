@@ -16,7 +16,21 @@
 		margin-bottom: 1rem;
 	}
 }
+@media only screen and (max-width: 520px) {
+	html {
+		font-size: 66%;
+	}
+}
+@media only screen and (max-width: 474px) {
+	html {
+		font-size: 46%;
+	}
+}
 @media only screen and (max-width: 736px) {
+	html {
+		font-size: 52%;
+	}
+
 	.mri-logo {
 		margin-left: auto;
 		margin-right: auto;

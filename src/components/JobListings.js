@@ -1,4 +1,4 @@
-import React, { /*Component*/ } from 'react';
+import React from 'react';
 import Image from './../Data/imageDir';
 import '../componentCSS/JobListings.css'
 

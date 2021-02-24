@@ -1,25 +1,66 @@
 .main {
-    font-size: 1rem;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 6rem;
-    width: 66%;
-    color: sienna;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: lighter;
-    text-align: justify;
+	font-size: 1rem;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 6rem;
+	width: 66%;
+	color: sienna;
+	font-family: "Montserrat", sans-serif;
+	font-weight: lighter;
+	text-align: justify;
 }
 #title {
-    font-size: 1.2rem;
-    margin-top: 4rem;
-    margin-bottom: 4rem;
-    font-weight: lighter;
-   
+	font-size: 1.2rem;
+	margin-top: 4rem;
+	margin-bottom: 4rem;
+	font-weight: lighter;
 }
 
 #frame {
-    border: solid;
-    border-width: .1rem;
-    border-color: sienna;
-    border-radius: 1rem;
+	border: solid;
+	border-width: 0.1rem;
+	border-color: sienna;
+	border-radius: 1rem;
+}
+@media only screen and (max-width: 736px) {
+	#title {
+		margin-left: 5rem;
+		margin-right: 5rem;
+	}
+	#frame {
+		width: 146%;
+		transform: scale(0.6);
+		margin: -112px;
+	}
+}
+@media only screen and (max-width: 598px) {
+	#frame {
+		width: 159%;
+		transform: scale(0.6);
+		margin: -100px;
+	}
+}
+
+@media only screen and (max-width: 520px) {
+	#frame {
+		width: 146%;
+		transform: scale(0.7);
+		margin: -56px;
+	}
+}
+@media only screen and (max-width: 384px) {
+	#frame {
+		width: 200%;
+		transform: scale(0.5);
+		margin: -108px;
+	}
+}
+@media only screen and (max-width: 324px) {
+	#frame {
+		width: 208%;
+		height: 150%;
+		transform: scale(0.5);
+		margin-left: -108px;
+		margin-bottom: -32px;
+	}
 }
