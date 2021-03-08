@@ -54,13 +54,29 @@
 		transform: scale(0.5);
 		margin: -108px;
 	}
+	.mri-logo {
+		width: 78%;
+	}
 }
 @media only screen and (max-width: 324px) {
+	.main {
+		width: 96%;
+		margin-bottom: -26rem;
+	}
+
+	#title {
+		width: 92%;
+		margin: 5rem 0 -20rem 1rem;
+	}
 	#frame {
-		width: 208%;
-		height: 150%;
+		width: 176%;
+		height: 100rem;
 		transform: scale(0.5);
-		margin-left: -108px;
-		margin-bottom: -32px;
+		margin-top: -16px;
+		margin-left: -116px;
+		margin-bottom: 0;
+	}
+	#contact {
+		margin-top: 6rem;
 	}
 }
