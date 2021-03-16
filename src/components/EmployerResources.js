@@ -47,21 +47,21 @@ class EmployerResources extends Component {
                     </div>
                     <div className="emp-rec-links" data-aos="fade-left">
                         <Link to='/HowWeWork' id="how-we-work"
-                            style={{ fontSize: this.state.hover === 'ww' ? '19px': '18px',
+                            style={{ fontSize: this.state.hover === 'ww' ? '1.3rem': '1.2rem',
                             color: this.state.hover === 'ww' ? '#8f6471':'#118bac'}}                    
                             onMouseEnter={ ()=> this.mouseEnter1() }
                             onMouseLeave ={ () =>this.mouseLeave() }>
                             How We Work
                         </Link>
                         <Link to='/InterviewGuide' id="interview-guide"
-                            style={{ fontSize: this.state.hover === 'ig' ? '19px': '18px',
+                            style={{ fontSize: this.state.hover === 'ig' ? '1.3rem': '1.2rem',
                             color: this.state.hover === 'ig' ? '#8f6471':'#118bac'}}                    
                             onMouseEnter={ ()=> this.mouseEnter2() }
                             onMouseLeave ={ () =>this.mouseLeave() }>
                             Interview Guide 
                             </Link>
                         <Link to='/ValueAddedServices' id="value-added"
-                            style={{ fontSize: this.state.hover === 'vas' ? '19px': '18px',
+                            style={{ fontSize: this.state.hover === 'vas' ? '1.3rem': '1.2rem',
                             color: this.state.hover === 'vas' ? '#8f6471':'#118bac'}}                    
                             onMouseEnter={ ()=> this.mouseEnter3() }
                             onMouseLeave ={ () =>this.mouseLeave() }>
