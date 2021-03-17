@@ -101,6 +101,7 @@
 		grid-template-columns: 45% 10% 45%;
 		grid-template-rows: 30% 30% 13% 13% 14%;
 		width: 80%;
+		margin-top: 14rem;
 	}
 	#mail-icon {
 		grid-area: 1 / 1 / 2 / 2;

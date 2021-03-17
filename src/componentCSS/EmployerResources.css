@@ -38,6 +38,18 @@ h1 {
 	margin-bottom: 1.2rem;
 }
 @media only screen and (max-width: 588px) {
+	html {
+		font-size: 50%;
+	}
+	.main-paragraph {
+		width: 88%;
+		margin-bottom: -10rem;
+	}
+	#emp-rec {
+		font-weight: lighter;
+		font-size: 1rem;
+		line-height: 2;
+	}
 	.emp-rec-links {
 		margin: 0.13rem;
 		font-weight: lighter;
