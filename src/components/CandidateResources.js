@@ -48,35 +48,35 @@ class CandidateResources extends Component {
                     <p className="can-links" align="center" data-aos="fade-left">
 
                         <Link to='/ResumeGuidelines'
-                            id="resguide" style={{ fontSize: this.state.hover === 'rg' ? '19px' : '18px', color: this.state.hover === 'rg' ? 'lightcoral' : '#8f6471' }}
+                            id="resguide" style={{ fontSize: this.state.hover === 'rg' ? '1.3rem' : '1.2rem', color: this.state.hover === 'rg' ? 'lightcoral' : '#8f6471' }}
                             onMouseEnter={() => this.mouseEnter1()}
                             onMouseLeave={() => this.mouseLeave()}>
                             Resume Guide
                         </Link>|
 
                         <Link to='/InterviewTips'
-                            id="inttips" style={{ fontSize: this.state.hover === 'it' ? '19px' : '18px', color: this.state.hover === 'it' ? 'lightcoral' : '#8f6471' }}
+                            id="inttips" style={{ fontSize: this.state.hover === 'it' ? '1.3rem' : '1.2rem', color: this.state.hover === 'it' ? 'lightcoral' : '#8f6471' }}
                             onMouseEnter={() => this.mouseEnter2()}
                             onMouseLeave={() => this.mouseLeave()}>
                             Interview Tips
                         </Link>|
 
                         <Link to='/CounterOffer'
-                            id="counter" style={{ fontSize: this.state.hover === 'co' ? '19px' : '18px', color: this.state.hover === 'co' ? 'lightcoral' : '#8f6471' }}
+                            id="counter" style={{ fontSize: this.state.hover === 'co' ? '1.3rem' : '1.2rem', color: this.state.hover === 'co' ? 'lightcoral' : '#8f6471' }}
                             onMouseEnter={() => this.mouseEnter3()}
                             onMouseLeave={() => this.mouseLeave()}>
                             Considering the Counteroffer
                         </Link>|
 
                         <Link to='/ReloInfo'
-                            id="reloinfo" style={{ fontSize: this.state.hover === 'ri' ? '19px' : '18px', color: this.state.hover === 'ri' ? 'lightcoral' : '#8f6471' }}
+                            id="reloinfo" style={{ fontSize: this.state.hover === 'ri' ? '1.3rem' : '1.2rem', color: this.state.hover === 'ri' ? 'lightcoral' : '#8f6471' }}
                             onMouseEnter={() => this.mouseEnter4()}
                             onMouseLeave={() => this.mouseLeave()}>
                             Relocation Info
                         </Link> |
 
                         <Link to='/Submit'
-                            id="submit" style={{ fontSize: this.state.hover === 'sr' ? '19px' : '18px', color: this.state.hover === 'sr' ? 'lightcoral' : '#8f6471' }}
+                            id="submit" style={{ fontSize: this.state.hover === 'sr' ? '1.3rem' : '1.2rem', color: this.state.hover === 'sr' ? 'lightcoral' : '#8f6471' }}
                             onMouseEnter={() => this.mouseEnter5()}
                             onMouseLeave={() => this.mouseLeave()}>
                             Submit Your Resume
