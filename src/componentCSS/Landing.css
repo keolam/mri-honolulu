@@ -40,8 +40,8 @@ html {
 #midpage-graphic {
 	background-image: linear-gradient(
 			180deg,
-			rgba(13, 35, 65, 0.97) 0%,
-			rgba(13, 35, 65, 0.66) 100%
+			rgba(13, 35, 65, 0.53) 0%,
+			rgba(0, 0, 0, 0.6) 100%
 		),
 		url(https://mrihonolulu.com/assets/images/DiamondHeadFisheye.jpg) !important;
 	background-repeat: no-repeat;
