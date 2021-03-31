@@ -52,28 +52,28 @@ class CandidateResources extends Component {
                             onMouseEnter={() => this.mouseEnter1()}
                             onMouseLeave={() => this.mouseLeave()}>
                             Resume Guide
-                        </Link>|
+                        </Link><span className="pipe">|</span>
 
                         <Link to='/InterviewTips'
                             id="inttips" style={{ fontSize: this.state.hover === 'it' ? '1.3rem' : '1.2rem', color: this.state.hover === 'it' ? 'lightcoral' : '#8f6471' }}
                             onMouseEnter={() => this.mouseEnter2()}
                             onMouseLeave={() => this.mouseLeave()}>
                             Interview Tips
-                        </Link>|
+                        </Link><span className="pipe">|</span>
 
                         <Link to='/CounterOffer'
                             id="counter" style={{ fontSize: this.state.hover === 'co' ? '1.3rem' : '1.2rem', color: this.state.hover === 'co' ? 'lightcoral' : '#8f6471' }}
                             onMouseEnter={() => this.mouseEnter3()}
                             onMouseLeave={() => this.mouseLeave()}>
                             Considering the Counteroffer
-                        </Link>|
+                        </Link><span className="pipe">|</span>
 
                         <Link to='/ReloInfo'
                             id="reloinfo" style={{ fontSize: this.state.hover === 'ri' ? '1.3rem' : '1.2rem', color: this.state.hover === 'ri' ? 'lightcoral' : '#8f6471' }}
                             onMouseEnter={() => this.mouseEnter4()}
                             onMouseLeave={() => this.mouseLeave()}>
                             Relocation Info
-                        </Link> |
+                        </Link><span className="pipe">|</span>
 
                         <Link to='/Submit'
                             id="submit" style={{ fontSize: this.state.hover === 'sr' ? '1.3rem' : '1.2rem', color: this.state.hover === 'sr' ? 'lightcoral' : '#8f6471' }}

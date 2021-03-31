@@ -1,3 +1,6 @@
+html {
+	font-size: 50%;
+}
 .can-res-body {
 	text-align: justify;
 	width: 66%;
@@ -20,11 +23,19 @@
 	margin-bottom: 6.3rem;
 }
 
-@media only screen and (max-width: 384px) {
+@media only screen and (max-width: 644px) {
 	html {
 		font-size: 50%;
 	}
 	.can-res-body {
 		width: 90%;
+	}
+	.can-links {
+		flex-direction: column;
+		line-height: 3;
+		text-align: center;
+	}
+	.pipe {
+		display: none;
 	}
 }

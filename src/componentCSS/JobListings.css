@@ -23,9 +23,13 @@
 	border-radius: 1rem;
 }
 @media only screen and (max-width: 736px) {
+	.main {
+		width: 92%;
+	}
 	#title {
-		margin-left: 5rem;
-		margin-right: 5rem;
+		width: 90%;
+		margin-left: auto;
+		margin-right: auto;
 	}
 	#frame {
 		width: 146%;
@@ -50,12 +54,15 @@
 }
 @media only screen and (max-width: 384px) {
 	#frame {
-		width: 200%;
+		width: 152%;
 		transform: scale(0.5);
 		margin: -108px;
 	}
 	.mri-logo {
 		width: 78%;
+	}
+	#contact {
+		margin-top: -12rem;
 	}
 }
 @media only screen and (max-width: 324px) {
@@ -75,8 +82,5 @@
 		margin-top: -16px;
 		margin-left: -116px;
 		margin-bottom: 0;
-	}
-	#contact {
-		margin-top: 6rem;
 	}
 }
