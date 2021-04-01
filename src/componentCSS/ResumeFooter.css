@@ -1,13 +1,27 @@
 #bottom-links {
-    display: flex;
-    flex-direction: row;
-    font-family: 'Montserrat', sans-serif;
-    text-decoration: none;
-    color: #2a7ca5;
-    font-size: 1.2rem;
-    width: 66%;
-    margin-top: 4rem;
-    margin-left: auto;
-    margin-right: auto;
-    justify-content: space-around;
+	display: flex;
+	flex-direction: row;
+	font-family: "Montserrat", sans-serif;
+	text-decoration: none;
+	color: #2a7ca5;
+	font-size: 1.2rem;
+	width: 66%;
+	margin-top: 4rem;
+	margin-left: auto;
+	margin-right: auto;
+	justify-content: space-around;
+}
+
+@media only screen and (max-width: 644px) {
+	html {
+		font-size: 200%;
+	}
+	.can-res-body {
+		width: 90%;
+	}
+	#bottom-links {
+		flex-direction: column;
+		line-height: 2;
+		text-align: center;
+	}
 }
