@@ -2,7 +2,7 @@
 	font-size: 1rem;
 	margin-left: auto;
 	margin-right: auto;
-	margin-bottom: 6rem;
+	margin-bottom: 2rem;
 	width: 66%;
 	color: sienna;
 	font-family: "Montserrat", sans-serif;
@@ -21,10 +21,13 @@
 	border-width: 0.1rem;
 	border-color: sienna;
 	border-radius: 1rem;
+	margin-top: 2rem;
+	height: 121rem;
 }
 @media only screen and (max-width: 736px) {
 	.main {
 		width: 92%;
+		margin-bottom: -22rem;
 	}
 	#title {
 		width: 90%;
@@ -34,29 +37,36 @@
 	#frame {
 		width: 146%;
 		transform: scale(0.6);
-		margin: -112px;
+		margin-left: -17rem;
+		margin-top: -24rem;
 	}
 }
 @media only screen and (max-width: 598px) {
+	.main {
+		margin-bottom: -32rem;
+	}
 	#frame {
 		width: 159%;
 		transform: scale(0.6);
-		margin: -100px;
+		margin-left: -18rem;
 	}
 }
 
 @media only screen and (max-width: 520px) {
 	#frame {
-		width: 146%;
+		width: 136%;
 		transform: scale(0.7);
-		margin: -56px;
+		margin-left: -10rem;
+		margin-top: -20rem;
+		margin-bottom: 4rem;
 	}
 }
 @media only screen and (max-width: 384px) {
 	#frame {
-		width: 152%;
+		width: 170%;
+		height: 130rem;
 		transform: scale(0.5);
-		margin: -108px;
+		margin: -30rem -16rem -12rem -16rem;
 	}
 	.mri-logo {
 		width: 78%;
@@ -76,11 +86,11 @@
 		margin: 5rem 0 -20rem 1rem;
 	}
 	#frame {
-		width: 176%;
+		width: 180%;
 		height: 100rem;
 		transform: scale(0.5);
-		margin-top: -16px;
-		margin-left: -116px;
-		margin-bottom: 0;
+		margin-top: -1rem;
+		margin-left: -16rem;
+		margin-bottom: -10rem;
 	}
 }
