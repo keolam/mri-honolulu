@@ -1,23 +1,34 @@
-    #relo {
-    justify-content: center;
-    font-size: 1.2rem;
-    line-height: 1.5;
-    }
+.main-relo {
+	font-size: 1rem;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 2rem;
+	width: 76%;
+	color: sienna;
+	font-family: "Montserrat", sans-serif;
+	font-weight: lighter;
+	text-align: justify;
+}
 
-    #pic {
-    
-    filter: brightness(.6);
-    }
+#relo {
+	justify-content: center;
+	font-size: 1.2rem;
+	line-height: 1.5;
+}
 
-    #relo-links {
-        width: 66%;
-        text-align: start;
-        margin-left: auto;
-        margin-right: auto;
-        justify-content: center;
-        line-height: 3;
-    }
-    .linktxt {
-        font-family: 'Montserrat', sans-serif;
-        color: #2a7ca5;
-    }
+#pic {
+	filter: brightness(0.6);
+}
+
+#relo-links {
+	width: 66%;
+	text-align: start;
+	margin-left: auto;
+	margin-right: auto;
+	justify-content: center;
+	line-height: 3;
+}
+.linktxt {
+	font-family: "Montserrat", sans-serif;
+	color: #2a7ca5;
+}

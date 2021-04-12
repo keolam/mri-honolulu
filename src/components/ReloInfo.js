@@ -8,7 +8,7 @@ const ReloInfo = () => (
         <div id="pic">
             <img src={ Image.relo } alt="shipping" style={{width: '100%'}}></img>
         </div>
-        <section className="main">
+        <section className="main-relo">
             <div id="title">
                 <h1>Relocation Information</h1>
             </div>
