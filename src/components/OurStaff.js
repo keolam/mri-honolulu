@@ -7,12 +7,12 @@ const OurStaff = () => (
 
   <>
     <section className="landing">
-      <img src={ Image.staffHNL } id="hero" alt="honolulu" data-aos="fade-in" data-aos-delay="300"></img>
+      <img src={Image.staffHNL} id="hero" alt="honolulu" data-aos="fade-in" data-aos-delay="300"></img>
     </section>
 
     <section id="staff-box">
       <div className="staff-info">
-        <img src={ Image.donBishop } id="donPic" alt="company-president" style={{width: '50%', height: '50%'}}></img>
+        <img src={Image.donBishop} id="donPic" alt="company-president" style={{ width: '50%', height: '50%' }}></img>
         <div className="right-col">
           <p className="staff-name">Don Bishop</p>
           <p className="staff-pos">Account Executive Office Products Sales & IT Sales; Banking & Finance; Real Estate & Hotels</p>
@@ -21,7 +21,7 @@ const OurStaff = () => (
         </div>
       </div>
       <div className="staff-info" data-aos="fade-left">
-        <img src={ Image.christinaCole } id="chrisPic" alt="recruiter" style={{width: '15%', height: '10%'}}></img>
+        <img src={Image.christinaCole} id="chrisPic" alt="recruiter" style={{ width: '14%', height: '10%' }}></img>
         <div className="right-col">
           <p className="staff-name">Christina Cole</p>
           <p className="staff-pos">Healthcare, Pharmaceutical Sales, Medical Product and Device Sales.</p>
@@ -30,7 +30,7 @@ const OurStaff = () => (
         </div>
       </div>
       <div className="staff-info" data-aos="fade-right">
-        <img src={ Image.kalae } id="donPic" alt="project-coordinator" style={{width: '70%', height: '50%'}}></img>
+        <img src={Image.kalae} id="donPic" alt="project-coordinator" style={{ width: '70%', height: '50%' }}></img>
         <div className="right-col">
           <p className="staff-name">Kalae Morse</p>
           <p className="staff-pos">Account Excutive</p>
