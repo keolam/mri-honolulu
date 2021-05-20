@@ -1,6 +1,5 @@
 import React from 'react';
 import { Route, HashRouter as Router, Switch } from 'react-router-dom';
-import LazyLoad from "react-lazyload";
 import './App.css';
 import Main from './components/Main';
 import JobListings from './components/JobListings';

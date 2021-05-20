@@ -1,4 +1,5 @@
 import React from 'react';
+import LazyLoad from "react-lazyload";
 import Image from '../Data/imageDir';
 import BottomNav from './BottomNav';
 import '../componentCSS/Landing.css'
@@ -13,6 +14,7 @@ const Main = () => (
             </p>
             <p id="brand-two" data-aos="fade-in" data-aos-delay="200">Servicing businesses in the Hawaii & the Pacific Rim since 1988, specializing in: </p>
         </section>
+        <LazyLoad height={20} offset={100}>
         <section className="ind-list" data-aos="fade-in">
 
             <div className="right-one" data-aos="fade-right">
@@ -99,6 +101,7 @@ const Main = () => (
                 <div id="pharma" className="left-text">Pharmaceutical & Medical Device Sales</div>
             </div>
         </section>
+        </LazyLoad>
         <div id="video-section">
             <div id="video-frame" data-aos="fade-in" data-aos-delay="600">
                 <iframe id="video"
