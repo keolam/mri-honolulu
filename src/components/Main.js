@@ -14,7 +14,7 @@ const Main = () => (
             </p>
             <p id="brand-two" data-aos="fade-in" data-aos-delay="200">Servicing businesses in the Hawaii & the Pacific Rim since 1988, specializing in: </p>
         </section>
-        <LazyLoad height={20} offset={100}>
+        <LazyLoad height={200} offset={500}>
         <section className="ind-list" data-aos="fade-in">
 
             <div className="right-one" data-aos="fade-right">
@@ -57,9 +57,13 @@ const Main = () => (
                 <div id="indust" className="right-text">Industrial & Environmental Services</div>
             </div>
         </section>
+        </LazyLoad>
+        <LazyLoad height={200} offset={500}>
         <div id="midpage-graphic" data-aos="fade-in" data-aos-delay="10">
             <h2>We believe effective talent advisory and search firms can change lives and industries.</h2>
         </div>
+        </LazyLoad>
+        <LazyLoad height={200} offset={500}>
         <section className="ind-list" data-aos="fade-in">
             <div className="left-one" data-aos="fade-left">
                 <div className="left-img-row">
@@ -102,6 +106,8 @@ const Main = () => (
             </div>
         </section>
         </LazyLoad>
+        <LazyLoad height={200} offset={500}>
+
         <div id="video-section">
             <div id="video-frame" data-aos="fade-in" data-aos-delay="600">
                 <iframe id="video"
@@ -115,6 +121,7 @@ const Main = () => (
                 </iframe>
             </div>
         </div>
+        </LazyLoad>
         <BottomNav name="Main" />
     </section>
 )
