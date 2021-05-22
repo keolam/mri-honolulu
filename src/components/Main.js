@@ -106,7 +106,7 @@ const Main = () => (
             </div>
         </section>
         </LazyLoad>
-        <LazyLoad height={200} offset={500}>
+        <LazyLoad height={2000} offset={5000}>
 
         <div id="video-section">
             <div id="video-frame" data-aos="fade-in" data-aos-delay="600">
