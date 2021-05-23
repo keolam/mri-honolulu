@@ -106,10 +106,11 @@ const Main = () => (
             </div>
         </section>
         </LazyLoad>
-        <LazyLoad height={2000} offset={5000}>
+        
 
         <div id="video-section">
             <div id="video-frame" data-aos="fade-in" data-aos-delay="600">
+            <LazyLoad height={300} offset={5}>
                 <iframe id="video"
                     src="https://player.vimeo.com/video/39697431"
                     title="MRINetwork Impact Players"
@@ -119,9 +120,10 @@ const Main = () => (
                     allowFullScreen={true}
                 >
                 </iframe>
+                </LazyLoad>
             </div>
         </div>
-        </LazyLoad>
+       
         <BottomNav name="Main" />
     </section>
 )
