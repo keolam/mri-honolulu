@@ -59,7 +59,7 @@ const Main = () => (
             </LazyLoad>
         </section>
         
-        <LazyLoad height={200} offset={500}>
+        <LazyLoad height={200} offset={5}>
         <div id="midpage-graphic" data-aos="fade-in" data-aos-delay="10">
             <h2>We believe effective talent advisory and search firms can change lives and industries.</h2>
         </div>
