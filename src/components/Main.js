@@ -1,5 +1,5 @@
 import React from 'react';
-import LazyLoad from "react-lazyload";
+import LazyLoad from 'react-lazyload';
 import Image from '../Data/imageDir';
 import BottomNav from './BottomNav';
 import '../componentCSS/Landing.css'
@@ -16,7 +16,7 @@ const Main = () => (
         </section>
         
         <section className="ind-list" data-aos="fade-in">
-            <LazyLoad height={200} offset={50}>
+            <LazyLoad height={200} offset={5}>
             <div className="right-one" data-aos="fade-right">
                 <div className="right-img-row">
                     <div className="ind-icon"><img src={Image.officeSup} alt="office"></img></div>
@@ -24,7 +24,7 @@ const Main = () => (
                 </div>
                 <div id="office-text" className="right-text">Office Product & Equipment Sales</div>
             </div>
-            </LazyLoad>
+            
             <div className="left-one" data-aos="fade-left">
                 <div className="left-img-row">
                     <div className="left-img-container"><img id="imt-img" src={Image.itSales} alt="IT"></img></div>
@@ -56,6 +56,7 @@ const Main = () => (
                 </div>
                 <div id="indust" className="right-text">Industrial & Environmental Services</div>
             </div>
+            </LazyLoad>
         </section>
         
         <LazyLoad height={200} offset={500}>
@@ -65,13 +66,14 @@ const Main = () => (
         </LazyLoad>
         
         <section className="ind-list" data-aos="fade-in">
+            <LazyLoad height={200} offset={5}>
             <div className="left-one" data-aos="fade-left">
-               <LazyLoad height={200} offset={500}>
+               
                 <div className="left-img-row">
                     <div className="left-img-container"><img id="consumer-img" src={Image.retail} alt="retail"></img></div>
                     <div className="ind-icon"><img src={Image.cashRegister} alt="retail"></img></div>
                 </div>
-                </LazyLoad>
+                
                 <div id="consumer" className="left-text">Consumer Goods & Retail</div>
             </div>
 
@@ -106,22 +108,23 @@ const Main = () => (
                 </div>
                 <div id="pharma" className="left-text">Pharmaceutical & Medical Device Sales</div>
             </div>
+            </LazyLoad>
         </section>
         
         
 
         <div id="video-section">
             <div id="video-frame" data-aos="fade-in" data-aos-delay="600">
-            <LazyLoad height={300} offset={5}>
-                <iframe id="video"
-                    src="https://player.vimeo.com/video/39697431"
-                    title="MRINetwork Impact Players"
-                    frameBorder="0"
-                    webkitallowfullscreen="true"
-                    mozallowfullscreen="true"
-                    allowFullScreen={true}
-                >
-                </iframe>
+                <LazyLoad height={300} offset={5}>
+                    <iframe id="video"
+                        src="https://player.vimeo.com/video/39697431"
+                        title="MRINetwork Impact Players"
+                        frameBorder="0"
+                        webkitallowfullscreen="true"
+                        mozallowfullscreen="true"
+                        allowFullScreen={true}
+                    >
+                    </iframe>
                 </LazyLoad>
             </div>
         </div>
