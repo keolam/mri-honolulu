@@ -14,9 +14,9 @@ const Main = () => (
             </p>
             <p id="brand-two" data-aos="fade-in" data-aos-delay="200">Servicing businesses in the Hawaii & the Pacific Rim since 1988, specializing in: </p>
         </section>
-        <LazyLoad height={200} offset={500}>
+        
         <section className="ind-list" data-aos="fade-in">
-
+            <LazyLoad height={200} offset={50}>
             <div className="right-one" data-aos="fade-right">
                 <div className="right-img-row">
                     <div className="ind-icon"><img src={Image.officeSup} alt="office"></img></div>
@@ -24,7 +24,7 @@ const Main = () => (
                 </div>
                 <div id="office-text" className="right-text">Office Product & Equipment Sales</div>
             </div>
-
+            </LazyLoad>
             <div className="left-one" data-aos="fade-left">
                 <div className="left-img-row">
                     <div className="left-img-container"><img id="imt-img" src={Image.itSales} alt="IT"></img></div>
@@ -57,19 +57,21 @@ const Main = () => (
                 <div id="indust" className="right-text">Industrial & Environmental Services</div>
             </div>
         </section>
-        </LazyLoad>
+        
         <LazyLoad height={200} offset={500}>
         <div id="midpage-graphic" data-aos="fade-in" data-aos-delay="10">
             <h2>We believe effective talent advisory and search firms can change lives and industries.</h2>
         </div>
         </LazyLoad>
-        <LazyLoad height={200} offset={500}>
+        
         <section className="ind-list" data-aos="fade-in">
             <div className="left-one" data-aos="fade-left">
+               <LazyLoad height={200} offset={500}>
                 <div className="left-img-row">
                     <div className="left-img-container"><img id="consumer-img" src={Image.retail} alt="retail"></img></div>
                     <div className="ind-icon"><img src={Image.cashRegister} alt="retail"></img></div>
                 </div>
+                </LazyLoad>
                 <div id="consumer" className="left-text">Consumer Goods & Retail</div>
             </div>
 
@@ -105,7 +107,7 @@ const Main = () => (
                 <div id="pharma" className="left-text">Pharmaceutical & Medical Device Sales</div>
             </div>
         </section>
-        </LazyLoad>
+        
         
 
         <div id="video-section">
