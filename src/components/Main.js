@@ -16,7 +16,7 @@ const Main = () => (
         </section>
         
         <section className="ind-list" data-aos="fade-in">
-            <LazyLoad height={200} offset={5}>
+            <LazyLoad height={100} offset={5}>
             <div className="right-one" data-aos="fade-right">
                 <div className="right-img-row">
                     <div className="ind-icon"><img src={Image.officeSup} alt="office"></img></div>
@@ -66,7 +66,7 @@ const Main = () => (
         </LazyLoad>
         
         <section className="ind-list" data-aos="fade-in">
-            <LazyLoad height={200} offset={5}>
+            <LazyLoad height={100} offset={5}>
             <div className="left-one" data-aos="fade-left">
                
                 <div className="left-img-row">
