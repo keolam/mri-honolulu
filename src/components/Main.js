@@ -16,8 +16,8 @@ const Main = () => (
         </section>
         
         <section className="ind-list" data-aos="fade-in">
-            <LazyLoad height={100} offset={5}>
-            <div className="right-one" data-aos="fade-right">
+        
+            <div loading="lazy" className="right-one" data-aos="fade-right">
                 <div className="right-img-row">
                     <div className="ind-icon"><img src={Image.officeSup} alt="office"></img></div>
                     <div className="right-img-container"><img id="office-img" src={Image.officeEquip} alt="office"></img></div>
@@ -25,15 +25,15 @@ const Main = () => (
                 <div id="office-text" className="right-text">Office Product & Equipment Sales</div>
             </div>
             
-            <div className="left-one" data-aos="fade-left">
+            <div loading="lazy" className="left-one" data-aos="fade-left">
                 <div className="left-img-row">
-                    <div className="left-img-container"><img id="imt-img" src={Image.itSales} alt="IT"></img></div>
+                    <div className="left-img-container"><img loading="lazy" id="imt-img" src={Image.itSales} alt="IT"></img></div>
                     <div className="ind-icon"><img src={Image.satellite} alt="IT"></img></div>
                 </div>
                 <div id="it-text" className="left-text">Information Technology Sales</div>
             </div>
 
-            <div className="right-one" data-aos="fade-right">
+            <div loading="lazy" className="right-one" data-aos="fade-right">
                 <div className="right-img-row">
                     <div className="ind-icon"><img src={Image.teleData} alt="telecom"></img></div>
                     <div className="right-img-container"><img id="tele-img" src={Image.telecom} alt="telecom"></img></div>
@@ -41,7 +41,7 @@ const Main = () => (
                 <div id="telecom" className="right-text">Telecommunications & Data Networking</div>
             </div>
 
-            <div className="left-one" data-aos="fade-left">
+            <div loading="lazy" className="left-one" data-aos="fade-left">
                 <div className="left-img-row">
                     <div className="left-img-container"><img id="const-img" src={Image.construction} alt="construction"></img></div>
                     <div className="ind-icon"><img src={Image.conArchEng} alt="construction"></img></div>
@@ -49,24 +49,23 @@ const Main = () => (
                 <div id="construction" className="left-text">Construction, Architecture & Engineering</div>
             </div>
 
-            <div className="right-one" data-aos="fade-right">
+            <div loading="lazy" className="right-one" data-aos="fade-right">
                 <div className="right-img-row">
                     <div className="ind-icon"><img src={Image.factory} alt="industry"></img></div>
                     <div className="right-img-container"><img id="indust-img" src={Image.environmental} alt="industry"></img></div>
                 </div>
                 <div id="indust" className="right-text">Industrial & Environmental Services</div>
             </div>
-            </LazyLoad>
         </section>
         
-        <LazyLoad height={200} offset={5}>
-        <div id="midpage-graphic" data-aos="fade-in" data-aos-delay="10">
+    
+        <div loading="lazy" id="midpage-graphic" data-aos="fade-in" data-aos-delay="10">
             <h2>We believe effective talent advisory and search firms can change lives and industries.</h2>
         </div>
-        </LazyLoad>
+ 
         
-        <section className="ind-list" data-aos="fade-in">
-            <LazyLoad height={100} offset={5}>
+        <section loading="lazy" className="ind-list" data-aos="fade-in">
+            
             <div className="left-one" data-aos="fade-left">
                
                 <div className="left-img-row">
@@ -108,24 +107,25 @@ const Main = () => (
                 </div>
                 <div id="pharma" className="left-text">Pharmaceutical & Medical Device Sales</div>
             </div>
-            </LazyLoad>
+      
         </section>
         
         
 
         <div id="video-section">
             <div id="video-frame" data-aos="fade-in" data-aos-delay="600">
-                <LazyLoad height={300} offset={5}>
+                
                     <iframe id="video"
                         src="https://player.vimeo.com/video/39697431"
                         title="MRINetwork Impact Players"
+                        loading="lazy"
                         frameBorder="0"
                         webkitallowfullscreen="true"
                         mozallowfullscreen="true"
                         allowFullScreen={true}
                     >
                     </iframe>
-                </LazyLoad>
+           
             </div>
         </div>
        
