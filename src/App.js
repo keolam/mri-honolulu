@@ -28,14 +28,15 @@ import WebReady from './components/WebReady';
 import Scannable from './components/Scannable';
 import ProjectFocused from './components/ProjectFocused';
 import ScrollToTop from './helpers/ScrollToTop';
-import Footer from './components/Footer';   
+import Footer from './components/Footer';
 import Header from './components/Header';
+import IndustryPics from './components/Carousel';
 
 const App = () => (
     <Router>
         <div className="App">
 
-            <Header />    
+            <Header />
 
             <main id="front-page">
                 <ScrollToTop />
@@ -66,15 +67,16 @@ const App = () => (
                     <Route path="/ReloInfo" component={ReloInfo} />
                     <Route path="/Submit" component={Submit} />
                     <Route path="/OurStaff" component={OurStaff} />
+                    <Route path="/Carousel" component={IndustryPics} />
                     <Route render={
                         () => <h3 style={{ textAlign: "center", fontSize: "3rem" }}>404 Not Found<br />Please verify URL</h3>
-                    } 
-                />
+                    }
+                    />
                 </Switch>
             </main>
 
             <Footer />
-            
+
         </div>
     </Router>
 )

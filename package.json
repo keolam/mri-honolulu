@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "https://mrihonolulu.com/",
   "dependencies": {
+    "nuka-carousel": "^4.8.4",
     "react": "^16.8.1",
     "react-dom": "^16.8.1",
     "react-lazyload": "^3.2.0",

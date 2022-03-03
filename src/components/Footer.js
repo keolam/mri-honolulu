@@ -2,6 +2,8 @@ import React from 'react';
 import Image from '../Data/imageDir';
 import '../componentCSS/Footer.css';
 
+let thisYear = new Date().getFullYear();
+
 const Footer = () => (
     <div id="contact" data-aos="fade-up" data-aos-offset="180">
         <span id="mail-icon">
@@ -20,7 +22,7 @@ const Footer = () => (
         <span id="linkedin-icon">
             <a href="https://www.linkedin.com/company/sales-consultants-and-management-recruiters-of-honolulu/about/"><img src={Image.linkedIn} alt="linkedin"></img></a>
         </span>
-        <span id="copyright">© 2021 MRI and MRINetwork are registered trademarks of Management Recruiters International, Inc.</span>
+        <span id="copyright">© {thisYear} MRI and MRINetwork are registered trademarks of Management Recruiters International, Inc.</span>
     </div>
 )
 
