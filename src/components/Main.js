@@ -16,7 +16,7 @@ const Main = () => (
             <p id="brand-two" data-aos="fade-in" data-aos-delay="200">Servicing businesses in the Hawaii & the Pacific Rim since 1988, specializing in: </p>
         </section>
 
-        <section className="ind-list" data-aos="fade-in">
+        <section className="ind-list" /*data-aos="fade-in"*/ loading="lazy">
 
             <div className="right-one" data-aos="fade-right">
                 <div className="right-img-row">

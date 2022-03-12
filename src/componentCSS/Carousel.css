@@ -8,37 +8,43 @@ html {
 	justify-content: center;
 }
 #carousel-container {
-	width: 40rem;
-	height: 50rem;
+	/*width: 40rem;
+	height: 50rem;*/
+	width: 28rem;
+	height: 35rem;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 }
 .img-container {
-	height: 40rem;
-	width: 40rem;
+	width: 28rem;
+	height: 35rem;
+	/*height: 40rem;
+	width: 40rem;*/
 }
 .pic-container {
-	width: 40rem;
+	width: 28rem;
 	height: 26rem;
 	background-color: black;
 }
 .background-pic {
 	width: 100%;
 	position: absolute;
-	opacity: 0.1;
+	height: 26rem;
+	opacity: 0.4;
 }
 .icon {
 	position: absolute;
 	margin-top: 8rem;
-	margin-left: 10rem;
-	margin-right: 8rem;
-	width: 7rem;
+	margin-left: 16rem;
+	margin-right: 14rem;
+	width: 10rem;
 	filter: invert(100%);
 }
 .industry {
 	position: absolute;
-	color: red;
+	color: sienna;
+	font-family: "Montserrat", sans-serif;
 	margin-top: 0rem;
 	margin-left: 10rem;
 	margin-right: 8rem;
